@@ -1,0 +1,9 @@
+mp_forcecamera - Counter-Strike: Global Offensive
+Restricts spectator modes for dead players. 
+0 = Any team. 
+1 = Only own team. 
+2 = No one; fade to black on death
+
+Default value: 1
+
+***********************************************************************791003238982

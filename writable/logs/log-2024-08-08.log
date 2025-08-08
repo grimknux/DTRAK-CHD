@@ -1,0 +1,1074 @@
+INFO - 2024-08-08 09:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 09:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 09:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 10:43:38 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_rcv' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dd.date_...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dd.date_...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dd.date_...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT dd.date_...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 10:43:38 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_rcv' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 10:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 10:43:55 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_rcv' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dd.date_...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dd.date_...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dd.date_...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT dd.date_...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 10:43:55 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_rcv' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 10:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 10:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 10:45:34 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_rcv' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dd.date_...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dd.date_...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dd.date_...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT dd.date_...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 10:45:34 --> Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_rcv' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT dd.date_rcv, dd.time_rcv, dd.doc_controlno AS dcon, dd.sequence_no AS ddseq, dd.office_destination, dd.doc_detailno AS ddetail, dd.status AS stats, dr.subject, dr.remarks AS drRem, dr.filename AS attachfile, dds.sequence_no AS prevseq, dds.office_destination, o.shortname AS origoffice, o.officecode AS origofficecode, po.shortname AS prevoffice, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, dtt.type_desc AS odoctype, ar.reqaction_desc AS reqaction
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:16:20 --> Error in incomingQuery: Undefined variable $db
+INFO - 2024-08-08 11:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:18:07 --> mysqli_sql_exception: Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_log' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:18:07 --> Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dd.date_log' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(80): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:20:15 --> mysqli_sql_exception: Unknown column 'ar.reqaction_descdd.date_log' in 'group statement' in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:20:15 --> Unknown column 'ar.reqaction_descdd.date_log' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:20:17 --> mysqli_sql_exception: Unknown column 'ar.reqaction_descdd.date_log' in 'group statement' in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:20:17 --> Unknown column 'ar.reqaction_descdd.date_log' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:20:24 --> Invalid Ajax Request
+INFO - 2024-08-08 11:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:20:29 --> mysqli_sql_exception: Unknown column 'ar.reqaction_descdd.date_log' in 'group statement' in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery(Array, 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:20:29 --> Unknown column 'ar.reqaction_descdd.date_log' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = (\'00608\')
+AND `dd`.`status` = \'A\'
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`sequence_no` AS `prevseq`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND 1 = `dd`.`sequence_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dd`.`office_destination` = :dd.office_destination:
+AND `dd`.`status` = :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_descdd`.`date_log`, `dd`.`time_log`
+ORDER BY `dd`.`date_log` DESC, `dd`.`time_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(67): App\Models\IncomingModel->incomingQuery([...], 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:37:54 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`do...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`do...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`do...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`do...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000032131', 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:37:54 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = :dd.doc_detailno:
+AND `dd`.`status` = :dd.status:
+GROUP BY `dd`.`doc_controlno`', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000032131', 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:37:55 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`do...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`do...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`do...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`do...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000032131', 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:37:55 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = :dd.doc_detailno:
+AND `dd`.`status` = :dd.status:
+GROUP BY `dd`.`doc_controlno`', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000032131', 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:37:55 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`do...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`do...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`do...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`do...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000032131', 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:37:55 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000032131\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = :dd.doc_detailno:
+AND `dd`.`status` = :dd.status:
+GROUP BY `dd`.`doc_controlno`', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000032131', 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 11:37:56 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`do...', 0)
+#1 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`do...')
+#2 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`do...')
+#3 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`do...', Array, false)
+#4 C:\laragon\www\CHD1-DTRAK_old\app\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\CHD1-DTRAK_old\app\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000031358', 'A')
+#6 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+#7 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+#8 C:\laragon\www\CHD1-DTRAK_old\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\CHD1-DTRAK_old\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-08 11:37:56 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_test.dr.route_no' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000031358\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000031358\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = \'2023-000031358\'
+AND `dd`.`status` = \'A\'
+GROUP BY `dd`.`doc_controlno`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`doc_controlno` AS `dcon`, `dr`.`route_no` AS `routeno`, `dd`.`doc_detailno` AS `ddetail`, `dr`.`subject`, GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype, `o`.`shortname` AS `origoffice`, `ao`.`firstname`, `ao`.`lastname`, `ao`.`middlename`, `dr`.`exofficecode`, `dr`.`exempname`, `dr`.`no_page` AS `pageno`, `dr`.`filename` AS `attachment`, `dr`.`userid`, `dr`.`remarks` AS `rRemarks`, `ao`.`office_rep` AS `orep`, `att`.`action_desc` AS `actiontaken`, `ar`.`reqaction_done` AS `actiontotake`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `registry_doctype` `rdt` ON `dr`.`route_no` = `rdt`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rdt`.`type_code` = `dt`.`type_code`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `att` ON `ar`.`reqaction_done` = `att`.`action_code`
+WHERE `dd`.`doc_detailno` = :dd.doc_detailno:
+AND `dd`.`status` = :dd.status:
+GROUP BY `dd`.`doc_controlno`', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(154): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReceiving.php(167): App\Models\IncomingModel->receiveData('2023-000031358', 'A')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->getReceiveData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-08 11:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 11:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 12:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

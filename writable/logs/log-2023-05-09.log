@@ -1,0 +1,498 @@
+CRITICAL - 2023-05-09 09:20:11 --> Call to undefined function App\Controllers\index()
+in APPPATH\Controllers\Welcome.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->_remap('address', 'aringay', 'philippines')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:20:17 --> Call to undefined function App\Controllers\index()
+in APPPATH\Controllers\Welcome.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Welcome->_remap('address', 'aringay', 'philippines')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:18:19 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:01 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:01 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:01 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:01 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:02 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:36 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:19:37 --> Call to undefined function App\Controllers\parser()
+in APPPATH\Controllers\Blog.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:23:09 --> Undefined variable: subject
+in APPPATH\Views\myview.php on line 9.
+ 1 APPPATH\Views\myview.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: subject', 'C:\\laragon\\www\\pomis\\app\\Views\\myview.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\pomis\\app\\Views\\myview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('myview', [], true)
+ 5 APPPATH\Controllers\Blog.php(18): view('myview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:36:25 --> Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP)
+in SYSTEMPATH\View\Parser.php(458) : eval()'d code on line 16.
+ 1 SYSTEMPATH\View\Parser.php(458) : eval()'d code(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant status - assumed \'status\' (this will throw an Error in a future version of PHP)', 'C:\\laragon\\www\\pomis\\vendor\\codeigniter4\\framework\\system\\View\\Parser.php(458) : eval()\'d code', 16, [...])
+ 2 SYSTEMPATH\View\Parser.php(458): eval()
+ 3 SYSTEMPATH\View\Parser.php(229): CodeIgniter\View\Parser->parseConditionals('<html>
+    <head>
+        <title>{page_title}</title>
+    </head>
+    <body>
+        <h1>{page_heading}</h1>
+        <h3>Subject List</h3>
+            
+            {subject_list}
+
+            <h1>{subject}</h1>
+            <p>{abbr}</p>
+
+            {/subject_list}
+
+            <?php if (status): ?>
+                <p>Welcome master</p>
+            <?php endif; ?>
+            
+    </body>
+
+</html>
+')
+ 4 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<html>
+    <head>
+        <title>{page_title}</title>
+    </head>
+    <body>
+        <h1>{page_heading}</h1>
+        <h3>Subject List</h3>
+            
+            {subject_list}
+
+            <h1>{subject}</h1>
+            <p>{abbr}</p>
+
+            {/subject_list}
+
+            {if status}
+                <p>Welcome master</p>
+            {endif}
+            
+    </body>
+
+</html>
+', [...], null)
+ 5 APPPATH\Controllers\Blog.php(28): CodeIgniter\View\Parser->render('myview.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:36:51 --> Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP)
+in SYSTEMPATH\View\Parser.php(458) : eval()'d code on line 16.
+ 1 SYSTEMPATH\View\Parser.php(458) : eval()'d code(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant status - assumed \'status\' (this will throw an Error in a future version of PHP)', 'C:\\laragon\\www\\pomis\\vendor\\codeigniter4\\framework\\system\\View\\Parser.php(458) : eval()\'d code', 16, [...])
+ 2 SYSTEMPATH\View\Parser.php(458): eval()
+ 3 SYSTEMPATH\View\Parser.php(229): CodeIgniter\View\Parser->parseConditionals('<html>
+    <head>
+        <title>{page_title}</title>
+    </head>
+    <body>
+        <h1>{page_heading}</h1>
+        <h3>Subject List</h3>
+            
+            {subject_list}
+
+            <h1>{subject}</h1>
+            <p>{abbr}</p>
+
+            {/subject_list}
+
+            <?php if ((status)): ?>
+                <p>Welcome master</p>
+            <?php endif; ?>
+            
+    </body>
+
+</html>
+')
+ 4 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<html>
+    <head>
+        <title>{page_title}</title>
+    </head>
+    <body>
+        <h1>{page_heading}</h1>
+        <h3>Subject List</h3>
+            
+            {subject_list}
+
+            <h1>{subject}</h1>
+            <p>{abbr}</p>
+
+            {/subject_list}
+
+            {if(status)}
+                <p>Welcome master</p>
+            {endif}
+            
+    </body>
+
+</html>
+', [...], null)
+ 5 APPPATH\Controllers\Blog.php(28): CodeIgniter\View\Parser->render('myview.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:36:52 --> Use of undefined constant status - assumed 'status' (this will throw an Error in a future version of PHP)
+in SYSTEMPATH\View\Parser.php(458) : eval()'d code on line 16.
+ 1 SYSTEMPATH\View\Parser.php(458) : eval()'d code(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant status - assumed \'status\' (this will throw an Error in a future version of PHP)', 'C:\\laragon\\www\\pomis\\vendor\\codeigniter4\\framework\\system\\View\\Parser.php(458) : eval()\'d code', 16, [...])
+ 2 SYSTEMPATH\View\Parser.php(458): eval()
+ 3 SYSTEMPATH\View\Parser.php(229): CodeIgniter\View\Parser->parseConditionals('<html>
+    <head>
+        <title>{page_title}</title>
+    </head>
+    <body>
+        <h1>{page_heading}</h1>
+        <h3>Subject List</h3>
+            
+            {subject_list}
+
+            <h1>{subject}</h1>
+            <p>{abbr}</p>
+
+            {/subject_list}
+
+            <?php if ((status)): ?>
+                <p>Welcome master</p>
+            <?php endif; ?>
+            
+    </body>
+
+</html>
+')
+ 4 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<html>
+    <head>
+        <title>{page_title}</title>
+    </head>
+    <body>
+        <h1>{page_heading}</h1>
+        <h3>Subject List</h3>
+            
+            {subject_list}
+
+            <h1>{subject}</h1>
+            <p>{abbr}</p>
+
+            {/subject_list}
+
+            {if(status)}
+                <p>Welcome master</p>
+            {endif}
+            
+    </body>
+
+</html>
+', [...], null)
+ 5 APPPATH\Controllers\Blog.php(28): CodeIgniter\View\Parser->render('myview.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:56:12 --> Undefined variable: parser
+in APPPATH\Controllers\Blog.php on line 59.
+ 1 APPPATH\Controllers\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: parser', 'C:\\laragon\\www\\pomis\\app\\Controllers\\Blog.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->ViewFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:56:20 --> Undefined variable: parser
+in APPPATH\Controllers\Blog.php on line 58.
+ 1 APPPATH\Controllers\Blog.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: parser', 'C:\\laragon\\www\\pomis\\app\\Controllers\\Blog.php', 58, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->ViewFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:56:41 --> Undefined variable: parser
+in APPPATH\Controllers\Blog.php on line 11.
+ 1 APPPATH\Controllers\Blog.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: parser', 'C:\\laragon\\www\\pomis\\app\\Controllers\\Blog.php', 11, [])
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Blog->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 10:56:54 --> Undefined variable: parser
+in APPPATH\Controllers\Blog.php on line 58.
+ 1 APPPATH\Controllers\Blog.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: parser', 'C:\\laragon\\www\\pomis\\app\\Controllers\\Blog.php', 58, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->ViewFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:23:59 --> Call to undefined method CodeIgniter\View\Filters::highlight_code()
+in SYSTEMPATH\View\Parser.php on line 608.
+ 1 SYSTEMPATH\View\Parser.php(537): CodeIgniter\View\Parser->applyFilters('€500', [...])
+ 2 SYSTEMPATH\View\Parser.php(518): CodeIgniter\View\Parser->prepareReplacement([...], '500', true)
+ 3 [internal function]: CodeIgniter\View\Parser->CodeIgniter\View\{closure}([...])
+ 4 SYSTEMPATH\View\Parser.php(519): preg_replace_callback('#{!?\\s*price(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', Object(Closure), '<html>
+    <head>
+        <title>welcome to my ci4</title>
+    </head>
+    <body>
+        <h1>WELCOME&#8230;</h1>
+        <p>DOB: Sunday 06th September 1992</p>
+        <p>DOB: Friday 11th September 1992</p>
+        <p>Price: {price|local_currency(EUR)|highlight_code}</p>
+        <p>Price: {price_one|round(ceil)}</p>
+        <h1>Applying Custome Filters</h1>
+        <p>Mobile: {mobile|hidenumbers(6)}</p>
+
+        
+    </body>
+
+</html>
+')
+ 5 SYSTEMPATH\View\Parser.php(248): CodeIgniter\View\Parser->replaceSingle('#{!?\\s*price(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', '500', '<html>
+    <head>
+        <title>welcome to my ci4</title>
+    </head>
+    <body>
+        <h1>WELCOME&#8230;</h1>
+        <p>DOB: Sunday 06th September 1992</p>
+        <p>DOB: Friday 11th September 1992</p>
+        <p>Price: {price|local_currency(EUR)|highlight_code}</p>
+        <p>Price: {price_one|round(ceil)}</p>
+        <h1>Applying Custome Filters</h1>
+        <p>Mobile: {mobile|hidenumbers(6)}</p>
+
+        
+    </body>
+
+</html>
+', true)
+ 6 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<html>
+    <head>
+        <title>welcome to my ci4</title>
+    </head>
+    <body>
+        <h1>WELCOME&#8230;</h1>
+        <p>DOB: Sunday 06th September 1992</p>
+        <p>DOB: Friday 11th September 1992</p>
+        <p>Price: {price|local_currency(EUR)|highlight_code}</p>
+        <p>Price: {price_one|round(ceil)}</p>
+        <h1>Applying Custome Filters</h1>
+        <p>Mobile: {mobile|hidenumbers(6)}</p>
+
+        
+    </body>
+
+</html>
+', [...], null)
+ 7 APPPATH\Controllers\Blog.php(59): CodeIgniter\View\Parser->render('viewfilter.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->ViewFilter()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 11:26:25 --> Call to undefined method CodeIgniter\View\Filters::hideNumbers()
+in SYSTEMPATH\View\Parser.php on line 608.
+ 1 SYSTEMPATH\View\Parser.php(537): CodeIgniter\View\Parser->applyFilters('8855336699', [...])
+ 2 SYSTEMPATH\View\Parser.php(518): CodeIgniter\View\Parser->prepareReplacement([...], '8855336699', true)
+ 3 [internal function]: CodeIgniter\View\Parser->CodeIgniter\View\{closure}([...])
+ 4 SYSTEMPATH\View\Parser.php(519): preg_replace_callback('#{!?\\s*mobile(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', Object(Closure), '<html>
+    <head>
+        <title>welcome to my ci4</title>
+    </head>
+    <body>
+        <h1>WELCOME&#8230;</h1>
+        <p>DOB: Sunday 06th September 1992</p>
+        <p>DOB: Friday 11th September 1992</p>
+        <p>Price: <code><span style="color: #000000">
+<span style="color: #0000BB">€500&nbsp;</span>
+</span>
+</code></p>
+        <p>Price: 101</p>
+        <h1>Applying Custome Filters</h1>
+        <p>Mobile: {mobile|hidenumbers(6)}</p>
+
+        
+    </body>
+
+</html>
+')
+ 5 SYSTEMPATH\View\Parser.php(248): CodeIgniter\View\Parser->replaceSingle('#{!?\\s*mobile(?(?=\\s*\\|\\s*)(\\s*\\|*\\s*([|\\w<>=\\(\\),:.\\-\\s\\+\\\\/]+)*\\s*))(\\s*)!?}#ums', '8855336699', '<html>
+    <head>
+        <title>welcome to my ci4</title>
+    </head>
+    <body>
+        <h1>WELCOME&#8230;</h1>
+        <p>DOB: Sunday 06th September 1992</p>
+        <p>DOB: Friday 11th September 1992</p>
+        <p>Price: <code><span style="color: #000000">
+<span style="color: #0000BB">€500&nbsp;</span>
+</span>
+</code></p>
+        <p>Price: 101</p>
+        <h1>Applying Custome Filters</h1>
+        <p>Mobile: {mobile|hidenumbers(6)}</p>
+
+        
+    </body>
+
+</html>
+', true)
+ 6 SYSTEMPATH\View\Parser.php(128): CodeIgniter\View\Parser->parse('<html>
+    <head>
+        <title>welcome to my ci4</title>
+    </head>
+    <body>
+        <h1>WELCOME&#8230;</h1>
+        <p>DOB: Sunday 06th September 1992</p>
+        <p>DOB: Friday 11th September 1992</p>
+        <p>Price: <code><span style="color: #000000">
+<span style="color: #0000BB">€500&nbsp;</span>
+</span>
+</code></p>
+        <p>Price: 101</p>
+        <h1>Applying Custome Filters</h1>
+        <p>Mobile: {mobile|hidenumbers(6)}</p>
+
+        
+    </body>
+
+</html>
+', [...], null)
+ 7 APPPATH\Controllers\Blog.php(59): CodeIgniter\View\Parser->render('viewfilter.php')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Blog->ViewFilter()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 13:09:33 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\laragon\\www\\pomis\\app\\Controllers\\Home.php', 9, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 23:15:50 --> Undefined variable: router
+in APPPATH\Config\Routes.php on line 43.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: router', 'C:\\laragon\\www\\pomis\\app\\Config\\Routes.php', 43, [...])
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\laragon\\www\\pomis\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 23:30:58 --> Too few arguments to function App\Controllers\Library::viewlibrary(), 1 passed in C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\Library.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Library->viewlibrary('test123')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Library))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 23:38:26 --> Invalid file: "errors/customerrors.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('errors/customerrors.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('errors/customerrors', [], true)
+ 3 APPPATH\Config\Routes.php(49): view('errors/customerrors')
+ 4 SYSTEMPATH\CodeIgniter.php(954): CodeIgniter\Router\RouteCollection->Config\{closure}('Library-pages is not a valid controller name')
+ 5 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 23:38:56 --> Invalid file: "errors/customerrors.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('errors/customerrors.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('errors/customerrors', [], true)
+ 3 APPPATH\Config\Routes.php(49): view('errors/customerrors')
+ 4 SYSTEMPATH\CodeIgniter.php(954): CodeIgniter\Router\RouteCollection->Config\{closure}('Library-pages is not a valid controller name')
+ 5 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 23:38:57 --> Invalid file: "errors/customerrors.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('errors/customerrors.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('errors/customerrors', [], true)
+ 3 APPPATH\Config\Routes.php(49): view('errors/customerrors')
+ 4 SYSTEMPATH\CodeIgniter.php(954): CodeIgniter\Router\RouteCollection->Config\{closure}('Library-pages is not a valid controller name')
+ 5 SYSTEMPATH\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 23:54:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'pomis', 3306, '', 0)
+#1 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\pomis\app\Controllers\Users.php(11): CodeIgniter\Database\BaseConnection->query('SELECT u_firstn...')
+#4 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Users->index()
+#5 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\pomis\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\pomis\app\Controllers\Users.php(11): CodeIgniter\Database\BaseConnection->query('SELECT u_firstn...')
+#3 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Users->index()
+#4 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\pomis\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-09 23:54:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Users.php(11): CodeIgniter\Database\BaseConnection->query('SELECT u_firstname, u_email, u_stats from users')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-09 23:56:06 --> mysqli_sql_exception: Unknown column 'u_stats' in 'field list' in C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT u_firstn...', 0)
+#1 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT u_firstn...')
+#2 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT u_firstn...')
+#3 C:\laragon\www\pomis\app\Controllers\Users.php(11): CodeIgniter\Database\BaseConnection->query('SELECT u_firstn...')
+#4 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Users->index()
+#5 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\laragon\www\pomis\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\pomis\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-09 23:56:06 --> Unknown column 'u_stats' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT u_firstname, u_email, u_stats from users', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT u_firstname, u_email, u_stats from users')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT u_firstname, u_email, u_stats from users')
+ 4 APPPATH\Controllers\Users.php(11): CodeIgniter\Database\BaseConnection->query('SELECT u_firstname, u_email, u_stats from users')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

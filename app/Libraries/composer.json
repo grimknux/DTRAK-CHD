@@ -1,0 +1,8 @@
+{
+    "name": "google/login",
+    "description": "google login for pomis",
+    "require": {
+        "google/apiclient": "^2.8",
+        "setasign/fpdf": "^1.8"
+    }
+}

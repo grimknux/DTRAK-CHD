@@ -1,0 +1,20 @@
+# Ignore system files
+/system/
+
+# Ignore application cache
+/application/cache/
+
+# Ignore environment-specific configuration files
+/application/config/config.php
+
+# Ignore logs
+/application/logs/
+
+# Ignore uploads
+/uploads/
+
+# Ignore vendor files (if using Composer)
+/vendor/
+
+# Ignore environment configuration files
+.env

@@ -1,0 +1,737 @@
+INFO - 2023-07-17 19:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 19:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 20:24:09 --> Undefined variable: EmployeeModel
+in APPPATH\Controllers\PdfController.php on line 22.
+ 1 APPPATH\Controllers\PdfController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: EmployeeModel', 'C:\\laragon\\www\\idprint\\app\\Controllers\\PdfController.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:24:22 --> Undefined variable: EmployeeModel
+in APPPATH\Controllers\PdfController.php on line 24.
+ 1 APPPATH\Controllers\PdfController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: EmployeeModel', 'C:\\laragon\\www\\idprint\\app\\Controllers\\PdfController.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:24:24 --> Undefined variable: EmployeeModel
+in APPPATH\Controllers\PdfController.php on line 24.
+ 1 APPPATH\Controllers\PdfController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: EmployeeModel', 'C:\\laragon\\www\\idprint\\app\\Controllers\\PdfController.php', 24, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-17 20:24:41 --> mysqli_sql_exception: Unknown column 'employee.deleted_at' in 'where clause' in C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '0103160206')
+#6 C:\laragon\www\idprint\app\Models\EmployeeModel.php(47): CodeIgniter\BaseModel->find('0103160206')
+#7 C:\laragon\www\idprint\app\Controllers\PdfController.php(24): App\Models\EmployeeModel->getEmployee('0103160206')
+#8 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+#9 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#10 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\idprint\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-17 20:24:41 --> Unknown column 'employee.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = \'0103160206\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = \'0103160206\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = \'0103160206\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = :employee.ID:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '0103160206')
+ 7 APPPATH\Models\EmployeeModel.php(47): CodeIgniter\BaseModel->find('0103160206')
+ 8 APPPATH\Controllers\PdfController.php(24): App\Models\EmployeeModel->getEmployee('0103160206')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-17 20:25:12 --> mysqli_sql_exception: Unknown column 'employee.deleted_at' in 'where clause' in C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, '0103160206')
+#6 C:\laragon\www\idprint\app\Models\EmployeeModel.php(47): CodeIgniter\BaseModel->find('0103160206')
+#7 C:\laragon\www\idprint\app\Controllers\PdfController.php(24): App\Models\EmployeeModel->getEmployee('0103160206')
+#8 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+#9 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#10 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\idprint\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-17 20:25:12 --> Unknown column 'employee.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = \'0103160206\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = \'0103160206\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = \'0103160206\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employee`
+WHERE `employee`.`deleted_at` IS NULL
+AND `employee`.`ID` = :employee.ID:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '0103160206')
+ 7 APPPATH\Models\EmployeeModel.php(47): CodeIgniter\BaseModel->find('0103160206')
+ 8 APPPATH\Controllers\PdfController.php(24): App\Models\EmployeeModel->getEmployee('0103160206')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('0103160206')
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-17 20:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 20:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 20:35:59 --> Class 'FPDF_CellFit' not found
+in APPPATH\Libraries\fpdf\rpdf.php on line 4.
+ 1 APPPATH\Libraries\fpdf\mc_table.php(4): require()
+ 2 APPPATH\Libraries\fpdf\fpdf.php(12): require('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\mc_table.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 7 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+12 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+13 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+14 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+15 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:36:22 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:12 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:13 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:14 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:18 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:19 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:20 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:24 --> Class 'PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:30 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:37:51 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:43:34 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:43:35 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:43:44 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:43:45 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:44:17 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH\Libraries\fpdf\fpdf.php on line 14.
+ 1 APPPATH\Libraries\fpdf\fpdf.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http:// wrapper is disabled in the server configuration by allow_url_include=0', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 14, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(14): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 7 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+12 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+13 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+14 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+15 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:44:27 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:45:21 --> require(mc_table.php): failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdf\fpdf.php on line 14.
+ 1 APPPATH\Libraries\fpdf\fpdf.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(mc_table.php): failed to open stream: No such file or directory', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 14, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(14): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 7 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 9 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+10 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+11 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+12 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+13 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+14 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+15 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:45:29 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 20:46:50 --> [DEPRECATED] Cannot use "parent" when current class scope has no parent in APPPATH\Libraries\fpdf\PDF_MC_Table.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\PDF_MC_Table.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\PDF_MC_Table')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\PDF_MC_Table')
+ 5 APPPATH\Libraries\fpdf\fpdf.php(14): spl_autoload_call('Fpdf\\PDF_MC_Table')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+10 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+11 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+12 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+13 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+14 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+15 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+16 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+17 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+18 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:46:50 --> Class 'Fpdf\Fpdf' not found
+in APPPATH\Libraries\FpdfWrapper.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+ 5 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 20:46:51 --> [DEPRECATED] Cannot use "parent" when current class scope has no parent in APPPATH\Libraries\fpdf\PDF_MC_Table.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\PDF_MC_Table.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\PDF_MC_Table')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\PDF_MC_Table')
+ 5 APPPATH\Libraries\fpdf\fpdf.php(14): spl_autoload_call('Fpdf\\PDF_MC_Table')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+10 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+11 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+12 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+13 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+14 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+15 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+16 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+17 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+18 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:46:51 --> Class 'Fpdf\Fpdf' not found
+in APPPATH\Libraries\FpdfWrapper.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+ 5 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 20:47:52 --> [DEPRECATED] Cannot use "parent" when current class scope has no parent in APPPATH\Libraries\fpdf\PDF_MC_Table.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\PDF_MC_Table.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\PDF_MC_Table')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\PDF_MC_Table')
+ 5 APPPATH\Libraries\fpdf\fpdf.php(14): spl_autoload_call('Fpdf\\PDF_MC_Table')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+10 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+11 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+12 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+13 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+14 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+15 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+16 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+17 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+18 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:47:52 --> Class 'Fpdf\PDF_MC_Table' not found
+in APPPATH\Libraries\fpdf\fpdf.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+ 5 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+10 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 20:47:57 --> [DEPRECATED] Cannot use "parent" when current class scope has no parent in APPPATH\Libraries\fpdf\PDF_MC_Table.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\PDF_MC_Table.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\PDF_MC_Table')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\PDF_MC_Table')
+ 5 APPPATH\Libraries\fpdf\fpdf.php(14): spl_autoload_call('Fpdf\\PDF_MC_Table')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+10 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+11 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+12 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+13 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+14 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+15 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+16 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+17 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+18 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:47:57 --> Class 'Fpdf\Fpdf' not found
+in APPPATH\Libraries\FpdfWrapper.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+ 5 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-07-17 20:48:25 --> [DEPRECATED] Cannot use "parent" when current class scope has no parent in APPPATH\Libraries\fpdf\PDF_MC_Table.php on line 259.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\PDF_MC_Table.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\PDF_MC_Table')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\PDF_MC_Table')
+ 5 APPPATH\Libraries\fpdf\fpdf.php(14): spl_autoload_call('Fpdf\\PDF_MC_Table')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app/Libraries/fpdf\\Fpdf.php')
+ 8 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Fpdf\\Fpdf')
+ 9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Fpdf\\Fpdf')
+10 APPPATH\Libraries\FpdfWrapper.php(5): spl_autoload_call('Fpdf\\Fpdf')
+11 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+12 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\idprint\\app\\Libraries\\FpdfWrapper.php')
+13 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\FpdfWrapper')
+14 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\FpdfWrapper')
+15 APPPATH\Controllers\PdfController.php(26): spl_autoload_call('App\\Libraries\\FpdfWrapper')
+16 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+17 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+18 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+19 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:56:22 --> fopen(images/bg_new2.png): failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdf\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(images/bg_new2.png): failed to open stream: No such file or directory', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1278, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1278): fopen('images/bg_new2.png', 'rb')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsepng('images/bg_new2.png')
+ 4 APPPATH\Controllers\PdfController.php(108): Fpdf\FPDF->Image('images/bg_new2.png', 22.6, 26, 82.3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('333')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:56:55 --> fopen(http://localhost/idprint/images/bg_new2.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Libraries\fpdf\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/idprint/images/bg_new2.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1278, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1278): fopen('http://localhost/idprint/images/bg_new2.png', 'rb')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsepng('http://localhost/idprint/images/bg_new2.png')
+ 4 APPPATH\Controllers\PdfController.php(108): Fpdf\FPDF->Image('http://localhost/idprint/images/bg_new2.png', 22.6, 26, 82.3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('333')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:57:28 --> fopen(http://localhost/idprint/images/bg_back.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Libraries\fpdf\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/idprint/images/bg_back.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1278, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1278): fopen('http://localhost/idprint/images/bg_back.png', 'rb')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsepng('http://localhost/idprint/images/bg_back.png')
+ 4 APPPATH\Controllers\PdfController.php(109): Fpdf\FPDF->Image('http://localhost/idprint/images/bg_back.png', 104.5, 26, 82.3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('333')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:57:33 --> getimagesize(admin/images/nosign.jpg): failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdf\fpdf.php on line 1259.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(admin/images/nosign.jpg): failed to open stream: No such file or directory', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1259, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1259): getimagesize('admin/images/nosign.jpg')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsejpg('admin/images/nosign.jpg')
+ 4 APPPATH\Controllers\PdfController.php(169): Fpdf\FPDF->Image('admin/images/nosign.jpg', 70, 120, 25, 14)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('333')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:58:32 --> getimagesize(http://localhost/idprint/public/admin/images/nosign.jpg): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Libraries\fpdf\fpdf.php on line 1259.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(http://localhost/idprint/public/admin/images/nosign.jpg): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1259, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1259): getimagesize('http://localhost/idprint/public/admin/images/nosign.jpg')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsejpg('http://localhost/idprint/public/admin/images/nosign.jpg')
+ 4 APPPATH\Controllers\PdfController.php(169): Fpdf\FPDF->Image('http://localhost/idprint/public/admin/images/nosign.jpg', 70, 120, 25, 14)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('333')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-17 21:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-17 21:01:03 --> fopen(images/bg_regular_new.png): failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdf\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(images/bg_regular_new.png): failed to open stream: No such file or directory', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1278, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1278): fopen('images/bg_regular_new.png', 'rb')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsepng('images/bg_regular_new.png')
+ 4 APPPATH\Controllers\PdfController.php(304): Fpdf\FPDF->Image('images/bg_regular_new.png', 22.6, 26, 82.3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 21:01:20 --> fopen(http://localhost/idprint/public/bg_regular_new.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Libraries\fpdf\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/idprint/public/bg_regular_new.png): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1278, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1278): fopen('http://localhost/idprint/public/bg_regular_new.png', 'rb')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsepng('http://localhost/idprint/public/bg_regular_new.png')
+ 4 APPPATH\Controllers\PdfController.php(304): Fpdf\FPDF->Image('http://localhost/idprint/public/bg_regular_new.png', 22.6, 26, 82.3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 21:01:32 --> fopen(images/line_guid.png): failed to open stream: No such file or directory
+in APPPATH\Libraries\fpdf\fpdf.php on line 1278.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(images/line_guid.png): failed to open stream: No such file or directory', 'C:\\laragon\\www\\idprint\\app\\Libraries\\fpdf\\fpdf.php', 1278, [...])
+ 2 APPPATH\Libraries\fpdf\fpdf.php(1278): fopen('images/line_guid.png', 'rb')
+ 3 APPPATH\Libraries\fpdf\fpdf.php(894): Fpdf\FPDF->_parsepng('images/line_guid.png')
+ 4 APPPATH\Controllers\PdfController.php(529): Fpdf\FPDF->Image('images/line_guid.png', 0, 0, 210)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 21:05:41 --> Undefined variable: firstName
+in APPPATH\Controllers\PdfController.php on line 30.
+ 1 APPPATH\Controllers\PdfController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: firstName', 'C:\\laragon\\www\\idprint\\app\\Controllers\\PdfController.php', 30, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PdfController->generate_pdf('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-17 21:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-17 21:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

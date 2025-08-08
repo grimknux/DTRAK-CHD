@@ -1,0 +1,717 @@
+INFO - 2024-10-28 08:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 08:55:02 --> Too few arguments to function App\Models\DocumentRegistryModel::getDocumentData(), 0 passed in C:\laragon\www\DTRAK-CHD\app\Controllers\OutgoingDestination.php on line 91 and exactly 1 expected
+in APPPATH\Models\DocumentRegistryModel.php on line 91.
+ 1 APPPATH\Controllers\OutgoingDestination.php(91): App\Models\DocumentRegistryModel->getDocumentData()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 08:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 08:55:02 --> Too few arguments to function App\Models\DocumentRegistryModel::getDocumentData(), 0 passed in C:\laragon\www\DTRAK-CHD\app\Controllers\OutgoingDestination.php on line 91 and exactly 1 expected
+in APPPATH\Models\DocumentRegistryModel.php on line 91.
+ 1 APPPATH\Controllers\OutgoingDestination.php(91): App\Models\DocumentRegistryModel->getDocumentData()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 08:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 08:59:32 --> Undefined variable: getuser
+in APPPATH\Controllers\OutgoingDestination.php on line 99.
+ 1 APPPATH\Controllers\OutgoingDestination.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getuser', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Controllers\\OutgoingDestination.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 08:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 08:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 09:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 10:27:06 --> Undefined index: received_by
+in APPPATH\Controllers\OutgoingDestination.php on line 107.
+ 1 APPPATH\Controllers\OutgoingDestination.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: received_by', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Controllers\\OutgoingDestination.php', 107, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 10:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 10:32:53 --> Undefined index: shortname
+in APPPATH\Views\destination-outgoing.php on line 165.
+ 1 APPPATH\Views\destination-outgoing.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: shortname', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php', 165, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('destination-outgoing', [], true)
+ 5 APPPATH\Controllers\OutgoingDestination.php(134): view('destination-outgoing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 10:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 10:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-28 11:13:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `a' at line 1 in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dc`.`ro...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dc`.`ro...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dc`.`ro...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dc`.`ro...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\DocumentControlModel.php(144): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\OutgoingDestination.php(88): App\Models\DocumentControlModel->getDocControl('R2024-000052659')
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-28 11:13:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `a' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.`*,` `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dc`.`route_no` = \'R2024-000052659\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.`*,` `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dc`.`route_no` = \'R2024-000052659\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.`*,` `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dc`.`route_no` = \'R2024-000052659\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.`*,` `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+WHERE `dc`.`route_no` = :dc.route_no:
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC', [...], false)
+ 5 APPPATH\Models\DocumentControlModel.php(144): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OutgoingDestination.php(88): App\Models\DocumentControlModel->getDocControl('R2024-000052659')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 11:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 11:15:34 --> Trying to access array offset on value of type null
+in APPPATH\Libraries\CustomObj.php on line 52.
+ 1 APPPATH\Libraries\CustomObj.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Libraries\\CustomObj.php', 52, [...])
+ 2 APPPATH\Controllers\OutgoingDestination.php(113): App\Libraries\CustomObj->convertEMP(null, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 11:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 11:32:03 --> Undefined variable: datetime_rcv
+in APPPATH\Controllers\OutgoingDestination.php on line 121.
+ 1 APPPATH\Controllers\OutgoingDestination.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datetime_rcv', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Controllers\\OutgoingDestination.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000052659')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 11:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 11:38:05 --> Undefined index: action_desc
+in APPPATH\Controllers\OutgoingDestination.php on line 134.
+ 1 APPPATH\Controllers\OutgoingDestination.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: action_desc', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Controllers\\OutgoingDestination.php', 134, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 11:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 11:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:43:51 --> Too few arguments to function App\Models\HolidayModel::getHoliday(), 0 passed in C:\laragon\www\DTRAK-CHD\app\Controllers\OutgoingDestination.php on line 91 and exactly 1 expected
+in APPPATH\Models\HolidayModel.php on line 27.
+ 1 APPPATH\Controllers\OutgoingDestination.php(91): App\Models\HolidayModel->getHoliday()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:44:04 --> Undefined variable: start
+in APPPATH\Libraries\CustomObj.php on line 74.
+ 1 APPPATH\Libraries\CustomObj.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: start', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Libraries\\CustomObj.php', 74, [...])
+ 2 APPPATH\Controllers\OutgoingDestination.php(130): App\Libraries\CustomObj->calculateTime('2024-08-02 10:34:20', '2024-08-02 10:34:20', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:44:40 --> Undefined index: action_required
+in APPPATH\Views\destination-outgoing.php on line 167.
+ 1 APPPATH\Views\destination-outgoing.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: action_required', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php', 167, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('destination-outgoing', [], true)
+ 5 APPPATH\Controllers\OutgoingDestination.php(175): view('destination-outgoing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:45:12 --> Array to string conversion
+in APPPATH\Views\destination-outgoing.php on line 177.
+ 1 APPPATH\Views\destination-outgoing.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php', 177, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('destination-outgoing', [], true)
+ 5 APPPATH\Controllers\OutgoingDestination.php(176): view('destination-outgoing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:46:31 --> Illegal string offset 'days'
+in APPPATH\Views\destination-outgoing.php on line 177.
+ 1 APPPATH\Views\destination-outgoing.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'days\'', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php', 177, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('destination-outgoing', [], true)
+ 5 APPPATH\Controllers\OutgoingDestination.php(176): view('destination-outgoing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:49:20 --> Illegal string offset 'minutes'
+in APPPATH\Views\destination-outgoing.php on line 177.
+ 1 APPPATH\Views\destination-outgoing.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'minutes\'', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php', 177, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\destination-outgoing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('destination-outgoing', [], true)
+ 5 APPPATH\Controllers\OutgoingDestination.php(176): view('destination-outgoing', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 12:50:28 --> Illegal string offset 'days'
+in APPPATH\Controllers\OutgoingDestination.php on line 157.
+ 1 APPPATH\Controllers\OutgoingDestination.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'days\'', 'C:\\laragon\\www\\DTRAK-CHD\\app\\Controllers\\OutgoingDestination.php', 157, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 12:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 12:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-28 13:08:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JO' at line 4 in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dc`.`ro...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dc`.`ro...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dc`.`ro...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dc`.`ro...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\DocumentControlModel.php(150): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\OutgoingDestination.php(93): App\Models\DocumentControlModel->getDocControl('R2024-000051238')
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-28 13:08:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JO' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `dd`.`doc_controlno` = `next_dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = \'R2024-000051238\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `dd`.`doc_controlno` = `next_dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = \'R2024-000051238\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `dd`.`doc_controlno` = `next_dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = \'R2024-000051238\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `dd`.`doc_controlno` = `next_dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = :dc.route_no:
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC', [...], false)
+ 5 APPPATH\Models\DocumentControlModel.php(150): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OutgoingDestination.php(93): App\Models\DocumentControlModel->getDocControl('R2024-000051238')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 13:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-28 13:12:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JO' at line 4 in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dc`.`ro...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dc`.`ro...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dc`.`ro...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dc`.`ro...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\DocumentControlModel.php(150): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\OutgoingDestination.php(93): App\Models\DocumentControlModel->getDocControl('R2024-000051238')
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-10-28 13:12:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JO' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `next_dd`.`doc_controlno` = `dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = \'R2024-000051238\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `next_dd`.`doc_controlno` = `dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = \'R2024-000051238\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `next_dd`.`doc_controlno` = `dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = \'R2024-000051238\'
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dc`.`route_no` as `routeno`, `dc`.`doc_controlno` as `docno`, `dd`.*, `next_dd`.`date_rcv` as `next_date_rcv`, `next_dd`.`time_rcv` as `next_time_rcv`, `o`.`officename`, `o`.`shortname`, `ao`.*, `aorcv`.`lastname` as `rcv_lastname`, `aorcv`.`firstname` as `rcv_firstname`, `aorcv`.`middlename` as `rcv_middlename`, `aorcv`.`office_rep` as `rcv_orep`, `aoact`.`lastname` as `act_lastname`, `aoact`.`firstname` as `act_firstname`, `aoact`.`middlename` as `act_middlename`, `aoact`.`office_rep` as `act_orep`, `aorel`.`lastname` as `rel_lastname`, `aorel`.`firstname` as `rel_firstname`, `aorel`.`middlename` as `rel_middlename`, `aorel`.`office_rep` as `rel_orep`, `ar`.*, `at`.*
+FROM `doccontrol` `dc`
+LEFT JOIN `docdetails` `dd` ON `dc`.`doc_controlno` = `dd`.`doc_controlno`
+LEFT JOIN `docdetails` `next_dd` ON `next_dd`.`doc_controlno` = `dd`.`doc_controlno` AND `next_dd`.`sequence_no` = `dd`.`sequence_no +` 1
+LEFT JOIN `office` `o` ON `dd`.`office_destination` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dd`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `action_officer` `aorcv` ON `dd`.`receive_by` = `aorcv`.`empcode`
+LEFT JOIN `action_officer` `aoact` ON `dd`.`action_by` = `aoact`.`empcode`
+LEFT JOIN `action_officer` `aorel` ON `dd`.`release_by` = `aorel`.`empcode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+WHERE `dc`.`route_no` = :dc.route_no:
+ORDER BY `dc`.`doc_controlno` ASC, `dd`.`sequence_no` ASC', [...], false)
+ 5 APPPATH\Models\DocumentControlModel.php(150): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\OutgoingDestination.php(93): App\Models\DocumentControlModel->getDocControl('R2024-000051238')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 13:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-28 13:37:47 --> Call to undefined function App\Libraries\computeSameDayWorkingSeconds()
+in APPPATH\Libraries\CustomObj.php on line 122.
+ 1 APPPATH\Controllers\OutgoingDestination.php(133): App\Libraries\CustomObj->calculateTime8Hrs('2024-08-02 10:34:20', '2024-08-02 10:34:20', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\OutgoingDestination->index('R2024-000051238')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutgoingDestination))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2024-10-28 13:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 14:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 15:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 16:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 16:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 16:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 16:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

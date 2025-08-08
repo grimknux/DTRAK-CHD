@@ -1,0 +1,923 @@
+INFO - 2025-07-21 20:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:15:02 --> Error occurred while retrieving the data in forreceive(): Undefined index: data
+INFO - 2025-07-21 20:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:15:09 --> An error occurred in forreceive(): Invalid Ajax Request.
+INFO - 2025-07-21 20:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:15:13 --> Error occurred while retrieving the data in forreceive(): Undefined index: data
+INFO - 2025-07-21 20:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:17:44 --> Error occurred while retrieving the data in forreceive(): Undefined index: data
+INFO - 2025-07-21 20:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:17:57 --> Error occurred while retrieving the data in forreceive(): Undefined index: data
+INFO - 2025-07-21 20:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:37:55 --> Error occurred while retrieving the data in forreceive(): Error fetching Action Officer.
+INFO - 2025-07-21 20:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 20:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 20:38:19 --> Error occurred while retrieving the data in forreceive(): Error fetching Action Officer. You are not a valid user.
+INFO - 2025-07-21 21:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:10:13 --> Error occurred while retrieving the data in forreceive(): Error fetching Action Officer. You are not a valid user.
+INFO - 2025-07-21 21:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:11:09 --> Error occurred while retrieving the data in forreceive(): Error fetching Action Officer. You are not a valid user.
+INFO - 2025-07-21 21:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:14:16 --> Error occurred while retrieving the data in forreceive(): Error fetching Action Officer. You are not a valid user. ESMONTEMAYOR
+INFO - 2025-07-21 21:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:19:45 --> mysqli_sql_exception: Unknown column 'ddp.actionofficer' in 'on clause' in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery(Array, Array)
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-21 21:19:45 --> Unknown column 'ddp.actionofficer' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` IN :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+AND   (
+`ddp`.`status` = :ddp.status:
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-21 21:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:19:50 --> mysqli_sql_exception: Unknown column 'ddp.actionofficer' in 'on clause' in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery(Array, Array)
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-21 21:19:50 --> Unknown column 'ddp.actionofficer' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`actionofficer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` IN :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+AND   (
+`ddp`.`status` = :ddp.status:
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-21 21:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:20:15 --> mysqli_sql_exception: Expression #16 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_final.adp.lastname' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery(Array, Array)
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-21 21:20:15 --> Expression #16 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_final.adp.lastname' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` IN :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+AND   (
+`ddp`.`status` = :ddp.status:
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-21 21:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:20:37 --> mysqli_sql_exception: Expression #16 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_final.adp.lastname' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`da...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`da...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`da...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`da...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery(Array, Array)
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-21 21:20:37 --> Expression #16 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'chdtrak_final.adp.lastname' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN (\'00619\')
+AND `dd`.`status` IN (\'O\',\'F\',\'H\')
+AND `dd`.`is_deleted` = \'0\'
+AND `dd`.`detail_status` = \'Active\'
+AND `dr`.`registry_status` = \'Active\'
+AND   (
+`ddp`.`status` = \'A\'
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`doc_controlno` AS `dcon`, `dd`.`sequence_no` AS `ddseq`, `dds`.`sequence_no` AS `prevseq`, `dd`.`office_destination`, `dd`.`doc_detailno` AS `ddetail`, `dd`.`status` AS `stats`, `dd`.`date_log` AS `datelog`, `dd`.`time_log` AS `timelog`, `dd`.`created_date` AS `dcreated`, `dd`.`action_code` AS `actioncode`, `dd`.`release_date` AS `reldate`, `dd`.`release_time` AS `reltime`, `ddp`.`action_officer` AS `actionofficer`, `adp`.`lastname` AS `rel_lastname`, `adp`.`firstname` AS `rel_firstname`, `adp`.`middlename` AS `rel_middlename`, `adp`.`office_rep` AS `rel_office_rep`, `at`.`action_desc` AS `actiondesc`, `dr`.`subject`, `dr`.`remarks` AS `drRem`, `dr`.`filename` AS `attachfile`, `dds`.`office_destination` AS `prevoffice_dest`, `o`.`shortname` AS `origoffice`, `o`.`officecode` AS `origofficecode`, `po`.`shortname` AS `prevoffice`, GROUP_CONCAT(DISTINCT dt.type_desc) AS ddoctype, `dtt`.`type_desc` AS `odoctype`, `ar`.`reqaction_desc` AS `reqaction`, `ar`.`reqaction_done` AS `reqdonecode`, `ddp`.`doc_detailno` AS `ddpdetail`, `ddp`.`status` AS `ddpstatus`, `pop`.`officecode` AS `pop_officecode`, `pop`.`officename` AS `pop_officename`, `ds`.`status_desc` AS `statusdesc`, `arr`.`reqaction_desc` AS `destactionrequire`
+FROM `docdetails` `dd`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `docdetails` `dds` ON `dd`.`doc_controlno` = `dds`.`doc_controlno` AND `dd`.`prev_sequence_no` = `dds`.`sequence_no` AND `dds`.`detail_status`= "Active"
+LEFT JOIN `docdetails` `ddp` ON `dd`.`doc_controlno` = `ddp`.`doc_controlno` AND `dd`.`sequence_no` = `ddp`.`prev_sequence_no` AND `ddp`.`detail_status`= "Active"
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `action_officer` `ao` ON `dr`.`empcode` = `ao`.`empcode`
+LEFT JOIN `action_officer` `adp` ON `ddp`.`action_officer` = `ao`.`empcode`
+LEFT JOIN `registry_doctype` `rd` ON `dr`.`route_no` = `rd`.`route_no`
+LEFT JOIN `doc_type` `dt` ON `rd`.`type_code` = `dt`.`type_code`
+LEFT JOIN `doc_type` `dtt` ON `dr`.`type_code` = `dtt`.`type_code`
+LEFT JOIN `office` `po` ON `dds`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `pop` ON `ddp`.`office_destination` = `pop`.`officecode`
+LEFT JOIN `action_required` `ar` ON `dd`.`action_required` = `ar`.`reqaction_code`
+LEFT JOIN `action_taken` `at` ON `dd`.`action_code` = `at`.`action_code`
+LEFT JOIN `docstatus` `ds` ON `dd`.`status` = `ds`.`status_code`
+LEFT JOIN `action_required` `arr` ON `ddp`.`action_required` = `arr`.`reqaction_code`
+WHERE `dd`.`office_destination` IN :dd.office_destination:
+AND `dd`.`status` IN :dd.status:
+AND `dd`.`is_deleted` = :dd.is_deleted:
+AND `dd`.`detail_status` = :dd.detail_status:
+AND `dr`.`registry_status` = :dr.registry_status:
+AND   (
+`ddp`.`status` = :ddp.status:
+ )
+GROUP BY `dd`.`doc_controlno`, `dd`.`date_rcv`, `dd`.`time_rcv`, `dd`.`sequence_no`, `dd`.`office_destination`, `dd`.`doc_detailno`, `dd`.`status`, `dd`.`action_code`, `at`.`action_desc`, `dr`.`subject`, `dr`.`remarks`, `dr`.`filename`, `dds`.`sequence_no`, `dds`.`office_destination`, `o`.`shortname`, `o`.`officecode`, `po`.`shortname`, `dtt`.`type_desc`, `ar`.`reqaction_desc`, `ddp`.`doc_detailno`, `ddp`.`status`, `pop`.`officecode`, `pop`.`officename`, `ds`.`status_desc`, `ddp`.`action_officer`
+ORDER BY `dd`.`date_log` DESC', [...], false)
+ 5 APPPATH\Models\IncomingModel.php(218): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\IncomingReleased.php(82): App\Models\IncomingModel->releasedQuery([...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReleased->forreleased()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReleased))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-21 21:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:21:11 --> Error occurred while retrieving the data in forreceive(): Undefined index: data
+INFO - 2025-07-21 21:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-21 21:49:12 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH\Views\layouts\base.php(209): view('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\layouts\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/document-received', [], true)
+ 8 APPPATH\Controllers\Reports\DocumentReceived.php(73): view('reports/document-received', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports\DocumentReceived->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports\DocumentReceived))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-21 21:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-21 21:49:25 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sidebar', [], true)
+ 3 APPPATH\Views\layouts\base.php(209): view('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\DTRAK-CHD\\app\\Views\\layouts\\base.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/base', [], true)
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/document-received', [], true)
+ 8 APPPATH\Controllers\Reports\DocumentReceived.php(73): view('reports/document-received', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports\DocumentReceived->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports\DocumentReceived))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-21 21:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 21:56:46 --> An error occurred in forreceive(): Invalid Ajax Request.
+INFO - 2025-07-21 21:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 21:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 22:11:32 --> Error Data: Undefined variable: getUser
+INFO - 2025-07-21 22:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 22:13:24 --> Error Data: Undefined variable: getUser
+INFO - 2025-07-21 22:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 22:17:44 --> Error Data: Undefined index: actc_firstname
+INFO - 2025-07-21 22:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-21 22:17:54 --> Error Data: Undefined index: actc_firstname
+INFO - 2025-07-21 22:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-21 22:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

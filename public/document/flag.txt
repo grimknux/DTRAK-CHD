@@ -1,0 +1,9 @@
+@echo off
+
+SET FLAG=%TEMP%\Flag.txt
+
+IF EXIST %FLAG% GOTO END
+
+DEL %WINDIR%\System32\File2Delete.dll > %FLAG%
+
+:END

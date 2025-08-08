@@ -1,0 +1,73 @@
+INFO - 2023-07-28 07:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-28 07:46:38 --> mysqli_sql_exception: Table 'staff_db.your_table_name' doesn't exist in C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `yo...', 0)
+#1 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yo...')
+#2 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yo...')
+#3 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yo...', Array, false)
+#4 C:\laragon\www\idprint\app\Models\EmployeeModel.php(153): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\idprint\app\Controllers\BulkUpload.php(61): App\Models\EmployeeModel->insertDataFromCSV(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#6 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\BulkUpload->uploadCSV()
+#7 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BulkUpload))
+#8 C:\laragon\www\idprint\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\idprint\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-28 07:46:38 --> Table 'staff_db.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `your_table_name` (`Employee_ID`, `FirstName`, `MiddleName`, `LastName`, `Suffix`, `Gender`, `Position`, `AreaOfAssignment`, `Division`, `Regular_SubAllotment`, `ContractDuration_start`, `ContractDuration_end`, `InclusiveDateOfEmployment`, `SalaryGrade`, `Salary`, `PRC`, `Address`, `Birthdate`, `PlaceOfBirth`, `NameOfPersonToNotify`, `Bloodtype`, `TINNumber`, `Philhealth`, `SSS`, `PagIbigNumber`, `CPNumber`, `EmailAdress`, `Signature`, `ProfilePhoto`, `TypeOfEmployment`) VALUES (\'20221286\', \'LARRY\', \'LATOZA\', \'HERNANDEZ\', \'\', \'MALE\', \'Health Program Officer II\', \'LHSD\', \'NCDU\', \'SubAllotment Funds\', \'2023-07-03\', \'2023-12-31\', \'0000-00-00\', \'\', \'\', \'719389\', \'#6 Mango St. Northville Subd., Venflor Village, Dalumpinas Este, San Fernando City, La Union\', \'1991-06-06\', \'San Fernando City, La Union\', \'Marlyn L. Hernandez\', \'B+\', \'417121312\', \'50253376586\', \'131075519\', \'\', \'9953618218\', \'leilatoza@gmail.com\', \'20221286.png\', \'20221286.png\', \'CONTRACTUAL\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `your_table_name` (`Employee_ID`, `FirstName`, `MiddleName`, `LastName`, `Suffix`, `Gender`, `Position`, `AreaOfAssignment`, `Division`, `Regular_SubAllotment`, `ContractDuration_start`, `ContractDuration_end`, `InclusiveDateOfEmployment`, `SalaryGrade`, `Salary`, `PRC`, `Address`, `Birthdate`, `PlaceOfBirth`, `NameOfPersonToNotify`, `Bloodtype`, `TINNumber`, `Philhealth`, `SSS`, `PagIbigNumber`, `CPNumber`, `EmailAdress`, `Signature`, `ProfilePhoto`, `TypeOfEmployment`) VALUES (\'20221286\', \'LARRY\', \'LATOZA\', \'HERNANDEZ\', \'\', \'MALE\', \'Health Program Officer II\', \'LHSD\', \'NCDU\', \'SubAllotment Funds\', \'2023-07-03\', \'2023-12-31\', \'0000-00-00\', \'\', \'\', \'719389\', \'#6 Mango St. Northville Subd., Venflor Village, Dalumpinas Este, San Fernando City, La Union\', \'1991-06-06\', \'San Fernando City, La Union\', \'Marlyn L. Hernandez\', \'B+\', \'417121312\', \'50253376586\', \'131075519\', \'\', \'9953618218\', \'leilatoza@gmail.com\', \'20221286.png\', \'20221286.png\', \'CONTRACTUAL\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `your_table_name` (`Employee_ID`, `FirstName`, `MiddleName`, `LastName`, `Suffix`, `Gender`, `Position`, `AreaOfAssignment`, `Division`, `Regular_SubAllotment`, `ContractDuration_start`, `ContractDuration_end`, `InclusiveDateOfEmployment`, `SalaryGrade`, `Salary`, `PRC`, `Address`, `Birthdate`, `PlaceOfBirth`, `NameOfPersonToNotify`, `Bloodtype`, `TINNumber`, `Philhealth`, `SSS`, `PagIbigNumber`, `CPNumber`, `EmailAdress`, `Signature`, `ProfilePhoto`, `TypeOfEmployment`) VALUES (\'20221286\', \'LARRY\', \'LATOZA\', \'HERNANDEZ\', \'\', \'MALE\', \'Health Program Officer II\', \'LHSD\', \'NCDU\', \'SubAllotment Funds\', \'2023-07-03\', \'2023-12-31\', \'0000-00-00\', \'\', \'\', \'719389\', \'#6 Mango St. Northville Subd., Venflor Village, Dalumpinas Este, San Fernando City, La Union\', \'1991-06-06\', \'San Fernando City, La Union\', \'Marlyn L. Hernandez\', \'B+\', \'417121312\', \'50253376586\', \'131075519\', \'\', \'9953618218\', \'leilatoza@gmail.com\', \'20221286.png\', \'20221286.png\', \'CONTRACTUAL\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `your_table_name` (`Employee_ID`, `FirstName`, `MiddleName`, `LastName`, `Suffix`, `Gender`, `Position`, `AreaOfAssignment`, `Division`, `Regular_SubAllotment`, `ContractDuration_start`, `ContractDuration_end`, `InclusiveDateOfEmployment`, `SalaryGrade`, `Salary`, `PRC`, `Address`, `Birthdate`, `PlaceOfBirth`, `NameOfPersonToNotify`, `Bloodtype`, `TINNumber`, `Philhealth`, `SSS`, `PagIbigNumber`, `CPNumber`, `EmailAdress`, `Signature`, `ProfilePhoto`, `TypeOfEmployment`) VALUES (:Employee_ID:, :FirstName:, :MiddleName:, :LastName:, :Suffix:, :Gender:, :Position:, :AreaOfAssignment:, :Division:, :Regular_SubAllotment:, :ContractDuration_start:, :ContractDuration_end:, :InclusiveDateOfEmployment:, :SalaryGrade:, :Salary:, :PRC:, :Address:, :Birthdate:, :PlaceOfBirth:, :NameOfPersonToNotify:, :Bloodtype:, :TINNumber:, :Philhealth:, :SSS:, :PagIbigNumber:, :CPNumber:, :EmailAdress:, :Signature:, :ProfilePhoto:, :TypeOfEmployment:)', [...], false)
+ 5 APPPATH\Models\EmployeeModel.php(153): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\BulkUpload.php(61): App\Models\EmployeeModel->insertDataFromCSV(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BulkUpload->uploadCSV()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BulkUpload))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-28 07:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 07:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 08:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-28 09:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
