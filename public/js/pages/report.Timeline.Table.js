@@ -40,7 +40,7 @@ var UiTables = function() {
                                 }
                                 if (json.report_date) {
                                     $('#table_office').html(json.office);
-                                }
+                                }   
 
                                 console.log("Success");
                                 return json.data;
@@ -67,6 +67,13 @@ var UiTables = function() {
                         { data: "current" },
                         { data: "subject" },
                         { data: "doctype" },
+                        { data: "rcv_day" },
+                        { data: "rcv_hours" },
+                        { data: "rcv_minutes" },
+                        { data: "rel_day" },
+                        { data: "rel_hours" },
+                        { data: "rel_minutes" },
+                        { data: "doc_remarks" },
                     ],
 
                     drawCallback: function(settings) {
@@ -89,7 +96,7 @@ var UiTables = function() {
 
                     columnDefs: [
                         { 
-                            "targets": [0,1,2,3],
+                            "targets": [0,1,2,3,6,7,8,9,10,11],
                             "className": "text-center",
                             "orderable": false
                         }

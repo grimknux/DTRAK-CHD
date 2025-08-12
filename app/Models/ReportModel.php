@@ -695,11 +695,13 @@ class ReportModel extends Model
                 dr.subject,
                 o.shortname AS orig_office,
                 po.shortname AS current_office,
+                prev_po.shortname AS prev_current_office,
                 ddoctype.type_codes,
                 ddoctype.type_descs,
                 dd.sequence_no AS first_seqno,
                 dd.date_rcv AS first_date_rcv,
                 dd.time_rcv AS first_time_rcv,
+                last_seq.office_destination AS last_office_destination,
                 last_seq.sequence_no AS last_seqno,
                 last_seq.status AS last_seq_status,
                 last_seq.date_rcv AS last_seq_date_rcv,
@@ -710,6 +712,7 @@ class ReportModel extends Model
                 last_seq.release_time AS last_seq_release_time,
                 last_seq.remarks AS last_seq_remarks,
                 last_seq.remarks2 AS last_seq_remarks2,
+                prev_last_seq.office_destination AS prev_last_office_destination,
                 prev_last_seq.sequence_no AS prev_last_seqno,
                 prev_last_seq.status AS prev_last_seq_status,
                 prev_last_seq.date_rcv AS prev_last_seq_date_rcv,
@@ -727,6 +730,7 @@ class ReportModel extends Model
             $builder->join('docregistry dr', 'dd.route_no = dr.route_no', 'left');
             $builder->join('office o', 'dr.officecode = o.officecode', 'left');
             $builder->join('office po', 'last_seq.office_destination = po.officecode', 'left');
+            $builder->join('office prev_po', 'prev_last_seq.office_destination = prev_po.officecode', 'left');
             $builder->join("({$ddoctypeSubQuery}) ddoctype", 'dr.route_no = ddoctype.route_no', 'left');
 
             // Filters

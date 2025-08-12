@@ -139,13 +139,26 @@ class DocumentTimeline extends BaseController
                             if($row['last_seq_status'] == 'A'){
                                 if(in_array($row['prev_last_seq_status'], $released)){ //released - forwarded - returned
                                     $last_rel_datetime = $row['prev_last_seq_release_date'] . " " . $row['prev_last_seq_release_time'];
-                                    $last_rcv_datetime = $row['prev_last_seq_release_date'] . " " . $row['prev_last_seq_time_rcv'];
+                                    $last_rcv_datetime = $row['prev_last_seq_date_rcv'] . " " . $row['prev_last_seq_time_rcv'];
+                                    if($row['prev_last_seq_status'] == 'O'){
+                                        $remarks = 'Released to: ' . $row['current_office'];
+                                    }elseif($row['prev_last_seq_status'] == 'F'){
+                                        $remarks = 'Forwarded to: ' . $row['current_office'];
+                                    }elseif($row['prev_last_seq_status'] == 'H'){
+                                        $remarks = 'Returned to: ' . $row['current_office'];
+                                    }
                                 }elseif(in_array($row['prev_last_seq_status'], $action_done)){ //action - done
                                     $last_rel_datetime = $row['prev_last_seq_date_action'] . " " . $row['prev_last_seq_time_action'];
-                                    $last_rcv_datetime = $row['prev_last_seq_release_date'] . " " . $row['prev_last_seq_time_rcv'];
+                                    $last_rcv_datetime = $row['prev_last_seq_date_rcv'] . " " . $row['prev_last_seq_time_rcv'];
+                                    if($row['prev_last_seq_status'] == 'I'){
+                                        $remarks = $row['prev_last_seq_remarks2'];
+                                    }elseif($row['prev_last_seq_status'] == 'T'){
+                                        $remarks = 'Action Taken: ';
+                                    }
                                 }else{ //receieved
                                     $last_rel_datetime = '';
-                                    $last_rcv_datetime = $row['prev_last_seq_release_date'] . " " . $row['prev_last_seq_time_rcv'];
+                                    $last_rcv_datetime = $row['prev_last_seq_date_rcv'] . " " . $row['prev_last_seq_time_rcv'];
+                                    $remarks = 'Last Received at: <br><b>' . $row['current_office'] . '</b><br><b>' . $last_rcv_datetime . '</b>';
                                 }
                             }else{
                                  if(in_array($row['last_seq_status'], $released)){ //eleased - forwarded - returned
@@ -154,9 +167,15 @@ class DocumentTimeline extends BaseController
                                 }elseif(in_array($row['last_seq_status'], $action_done)){ //action - done
                                     $last_rel_datetime = $row['last_seq_date_action'] . " " . $row['last_seq_time_action'];
                                     $last_rcv_datetime = $row['last_seq_date_rcv'] . " " . $row['last_seq_time_rcv'];
+                                    if($row['last_seq_status'] == 'I'){
+                                        $remarks = $row['last_seq_remarks2'];
+                                    }elseif($row['last_seq_status'] == 'T'){
+                                        $remarks = 'Action Taken: ';
+                                    }
                                 }else{ //received
                                     $last_rel_datetime = '';
                                     $last_rcv_datetime = $row['last_seq_date_rcv'] . " " . $row['last_seq_time_rcv'];
+                                    $remarks = 'Last Received at: <br><b>' . $row['current_office'] . '</b><br><b>' . $last_rcv_datetime . '</b>';
                                 }
                             }
 
@@ -177,6 +196,7 @@ class DocumentTimeline extends BaseController
                                 'rel_day' => $datetime_rel['days'],
                                 'rel_hours' => $datetime_rel['hours'],
                                 'rel_minutes' => $datetime_rel['minutes'],
+                                'doc_remarks' => $remarks,
                             ];
                             
                         }
