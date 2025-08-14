@@ -62,6 +62,11 @@ class DocumentTimeline extends BaseController
         }else{
             $admin = false;
             $admin_menu = [];
+            return redirect()->to(base_url('/'));
+        }
+
+        if(!in_array('6', $admin_menu)){
+            return redirect()->to(base_url('/'));
         }
         
         $navi_bread = "<li>Administrative Report</li>
@@ -153,7 +158,7 @@ class DocumentTimeline extends BaseController
                                     if($row['prev_last_seq_status'] == 'I'){
                                         $remarks = $row['prev_last_seq_remarks2'];
                                     }elseif($row['prev_last_seq_status'] == 'T'){
-                                        $remarks = 'Action Taken: ';
+                                        $remarks = 'Action Taken: <b>' . $row['prev_action_taken'] . '</b>';
                                     }
                                 }else{ //receieved
                                     $last_rel_datetime = '';
@@ -170,7 +175,7 @@ class DocumentTimeline extends BaseController
                                     if($row['last_seq_status'] == 'I'){
                                         $remarks = $row['last_seq_remarks2'];
                                     }elseif($row['last_seq_status'] == 'T'){
-                                        $remarks = 'Action Taken: ';
+                                        $remarks = 'Action Taken: <b>' . $row['last_action_taken'] . '</b>';
                                     }
                                 }else{ //received
                                     $last_rel_datetime = '';

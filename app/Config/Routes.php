@@ -147,9 +147,15 @@ $myroutes['admin/reference/document_type/update'] = 'Administrator\DocumentType:
 $myroutes['admin/reference/document_type/inactive'] = 'Administrator\DocumentType::inactive_document_type';
 $myroutes['admin/reference/document_type/reactivate'] = 'Administrator\DocumentType::reactivate_document_type';
 
-//
+//Document Status
+$myroutes['admin/document_management'] = 'Administrator\DocumentManagement::index';
+$myroutes['admin/document_management/table'] = 'Administrator\DocumentManagement::view_document_management_table';
+//$myroutes['admin/report/table/timeline'] = 'Administrator\DocumentTimeline::reportTimeline';
+
+//Administrative Report 
 $myroutes['admin/report/document_timeline'] = 'Administrator\Report\DocumentTimeline::index';
 $myroutes['admin/report/table/timeline'] = 'Administrator\Report\DocumentTimeline::reportTimeline';
+
 
 
 /*$myroutes['generate-PDF/(:alphanum)'] = 'PdfController::generate_pdf/$1';

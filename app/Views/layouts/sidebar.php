@@ -69,15 +69,19 @@
                         </ul>
                     </li>
 
-                     <li id="admin-reference-tables" class="<?= ($navactive === 'admin_report_tables') ? 'active' : '' ?>">
+                    <?php if (in_array('5', $admin_menu)): ?>
+                        <li>
+                            <a href="<?= base_url('admin/document_management') ?>" class="<?= ($navsubactive === 'admin_doc_mgmt') ? 'active' : '' ?>"><i class="fa fa-exclamation-circle sidebar-nav-icon"></i>Document Management</a>
+                        </li>
+                    <?php endif; ?>
+
+                    <div class="sidebar-separator push">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+
+                    <li id="admin-reference-tables" class="<?= ($navactive === 'admin_report_tables') ? 'active' : '' ?>">
                         <a href="#" class="sidebar-nav-menu"><i class="fa fa-chevron-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-folder_lock sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Administrative Report</span></a>
                         <ul>
-
-                            <?php if (in_array('5', $admin_menu)): ?>
-                                <li>
-                                    <a href="<?= base_url('admin/administrative_report/document_management') ?>" class="<?= ($navsubactive === 'admin_doc_mgmt') ? 'active' : '' ?>">Document Status</a>
-                                </li>
-                            <?php endif; ?>
                             <?php if (in_array('6', $admin_menu)): ?>
                                 <li>
                                     <a href="<?= base_url('admin/report/document_timeline') ?>" class="<?= ($navsubactive === 'admin_doc_time') ? 'active' : '' ?>">Document Timeline</a>

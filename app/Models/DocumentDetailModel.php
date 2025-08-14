@@ -250,7 +250,6 @@ class DocumentDetailModel extends Model
         return false;
     }
 
-
     public function checkDocIfValid($office,$docdetailno){
 
         $document = $this->whereIn('office_destination', $office)
@@ -440,18 +439,12 @@ class DocumentDetailModel extends Model
 
     public function checkIfDestExists($routeno)
     {
-        $builder = $this->db->table('docdetails dd');
-        $builder->where('dd.route_no', $routeno);
-        $builder->where('detail_status', 'Active');
-        $builder->where('is_deleted', '0');
-        
-        $query = $builder->get();
-        
-        if ($query->getNumRows() === 0) {
-            return true;
-        } else {
-            return false;
-        }
+        $builder = $this->db->table('docdetails dd')
+            ->where('dd.route_no', $routeno)
+            ->where('detail_status', 'Active')
+            ->where('is_deleted', '0');
+
+        return $builder->countAllResults() === 0;
     }
 
 

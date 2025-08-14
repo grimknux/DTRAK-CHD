@@ -664,7 +664,8 @@ class ReportModel extends Model
                 docdetails.release_time,
                 docdetails.status,
                 docdetails.prev_sequence_no,
-                docdetails.remarks, docdetails.remarks2
+                docdetails.remarks, docdetails.remarks2, 
+                docdetails.action_code
                 
                 FROM docdetails
                 JOIN (
@@ -711,7 +712,8 @@ class ReportModel extends Model
                 last_seq.release_date AS last_seq_release_date,
                 last_seq.release_time AS last_seq_release_time,
                 last_seq.remarks AS last_seq_remarks,
-                last_seq.remarks2 AS last_seq_remarks2,
+                last_seq.remarks2 AS last_seq_remarks2,,
+                last_seq_at.action_desc as last_action_taken,
                 prev_last_seq.office_destination AS prev_last_office_destination,
                 prev_last_seq.sequence_no AS prev_last_seqno,
                 prev_last_seq.status AS prev_last_seq_status,
@@ -722,7 +724,8 @@ class ReportModel extends Model
                 prev_last_seq.release_date AS prev_last_seq_release_date,
                 prev_last_seq.release_time AS prev_last_seq_release_time,
                 prev_last_seq.remarks AS prev_last_seq_remarks,
-                prev_last_seq.remarks2 AS prev_last_seq_remarks2
+                prev_last_seq.remarks2 AS prev_last_seq_remarks2,
+                prev_seq_at.action_desc as prev_action_taken
             ");
 
             $builder->join("({$lastSeqSubQuery}) last_seq", 'dd.doc_controlno = last_seq.doc_controlno', 'left');
@@ -731,6 +734,8 @@ class ReportModel extends Model
             $builder->join('office o', 'dr.officecode = o.officecode', 'left');
             $builder->join('office po', 'last_seq.office_destination = po.officecode', 'left');
             $builder->join('office prev_po', 'prev_last_seq.office_destination = prev_po.officecode', 'left');
+            $builder->join('action_taken prev_seq_at', 'prev_last_seq.action_code = prev_seq_at.action_code', 'left');
+            $builder->join('action_taken last_seq_at', 'last_seq.action_code = last_seq_at.action_code', 'left');
             $builder->join("({$ddoctypeSubQuery}) ddoctype", 'dr.route_no = ddoctype.route_no', 'left');
 
             // Filters
@@ -743,6 +748,8 @@ class ReportModel extends Model
                         ->orLike('o.shortname', $searchValue)
                         ->orLike('po.shortname', $searchValue)
                         ->orLike('ddoctype.type_descs', $searchValue)
+                        ->orLike('last_seq_at.action_desc', $searchValue)
+                        ->orLike('prev_seq_at.action_desc', $searchValue)
                         ->groupEnd();
             }
 

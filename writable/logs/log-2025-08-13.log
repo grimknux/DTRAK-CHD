@@ -1,0 +1,477 @@
+INFO - 2025-08-13 08:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 08:33:28 --> mysqli_sql_exception: Unknown column 'last_seq.action_code' in 'on clause' in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`do...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`do...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`do...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`do...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\ReportModel.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\Administrator\Report\DocumentTimeline.php(123): App\Models\ReportModel->timelineQuery('20', '0', '', Array)
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Administrator\Report\DocumentTimeline->reportTimeline()
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\Report\DocumentTimeline))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-13 08:33:28 --> Unknown column 'last_seq.action_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = 1
+AND `dd`.`status` != \'A\'
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = 1
+AND `dd`.`status` != \'A\'
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = 1
+AND `dd`.`status` != \'A\'
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = :dd.sequence_no:
+AND `dd`.`status` != :dd.status:
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20', [...], false)
+ 5 APPPATH\Models\ReportModel.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Administrator\Report\DocumentTimeline.php(123): App\Models\ReportModel->timelineQuery('20', '0', '', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\Report\DocumentTimeline->reportTimeline()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\Report\DocumentTimeline))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-13 08:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-13 08:33:34 --> mysqli_sql_exception: Unknown column 'last_seq.action_code' in 'on clause' in C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`do...', 0)
+#1 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`do...')
+#2 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`do...')
+#3 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`do...', Array, false)
+#4 C:\laragon\www\DTRAK-CHD\app\Models\ReportModel.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\DTRAK-CHD\app\Controllers\Administrator\Report\DocumentTimeline.php(123): App\Models\ReportModel->timelineQuery('20', '0', '', Array)
+#6 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Administrator\Report\DocumentTimeline->reportTimeline()
+#7 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\Report\DocumentTimeline))
+#8 C:\laragon\www\DTRAK-CHD\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\DTRAK-CHD\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-08-13 08:33:34 --> Unknown column 'last_seq.action_code' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = 1
+AND `dd`.`status` != \'A\'
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = 1
+AND `dd`.`status` != \'A\'
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = 1
+AND `dd`.`status` != \'A\'
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `dd`.`doc_controlno` as `dcon`, `dr`.`subject`, `o`.`shortname` AS `orig_office`, `po`.`shortname` AS `current_office`, `prev_po`.`shortname` AS `prev_current_office`, `ddoctype`.`type_codes`, `ddoctype`.`type_descs`, `dd`.`sequence_no` AS `first_seqno`, `dd`.`date_rcv` AS `first_date_rcv`, `dd`.`time_rcv` AS `first_time_rcv`, `last_seq`.`office_destination` AS `last_office_destination`, `last_seq`.`sequence_no` AS `last_seqno`, `last_seq`.`status` AS `last_seq_status`, `last_seq`.`date_rcv` AS `last_seq_date_rcv`, `last_seq`.`time_rcv` AS `last_seq_time_rcv`, `last_seq`.`date_action` AS `last_seq_date_action`, `last_seq`.`time_action` AS `last_seq_time_action`, `last_seq`.`release_date` AS `last_seq_release_date`, `last_seq`.`release_time` AS `last_seq_release_time`, `last_seq`.`remarks` AS `last_seq_remarks`, `last_seq`.`remarks2` AS `last_seq_remarks2`, `last_seq_at`.`action_desc` as `last_action_taken`, `prev_last_seq`.`office_destination` AS `prev_last_office_destination`, `prev_last_seq`.`sequence_no` AS `prev_last_seqno`, `prev_last_seq`.`status` AS `prev_last_seq_status`, `prev_last_seq`.`date_rcv` AS `prev_last_seq_date_rcv`, `prev_last_seq`.`time_rcv` AS `prev_last_seq_time_rcv`, `prev_last_seq`.`date_action` AS `prev_last_seq_date_action`, `prev_last_seq`.`time_action` AS `prev_last_seq_time_action`, `prev_last_seq`.`release_date` AS `prev_last_seq_release_date`, `prev_last_seq`.`release_time` AS `prev_last_seq_release_time`, `prev_last_seq`.`remarks` AS `prev_last_seq_remarks`, `prev_last_seq`.`remarks2` AS `prev_last_seq_remarks2`, `prev_seq_at`.`action_desc` as `prev_action_taken`
+FROM `docdetails` `dd`
+LEFT JOIN (
+                SELECT docdetails.doc_controlno,
+                docdetails.sequence_no,
+                docdetails.office_destination,
+                docdetails.date_rcv,
+                docdetails.time_rcv,
+                docdetails.date_action,
+                docdetails.time_action,
+                docdetails.release_date,
+                docdetails.release_time,
+                docdetails.status,
+                docdetails.prev_sequence_no,
+                docdetails.remarks, docdetails.remarks2
+                
+                FROM docdetails
+                JOIN (
+                    SELECT doc_controlno, MAX(sequence_no) AS max_seq
+                    FROM docdetails
+                    GROUP BY doc_controlno
+                ) max_tracker 
+                ON docdetails.doc_controlno = max_tracker.doc_controlno 
+                AND docdetails.sequence_no = max_tracker.max_seq
+            ) last_seq ON `dd`.`doc_controlno` = `last_seq`.`doc_controlno`
+LEFT JOIN `docdetails` `prev_last_seq` ON `last_seq`.`doc_controlno` = `prev_last_seq`.`doc_controlno` AND `last_seq`.`prev_sequence_no` = `prev_last_seq`.`sequence_no`
+LEFT JOIN `docregistry` `dr` ON `dd`.`route_no` = `dr`.`route_no`
+LEFT JOIN `office` `o` ON `dr`.`officecode` = `o`.`officecode`
+LEFT JOIN `office` `po` ON `last_seq`.`office_destination` = `po`.`officecode`
+LEFT JOIN `office` `prev_po` ON `prev_last_seq`.`office_destination` = `prev_po`.`officecode`
+LEFT JOIN `action_taken` `prev_seq_at` ON `prev_last_seq`.`action_code` = `prev_seq_at`.`action_code`
+LEFT JOIN `action_taken` `last_seq_at` ON `last_seq`.`action_code` = `last_seq_at`.`action_code`
+LEFT JOIN (
+                SELECT 
+                    rd.route_no,
+                    GROUP_CONCAT(DISTINCT dt.type_code ORDER BY dt.type_code SEPARATOR \', \') AS type_codes,
+                    GROUP_CONCAT(DISTINCT dt.type_desc ORDER BY dt.type_desc SEPARATOR \', \') AS type_descs
+                FROM registry_doctype rd
+                JOIN doc_type dt ON rd.type_code = dt.type_code
+                GROUP BY rd.route_no
+            ) ddoctype ON `dr`.`route_no` = `ddoctype`.`route_no`
+WHERE `dd`.`sequence_no` = :dd.sequence_no:
+AND `dd`.`status` != :dd.status:
+ORDER BY `dd`.`doc_controlno` ASC
+ LIMIT 20', [...], false)
+ 5 APPPATH\Models\ReportModel.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Administrator\Report\DocumentTimeline.php(123): App\Models\ReportModel->timelineQuery('20', '0', '', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\Report\DocumentTimeline->reportTimeline()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\Report\DocumentTimeline))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-13 08:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-13 08:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

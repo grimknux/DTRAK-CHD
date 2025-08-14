@@ -88,6 +88,113 @@ class DocumentRegistryModel extends Model
         
     }
 
+    public function documentManagement($limit,$offset,$searchValue,$filterValue,$ds = false) 
+    {
+
+        try {
+            
+
+            $builder = $this->db->table('docregistry dr');
+
+            $builder->select("
+                dr.route_no,
+                GROUP_CONCAT(DISTINCT dd.doc_controlno) as docno,
+                dr.ref_office_controlno,
+                dr.subject,
+                GROUP_CONCAT(DISTINCT dt.type_desc) as ddoctype,
+                o.shortname as orig_office,
+                ao.lastname,
+                ao.firstname,
+                ao.middlename,
+                ao.office_rep as orep,
+                dr.no_page,
+                dr.filename,
+                dr.remarks,
+                dr.registry_status
+
+                
+            ");
+            $builder->join('docdetails dd', 'dr.route_no = dd.route_no', 'left');
+            $builder->join('registry_doctype rd', 'dr.route_no = rd.route_no', 'left');
+            $builder->join('doc_type dt', 'rd.type_code = dt.type_code', 'left');
+            $builder->join('office o', 'dr.officecode = o.officecode', 'left');
+            $builder->join('action_officer ao', 'dr.empcode = ao.empcode', 'left');
+
+            if (!empty($searchValue)) {
+                $builder->groupStart()
+                        ->like('dr.route_no', $searchValue)
+                        ->orLike('dd.doc_controlno', $searchValue)
+                        ->orLike('dp.doc_controlno', $searchValue)
+                        //->orLike('dr.ref_office_controlno', $searchValue)
+                        ->orLike('dr.subject', $searchValue)
+                        ->orLike('dt.type_desc', $searchValue)
+                        ->orLike('o.shortname', $searchValue)
+                        ->orLike('ao.lastname', $searchValue)
+                        ->orLike('ao.firstname', $searchValue)
+                        ->orLike('ao.middlename', $searchValue)
+                        ->orLike('dr.no_page', $searchValue)
+                        ->orLike('dr.filename', $searchValue)
+                        ->orLike('dr.remarks', $searchValue)
+                        ->groupEnd();
+            }
+
+            if (!empty($filterValue['routeNoFilter'])) {
+                $builder->where('dr.route_no', $filterValue['routeNoFilter']);
+            }
+            if (!empty($filterValue['documentControlFilter'])) {
+                $builder->where('dd.doc_controlno', $filterValue['documentControlFilter']);
+            }
+            if (!empty($filterValue['subjectFilter'])) {
+                $builder->like('dr.subject', $filterValue['subjectFilter']);
+            }
+
+            $builder->groupBy([
+                'dr.route_no',
+                'dr.ref_office_controlno',
+                'dr.subject',
+                'o.shortname',
+                'ao.lastname',
+                'ao.firstname',
+                'ao.middlename',
+                'ao.office_rep',
+                'dr.no_page',
+                'dr.filename',
+                'dr.remarks',
+                'dr.registry_status'
+            ]);
+
+            $builder->orderBy('dr.route_no', 'ASC');
+
+            $filtered_builder = clone $builder;
+
+            if(!empty($limit) && $limit != -1) {
+                $get_query = $builder->limit($limit, $offset)->get()->getResultArray();
+
+            }else{
+                $get_query = $builder->get()->getResultArray();
+            }
+            $totalRecords = $this->countAllResults(false);  // Total unfiltered records
+            $filteredRecords = $filtered_builder->countAllResults(false); // Total after filtering
+
+            return [
+                'success' => true,
+                'data' => $get_query,
+                'totalRecords' => $totalRecords,
+                'recordsFiltered' => $filteredRecords,
+            ];
+    
+        } catch (\Exception $e) {
+            log_message('error', $e->getMessage());
+            
+            return [
+                'success' => false,
+                'message' => $e->getMessage() // Return the exception message
+            ];
+        }
+
+    }
+    
+
     public function getDocumentData($routeno){
 
         try {
