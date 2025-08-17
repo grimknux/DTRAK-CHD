@@ -29,6 +29,11 @@ class DocumentRegistryModel extends Model
         $this->audittrailmodel = new audittrailmodel();
     }
 
+
+    public function getDocRegistry($routeno){
+        return $this->where('route_no', $routeno)->first();
+    }
+
     public function OutgoingQuery($office){
 
         $builder = $this->db->table('docregistry dr');
@@ -275,6 +280,86 @@ class DocumentRegistryModel extends Model
         }
         
     }
+
+    public function getDocumentDataAll($routeno){
+
+        try {
+            $builder = $this->db->table('docregistry dr');
+            $builder->select([
+                'dr.route_no',
+                'dr.docregistry_id',
+                'dr.office_controlno',
+                'dr.datelog',
+                'dr.subject',
+                'dr.officecode',
+                'dr.empcode',
+                'dr.no_page',
+                'dr.filename',
+                'dr.attachlist',
+                'dr.remarks',
+                'dr.sourcetype',
+                'dr.ref_office_controlno',
+                'dr.exdoc_controlno',
+                'dr.exofficecode',
+                'dr.exempname',
+                'dr.registry_status',
+                'dr.datelog',
+                'dr.timelog',
+                'o.shortname AS officeshort',
+                'o.officename',
+                'ao.lastname',
+                'ao.firstname',
+                'ao.middlename',
+                'ao.office_rep AS orep',
+                'GROUP_CONCAT(DISTINCT(dt.type_code)) AS ddoctype',
+                'GROUP_CONCAT(DISTINCT(dt.type_desc)) AS ddoctype_desc'
+            ]);
+
+            $builder->join('registry_doctype rd', 'dr.route_no = rd.route_no', 'left');
+            $builder->join('doc_type dt', 'rd.type_code = dt.type_code AND dt.deleted_at IS NULL', 'left');
+            $builder->join('action_officer ao', 'dr.empcode = ao.empcode AND ao.deleted_at IS NULL', 'left');
+            $builder->join('office o', 'dr.officecode = o.officecode', 'left');
+            $builder->where('dr.route_no', $routeno);
+            
+            $builder->groupBy([
+                'dr.route_no',
+                'dr.docregistry_id',
+                'dr.office_controlno',
+                'dr.datelog',
+                'dr.subject',
+                'dr.officecode',
+                'dr.empcode',
+                'dr.no_page',
+                'dr.filename',
+                'dr.attachlist',
+                'dr.datelog',
+                'dr.timelog',
+                'dr.remarks',
+                'o.shortname',
+                'o.officename',
+                'ao.lastname',
+                'ao.firstname',
+                'ao.middlename',
+                'ao.office_rep',
+            ]);
+            
+            $result = $builder->get();
+            
+            if ($result->getNumRows() > 0) {
+                return $result->getRowArray();
+            } else {
+                throw new \Exception("No rows returned!");
+
+            }
+
+        } catch (\Exception $e) {
+            log_message('error', "Error retrieving document :{$e->getMessage()}");
+            
+            return false;
+        }
+        
+    }
+
 
     public function generateDocumentRegistryNo($type = 'R') {
 

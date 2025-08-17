@@ -150,6 +150,12 @@ $myroutes['admin/reference/document_type/reactivate'] = 'Administrator\DocumentT
 //Document Status
 $myroutes['admin/document_management'] = 'Administrator\DocumentManagement::index';
 $myroutes['admin/document_management/table'] = 'Administrator\DocumentManagement::view_document_management_table';
+$myroutes['admin/document_management/delete'] = 'Administrator\DocumentManagement::delete_route_no';
+
+//Document Destination
+$myroutes['admin/document_management/destination/(:any)'] = 'Administrator\DocumentDestination::index/$1';
+$myroutes['admin/document_management/table'] = 'Administrator\DocumentManagement::view_document_management_table';
+$myroutes['admin/document_management/delete'] = 'Administrator\DocumentManagement::delete_route_no';
 //$myroutes['admin/report/table/timeline'] = 'Administrator\DocumentTimeline::reportTimeline';
 
 //Administrative Report 

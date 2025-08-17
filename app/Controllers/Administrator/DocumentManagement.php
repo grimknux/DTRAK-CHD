@@ -23,6 +23,7 @@ class DocumentManagement extends BaseController
     public $UserModel;
     public $OfficeModel;
     public $DocumentDetailModel;
+    public $documentregistrymodel;
     public $DocumentTypeModel;
     public $AuditTrailModel;
 
@@ -68,7 +69,10 @@ class DocumentManagement extends BaseController
         }
         
         
-        $navi_bread = "<li>Document Management</li>";
+        $navi_bread = "<li>Document Management</li>
+        <li><a href='".base_url('admin/document_management')."'>Document Destination</a></li>
+        <li>Destination</li>";
+        
 
 
         $data = [
@@ -220,6 +224,95 @@ class DocumentManagement extends BaseController
 
         }
         
+    }
+
+
+    public function delete_route_no(){
+
+        if(!session()->has('logged_user')){
+            return redirect()->to(base_url('/'));
+        }
+
+        if(!session()->get('user_level') == '-1'){
+            return redirect()->to(base_url('/'));
+        }
+
+        if ($this->request->isAJAX()) {
+
+            if ($this->request->getMethod() === 'post') {
+
+                $csrfToken = $this->request->getHeaderLine('X-CSRF-Token');
+
+                if (!empty($csrfToken) && $this->customobj->validateCSRFToken($csrfToken)) {
+
+                    $admin_menu = explode(',', session()->get('admin_menu'));
+
+                    if(session()->get('user_level') == "-1" && in_array('6', $admin_menu)){
+
+                        try {
+
+                            $logged_user = $this->session->get('logged_user');
+                            
+                            $routeno = $this->request->getPost('routeno');
+                            $checkDestinationStatus = $this->documentdetailmodel->checkIfDestExists($routeno);
+                            $getDocRegistry = $this->documentregistrymodel->getDocRegistry($routeno);
+
+                            if($checkDestinationStatus && $getDocRegistry['registry_status'] == 'Active'){
+
+                                $delete = $this->documentregistrymodel->deleteThisDocument($routeno,$logged_user);
+
+                                if($delete['success']){
+
+                                    $data = [
+                                        'success' => true,
+                                        'message' => $delete['message']
+                                    ];
+                                }else{
+                                    throw new \Exception("Delete Error: " . $delete['message']);
+                                }
+                                 
+                            }else{
+                                $data = [
+                                    'success' => false,
+                                    'message' => 'Error deleting Document. ',
+                                ];
+                            }
+
+
+                        } catch (\Exception $e) {
+
+                            log_message('error', 'Error occurred while retrieving the data in forreceive(): ' . $e->getMessage());
+                            return $this->response->setStatusCode(500)->setBody(json_encode(['error' => 'Error occurred while retrieving the data: ' . $e->getMessage()]));
+                            
+                        }
+
+                        return $this->response->setJSON($data);
+
+                    }else{
+                        log_message('error', 'Access Denied. You are not allowed to access this page.');
+                        return $this->response->setStatusCode(403)->setBody(json_encode(['error' => 'Invalid Access']));
+                    }
+
+                }else{
+                    
+                    log_message('error', 'Invalid CSRF token. URL: ' . current_url() . ', IP: ' . $this->request->getIPAddress());
+                    return $this->response->setStatusCode(403)->setBody(json_encode(['error' => 'Invalid CSRF token']));
+
+                }
+                
+            }else{
+                
+                log_message('error', 'An error occurred in forreceive(): Method Not Allowed.');
+                return $this->response->setStatusCode(405)->setBody(json_encode(['error' => 'Method not Allowed']));
+
+            }
+
+        }else{
+
+            log_message('error', 'An error occurred in forreceive(): Invalid Ajax Request.');
+            return $this->response->setStatusCode(400)->setBody(json_encode(['error' => 'Invalid Ajax Request']));
+
+        }
     }
 
     

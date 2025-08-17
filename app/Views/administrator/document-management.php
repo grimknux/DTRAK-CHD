@@ -99,6 +99,7 @@
 </script>
 
 <script src="<?= base_url(); ?>public/js/pages/admin.DocMgmt.Table.js"></script>
+<script src="<?= base_url(); ?>public/js/pages/adminDocMgmt.Function.js"></script>
 
 <script>
 
@@ -114,7 +115,7 @@ $(document).ready(function(){
 
     UiTables.init(base_url,csrfToken);
 
-    //outgoingApp.init(base_url,csrfToken);
+    adminDocManagement.init();
 
 });
 
