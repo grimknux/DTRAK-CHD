@@ -1,0 +1,109 @@
+/* === Custom Themed Backgrounds with h2 text colors === */
+
+/* Primary */
+.block-background-primary {
+    background-color: #0d6efd !important; /* bootstrap blue */
+    color: #fff !important;
+}
+.block-background-primary h2 {
+    color: #fff !important;
+}
+.block-background-primary-light {
+    background-color: #cfe2ff !important; /* light blue */
+    color: #0d6efd !important;
+}
+.block-background-primary-light h2 {
+    color: #0d6efd !important;
+}
+
+/* Danger */
+.block-background-danger {
+    background-color: #b71c1c !important; /* bootstrap red */
+    color: #fff !important;
+}
+.block-background-danger h2 {
+    color: #fff !important;
+}
+.block-background-danger-light {
+    background-color: #f8d7da !important; /* light red */
+    color: #b71c1c !important;
+}
+.block-background-danger-light h2 {
+    color: #b71c1c !important;
+}
+
+/* Warning */
+.block-background-warning {
+    background-color: #ffc107 !important; /* bootstrap yellow */
+    color: #212529 !important; /* dark text */
+}
+.block-background-warning h2 {
+    color: #212529 !important;
+}
+.block-background-warning-light {
+    background-color: #fff3cd !important; /* light yellow */
+    color: #664d03 !important;
+}
+.block-background-warning-light h2 {
+    color: #664d03 !important;
+}
+
+/* Success */
+.block-background-success {
+    background-color: #198754 !important; /* bootstrap green */
+    color: #fff !important;
+}
+.block-background-success h2 {
+    color: #fff !important;
+}
+.block-background-success-light {
+    background-color: #d1e7dd !important; /* light green */
+    color: #0f5132 !important;
+}
+.block-background-success-light h2 {
+    color: #0f5132 !important;
+}
+
+/* Secondary */
+.block-background-secondary {
+    background-color: #6c757d !important; /* bootstrap gray */
+    color: #fff !important;
+}
+.block-background-secondary h2 {
+    color: #fff !important;
+}
+.block-background-secondary-light {
+    background-color: #e2e3e5 !important; /* light gray */
+    color: #41464b !important;
+}
+.block-background-secondary-light h2 {
+    color: #41464b !important;
+}
+
+/* Default (same as light/white in bootstrap context) */
+.block-background-default {
+    background-color: #f8f9fa !important; /* bootstrap light */
+    color: #212529 !important; /* bootstrap dark text */
+}
+.block-background-default h2 {
+    color: #212529 !important;
+}
+.block-background-default-light {
+    background-color: #ffffff !important; /* plain white */
+    color: #212529 !important;
+}
+.block-background-default-light h2 {
+    color: #212529 !important;
+}
+
+
+
+.block-title.block-background-primary .block-options a,
+.block-title.block-background-danger .block-options a,
+.block-title.block-background-warning .block-options a,
+.block-title.block-background-success .block-options a,
+.block-title.block-background-secondary .block-options a,
+.block-title.block-background-default .block-options a {
+    color: inherit !important;   /* or the theme color you want */
+    opacity: 1 !important;       /* force full opacity */
+}

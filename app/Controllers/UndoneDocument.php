@@ -202,9 +202,7 @@ class UndoneDocument extends BaseController
                         
                         if($getuser['success']){
 
-                            $verifyPassword = $this->customobj->verifyPassword($password,$getuser['data']['userpass']);
-
-                            if($verifyPassword){
+                            if(password_verify($password, trim($getuser['data']['password']))){
 
                                 if($receiveData){
 

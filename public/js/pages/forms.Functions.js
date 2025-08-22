@@ -2442,19 +2442,19 @@ const receiveApp = {
                     Swal.showValidationMessage('Password is required');
                 }
 
-                // Call the AJAX function and return a promise
-                return receiveApp.undoneDocumentAjax(id, password).then((response) => {
-                    if (response.status) {
-                        return response; // Resolve successfully
-                    } else {
-                        Swal.showValidationMessage(response.message); // Show validation error
-                        return null; // Stop further execution
-                    }
-                }).catch((error) => {
-                    //Swal.showValidationMessage(error.message || 'An error occurred');
-                    throw error; // Ensure it stops further execution
-                });
-
+                return receiveApp.undoneDocumentAjax(id, password)
+                    .then((response) => {
+                        if (response.status) {
+                            return response; // triggers Swal confirm result
+                        } else {
+                            Swal.showValidationMessage(response.message);
+                            return null;
+                        }
+                    })
+                    .catch((error) => {
+                        Swal.showValidationMessage(error.message || 'An error occurred');
+                        return null;
+                    });
             }
         }).then((result) => {
 
@@ -2473,7 +2473,7 @@ const receiveApp = {
     },
 
 
-    undoneDocumentAjax: function(id,password) {
+    undoneDocumentAjax: function(id, password) {
         return new Promise((resolve, reject) => {
             $.ajax({
                 url: base_url + '/undoneDoc',
@@ -2481,37 +2481,31 @@ const receiveApp = {
                 data: { id: id, password: password },
                 dataType: 'json',
                 beforeSend: function(xhr) {
-
                     xhr.setRequestHeader('X-CSRF-Token', csrfToken);
                     $("#overlay").show();
-
                 },
                 success: function(data) {
-
                     if (data.success) {
-                        Swal.fire('Deleted!', data.message, 'success');
-                        //$('#undone-table').DataTable().ajax.reload(null, false);
-                        resolve({ status: true });
+                        resolve({ status: true, message: data.message });
                     } else {
                         resolve({ status: false, message: data.message });
                     }
-
                 },
                 error: function(xhr, status, error) {
+                    let message = 'An unknown error occurred.';
                     if (xhr.responseJSON && xhr.responseJSON.error) {
-                        alert("Error Code " + xhr.status + ": " + error + "\n" +
-                            "Message: " + xhr.responseJSON.error);
-                    } else {
-                        alert('An unknown error occurred.');
+                        message = "Error Code " + xhr.status + ": " + error + "\n" +
+                                "Message: " + xhr.responseJSON.error;
                     }
+                    reject({ status: false, message });
                 },
                 complete: function() {
                     $("#overlay").hide();
-
                 }
             });
         });
     },
+
 
 
     //GLOBAL METHODS

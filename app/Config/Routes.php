@@ -153,9 +153,13 @@ $myroutes['admin/document_management/table'] = 'Administrator\DocumentManagement
 $myroutes['admin/document_management/delete'] = 'Administrator\DocumentManagement::delete_route_no';
 
 //Document Destination
-$myroutes['admin/document_management/destination/(:any)'] = 'Administrator\DocumentDestination::index/$1';
-$myroutes['admin/document_management/table'] = 'Administrator\DocumentManagement::view_document_management_table';
-$myroutes['admin/document_management/delete'] = 'Administrator\DocumentManagement::delete_route_no';
+$myroutes['admin/document_management/(:any)/destination'] = 'Administrator\DocumentDestination::index/$1';
+$myroutes['admin/document_management/destination/table'] = 'Administrator\DocumentDestination::controlDestinationData';
+$myroutes['admin/document_management/destination/delete'] = 'Administrator\DocumentDestination::deleteDestination';
+$myroutes['admin/document_management/destination/undone'] = 'Administrator\DocumentDestination::undoneDocument';
+    //$myroutes['admin/document_management/destination/getdata'] = 'Administrator\DocumentDestination::getDestinationData';
+    //$myroutes['admin/document_management/destination/change'] = 'Administrator\DocumentDestination::changeDestination';
+//$myroutes['admin/document_management/delete'] = 'Administrator\DocumentManagement::delete_route_no';
 //$myroutes['admin/report/table/timeline'] = 'Administrator\DocumentTimeline::reportTimeline';
 
 //Administrative Report 

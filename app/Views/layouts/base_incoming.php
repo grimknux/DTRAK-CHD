@@ -326,7 +326,6 @@
         <script src="<?= base_url(); ?>public/js/appui/pages/uiTables.js"></script>
         <!--<script src="<.?= base_url(); ?>public/js/appui/pages/formsValidation.js"></script>-->
         <script src="<?= base_url(); ?>public/js/appui/pages/formsComponents.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/pages/uiUsers.js"></script>
         <script src="<?= base_url(); ?>public/js/appui/pages/appSocial.js"></script>
         <script src="<?= base_url(); ?>public/js/appui/pages/compGallery.js"></script>
         <script src="<?= base_url(); ?>public/js/appui/dataTables.buttons.min.js"></script>

@@ -153,7 +153,7 @@ class DocumentManagement extends BaseController
                             }
 
                             $checkDestinationStatus = $this->documentdetailmodel->checkIfDestExists($row['route_no']);
-                            $destination_btn = '<a href="'.base_url("admin/document_management/destination/".$row["route_no"]).'" class="btn btn-xs btn-warning enable-tooltip" title="Document Destination"><i class="fa fa-send"></i> Destination</a>';
+                            $destination_btn = '<a href="'.base_url("admin/document_management/".base64_encode($row["route_no"])).'/destination" class="btn btn-xs btn-warning enable-tooltip" title="Document Destination"><i class="fa fa-send"></i> Destination</a>';
 
                             if ($row['registry_status'] == 'Active' && $checkDestinationStatus) {
                                 $delete_btn = '<a href="javascript:void(0)" class="btn btn-xs btn-danger enable-tooltip delete_route" title="Delete!"><i class="fa fa-trash"></i></a>';

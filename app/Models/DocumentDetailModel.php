@@ -531,6 +531,11 @@ class DocumentDetailModel extends Model
         try {
 
             $this->update($id, ['detail_status' => 'Inactive', 'is_deleted' => '1']);
+            $this->db->table('doccontrol')->where('doc_controlno', $id)
+                    ->update([
+                        'control_status' => 'Inactive',
+                        'is_deleted'    => 1
+                    ]);
 
             $this->audittrailmodel->insertAuditTrail($id, 'docdetails', $user, 'DELETE');
             if ($this->db->transStatus() === false) {
@@ -546,6 +551,50 @@ class DocumentDetailModel extends Model
             return [
                 'success' => true,
                 'message' => "Office Destination has been deleted.",
+            ];
+
+
+        } catch (\Exception $e) {
+            $this->db->transRollback();
+            log_message('error', $e->getMessage());
+            
+            return [
+                'success' => false,
+                'message' => $e->getMessage() // Return the exception message
+            ];
+        }
+    }
+
+
+    public function deleteThisDestination2($id,$user){
+        
+        $this->db->transStart();
+
+        try {
+
+            $this->db->table('docdetails')->where('doc_controlno', $id)
+                    ->update([
+                        'detail_status' => 'Inactive',
+                        'is_deleted'    => 1
+                    ]);
+            
+            $this->db->table('doccontrol')->where('doc_controlno', $id)
+                    ->update([
+                        'control_status' => 'Inactive',
+                        'is_deleted'    => 1
+                    ]);
+
+            $this->audittrailmodel->insertAuditTrail($id, 'docdetails', $user, 'DELETE');
+
+            $this->db->transComplete();
+
+            if ($this->db->transStatus() === false) {
+                throw new \Exception('Failed to delete destination.');
+            }
+
+            return [
+                'success' => true,
+                'message' => 'Office Destination has been deleted.',
             ];
 
 

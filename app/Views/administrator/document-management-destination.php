@@ -6,6 +6,7 @@
 <div id="overlay">
     <div class="loader"></div>
 </div>
+
 <script>
     setTimeout(function() {
         $('.error-message').html("");
@@ -22,27 +23,11 @@
         <div class="block full">
             <div class="block-title">
                 <div class="block-options pull-right">
-                    <a href="<?= base_url('docview/outgoing') ?>" class="btn btn-effect-ripple btn-default" data-toggle="tooltip" title="Go Back"><i class="fa fa-arrow-circle-left"></i> Go Back</a>
+                    <a href="<?= base_url('admin/document_management') ?>" class="btn btn-effect-ripple btn-default" data-toggle="tooltip" title="Go Back"><i class="fa fa-arrow-circle-left"></i> Go Back</a>
                 </div>
                 <h2>Document Destination</h2>
             </div>
             <div class="row ">
-                <!-- Simple Stats Widgets -->
-                 <?php if($checkdest){ ?>
-                <div class="col-sm-3 add-btn-dest">
-                    <a href="#" class="widget desti-modal" data-toggle='modal'>
-                        <div class="widget-content widget-content-mini text-right clearfix widget-light">
-                            <div class="widget-icon pull-left themed-background-info">
-                                <i class="fa fa-paper-plane-o text-light-op"></i>
-                            </div>
-                            <h2 class="widget-heading h4 text-info">
-                                <strong><span data-toggle="counter" data-to="2835">Add Destination</span></strong>
-                            </h2>
-                            <span class="text-muted">Assign the Document Destination</span>
-                        </div>
-                    </a>
-                </div>
-                <?php } ?>
                 <div class="col-sm-6">
                     <table class="table table-vcenter table-bordered table-striped table-condensed">
                         <tbody>
@@ -280,11 +265,8 @@
 <?= $this->endSection(); ?>
 
 <?= $this->section("script"); ?>
-<script>
-    var baseUrl = '<?= base_url(); ?>';
-</script>
 
-<script src="<?= base_url(); ?>public/js/pages/forms.Outgoing.js"></script>
+<script src="<?= base_url(); ?>public/js/pages/admin.Destination.Function.js"></script>
 
 <script>
 var officeDestinations = <?= json_encode($officeDestinations, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP) ?>;
@@ -294,7 +276,7 @@ var routeno = '<?= htmlspecialchars($routeno, ENT_QUOTES, 'UTF-8') ?>';
 
 $(document).ready(function(){
 
-    //outgoingDes.init(base_url,csrfToken,officeDestinations,routeno);
+    docDestination.init(base_url,csrfToken,officeDestinations,routeno);
 
 });
 

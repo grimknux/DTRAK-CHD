@@ -34,6 +34,7 @@
 
         <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
         <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/main.css">
+        <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/style.css">
         <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/buttons.dataTables.min.css">
 
         <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
@@ -322,7 +323,6 @@
         <script src="<?= base_url(); ?>public/js/appui/pages/uiTables.js"></script>
         <!--<script src="<.?= base_url(); ?>public/js/appui/pages/formsValidation.js"></script>-->
         <script src="<?= base_url(); ?>public/js/appui/pages/formsComponents.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/pages/uiUsers.js"></script>
         <script src="<?= base_url(); ?>public/js/appui/pages/appSocial.js"></script>
         <script src="<?= base_url(); ?>public/js/appui/pages/compGallery.js"></script>
         <script src="<?= base_url(); ?>public/js/appui/dataTables.buttons.min.js"></script>

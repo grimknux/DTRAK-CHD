@@ -20,7 +20,7 @@ class DocumentControlModel extends Model
 
     protected $allowedFields = ['route_no', 'doc_controlno', 'emp_entry', 'modified_by'];
 
-    public $DocumentDetailModel;
+    public $documentdetailmodel;
     public $audittrailmodel;
 
     public function __construct()
@@ -116,7 +116,7 @@ class DocumentControlModel extends Model
     }
 
 
-    public function getDocControl($routeno){
+    public function getDocControl($routeno, $status = true){
 
         $builder = $this->db->table('doccontrol dc');
         $builder->select([
@@ -155,11 +155,15 @@ class DocumentControlModel extends Model
         $builder->join('action_required ar', 'dd.action_required = ar.reqaction_code', 'left');
         $builder->join('action_taken at', 'dd.action_code = at.action_code', 'left');
         $builder->where('dc.route_no', $routeno);
-        $builder->where('dc.is_deleted', 0);
-        $builder->where('dc.control_status', 'Active');
-        $builder->where('dd.is_deleted', 0);
-        $builder->where('dd.detail_status', 'Active');
-        $builder->orderBy('dc.doc_controlno', 'ASC');
+
+        if($status){
+            $builder->where('dc.is_deleted', 0);
+            $builder->where('dc.control_status', 'Active');
+            $builder->where('dd.is_deleted', 0);
+            $builder->where('dd.detail_status', 'Active');
+        }
+
+        $builder->orderBy('dc.doc_controlno', 'DESC');
         $builder->orderBy('dd.sequence_no', 'ASC');
         $query = $builder->get();
         
