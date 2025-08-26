@@ -1,0 +1,1629 @@
+WARNING - 2025-08-26 11:42:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\Report\DocumentTimeline::$documentdetailmodel is deprecated in APPPATH\Controllers\Administrator\Report\DocumentTimeline.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\Report\DocumentTimeline->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\Report\DocumentTimeline::$documentregistrymodel is deprecated in APPPATH\Controllers\Administrator\Report\DocumentTimeline.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\Report\DocumentTimeline->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\Report\DocumentTimeline::$documenttypemodel is deprecated in APPPATH\Controllers\Administrator\Report\DocumentTimeline.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\Report\DocumentTimeline->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\Report\DocumentTimeline::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\Report\DocumentTimeline.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\Report\DocumentTimeline->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:44 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Login.php(65): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:45 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:45 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:45 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:45 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documentdetailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documenttypemodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documentdetailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documenttypemodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$documentdetailmodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$documentregistrymodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$documenttypemodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$audittrailmodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$documentdetailmodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$documentregistrymodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$documenttypemodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:42:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Reports\DocumentReceived::$audittrailmodel is deprecated in APPPATH\Controllers\Reports\DocumentReceived.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Reports\DocumentReceived->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:43:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:43:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 11:43:05 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:43:05 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:43:05 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 11:43:05 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 11:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 11:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Login.php(65): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:03:32 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:07:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:09:54 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Login.php(65): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:09:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:09:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:09:55 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:09:55 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:09:55 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:09:55 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentdetailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentregistrymodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documenttypemodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$audittrailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentdetailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentregistrymodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documenttypemodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$audittrailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:10:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$documentdetailmodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$documenttypemodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$documentcontrolmodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$actionmodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$holidaymodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:10:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$documentdetailmodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$documenttypemodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$documentcontrolmodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$actionmodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDestination::$holidaymodel is deprecated in APPPATH\Controllers\OutgoingDestination.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDestination->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentdetailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentregistrymodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documenttypemodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$audittrailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentdetailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documentregistrymodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$documenttypemodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\OutgoingDocument::$audittrailmodel is deprecated in APPPATH\Controllers\OutgoingDocument.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\OutgoingDocument->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 12:10:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documentdetailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documenttypemodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 12:10:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 12:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 12:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documentdetailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$documenttypemodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\DocumentManagement::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\DocumentManagement.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\DocumentManagement->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:17:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:17:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:17:31 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:17:31 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:17:31 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:17:31 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:17 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:20 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Login.php(65): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:36 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:18:40 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:19:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:19:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\IncomingReceiving::$documentdetailmodel is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\IncomingReceiving->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:19:11 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:19:11 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:19:11 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:19:11 --> [DEPRECATED] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Controllers\IncomingReceiving.php on line 118.
+ 1 APPPATH\Controllers\IncomingReceiving.php(118): str_replace(',', ', ', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\IncomingReceiving->forreceive()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncomingReceiving))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:19:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:19:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:04 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-26 13:21:04 --> Error occurred while retrieving the data in forreceive(): Undefined variable $doctype
+WARNING - 2025-08-26 13:21:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:30 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:21:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:21:41 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:22:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:06 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:22:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:12 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:22:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:49 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:22:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:22:50 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:23:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:23:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:23:14 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:23:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:23:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:23:51 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:23:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:23:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:23:57 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:29:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:29:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:29:42 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:33:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 13:33:48 --> mysqli_sql_exception: Unknown column 'act_rstatus' in 'where clause' in C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\dtrak\app\Models\ActionTakenModel.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\dtrak\app\Controllers\Administrator\ActionRequired.php(70): App\Models\ActionTakenModel->get_action_taken_active()
+#8 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->index()
+#9 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+#10 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\dtrak\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-08-26 13:33:48 --> Unknown column 'act_rstatus' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `action_taken`
+WHERE `act_rstatus` = \'Active\'
+AND `action_taken`.`deleted_at` IS NULL
+ORDER BY `action_desc` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `action_taken`
+WHERE `act_rstatus` = \'Active\'
+AND `action_taken`.`deleted_at` IS NULL
+ORDER BY `action_desc` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `action_taken`
+WHERE `act_rstatus` = \'Active\'
+AND `action_taken`.`deleted_at` IS NULL
+ORDER BY `action_desc` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `action_taken`
+WHERE `act_rstatus` = :act_rstatus:
+AND `action_taken`.`deleted_at` IS NULL
+ORDER BY `action_desc` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ActionTakenModel.php(34): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Administrator\ActionRequired.php(70): App\Models\ActionTakenModel->get_action_taken_active()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:03 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:34:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:18 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:25 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 13:34:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 13:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 13:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 13:34:40 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:12:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:12:33 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:12:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:12:37 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(249): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->add_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:12:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:12:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:12:57 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:12:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:13:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:13:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:08 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:23:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:17 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(374): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->update_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:23:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:35 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(374): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->update_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:23:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:23:46 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(374): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->update_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+WARNING - 2025-08-26 14:24:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:24:03 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(249): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->add_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-26 14:24:03 --> Error creating Action Required :An error occurred during the creation of Action Required.
+WARNING - 2025-08-26 14:24:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Administrator\ActionRequired::$audittrailmodel is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Administrator\ActionRequired->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:24:34 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(249): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->add_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-26 14:24:34 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:25:24 --> [DEPRECATED] Creation of dynamic property App\Validations\CustomRules::$documentdetailmodel is deprecated in APPPATH\Validations\CustomRules.php on line 20.
+ 1 SYSTEMPATH\Validation\Validation.php(596): App\Validations\CustomRules->__construct()
+ 2 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Administrator\ActionRequired.php(249): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->add_action_required()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-08-26 14:25:24 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:26:02 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:27:18 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:28:44 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:28:51 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:28:54 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:28:56 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:29:01 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:29:04 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:30:14 --> Error creating Action Required :An error occurred during the creation of Action Required.
+INFO - 2025-08-26 14:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-26 14:37:17 --> Call to a member function insertAuditTrail() on null
+in APPPATH\Models\ActionModel.php on line 130.
+ 1 APPPATH\Controllers\Administrator\ActionRequired.php(260): App\Models\ActionModel->insert_action_required([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->add_action_required()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:37:46 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-26 14:37:50 --> Call to a member function insertAuditTrail() on null
+in APPPATH\Models\ActionModel.php on line 130.
+ 1 APPPATH\Controllers\Administrator\ActionRequired.php(260): App\Models\ActionModel->insert_action_required([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->add_action_required()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:40:43 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:40:47 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:41:28 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:41:46 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:41:54 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:47:59 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:48:08 --> mysqli_sql_exception: Unknown column 'type_desc' in 'order clause' in C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\dtrak\app\Models\ActionModel.php(130): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\dtrak\app\Controllers\Administrator\ActionRequired.php(476): App\Models\ActionModel->get_action_required('00082')
+#8 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->delete_action_required()
+#9 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+#10 C:\laragon\www\dtrak\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\dtrak\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-08-26 14:48:08 --> Unknown column 'type_desc' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `action_required`
+WHERE deleted_at IS NULL
+AND `action_required`.`deleted_at` IS NULL
+ORDER BY `type_desc` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `action_required`
+WHERE deleted_at IS NULL
+AND `action_required`.`deleted_at` IS NULL
+ORDER BY `type_desc` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `action_required`
+WHERE deleted_at IS NULL
+AND `action_required`.`deleted_at` IS NULL
+ORDER BY `type_desc` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `action_required`
+WHERE deleted_at IS NULL
+AND `action_required`.`deleted_at` IS NULL
+ORDER BY `type_desc` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ActionModel.php(130): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Administrator\ActionRequired.php(476): App\Models\ActionModel->get_action_required('00082')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->delete_action_required()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:48:37 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:48:41 --> Error occurred while retrieving the data in forreceive(): Call to undefined method App\Models\ActionModel::delete_action_required
+INFO - 2025-08-26 14:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 14:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 14:55:35 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 14:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 14:55:42 --> Error deleting Action Required: There is no data to update.
+ERROR - 2025-08-26 14:55:42 --> Error occurred while retrieving the data in forreceive(): Delete Error: There is no data to update.
+INFO - 2025-08-26 16:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:36:48 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:36:53 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 16:36:59 --> Error deleting Action Required: There is no data to update.
+ERROR - 2025-08-26 16:36:59 --> Error occurred while retrieving the data in forreceive(): Delete Error: There is no data to update.
+INFO - 2025-08-26 16:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:39:02 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:39:07 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:40:16 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:40:16 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:40:17 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:51:56 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:53:35 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:54:33 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:54:38 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:54:44 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:55:12 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:55:18 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:55:46 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 16:55:54 --> Error occurred while retrieving the data in forreceive(): Undefined variable $get_doctype
+INFO - 2025-08-26 16:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-26 16:56:08 --> Error occurred while retrieving the data in forreceive(): Undefined variable $get_doctype
+INFO - 2025-08-26 16:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:56:30 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:56:59 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:57:03 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:57:13 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:58:50 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:59:54 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 16:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 16:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 16:59:55 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 17:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 17:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 17:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 17:00:51 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 17:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 17:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 17:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 17:00:53 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+INFO - 2025-08-26 17:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 17:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-08-26 17:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-08-26 17:01:17 --> [DEPRECATED] Increment on non-alphanumeric string is deprecated in APPPATH\Controllers\Administrator\ActionRequired.php on line 122.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrator\ActionRequired->view_action_required_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator\ActionRequired))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()

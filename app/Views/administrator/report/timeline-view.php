@@ -122,7 +122,7 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/report.Timeline.Table.js"></script>
+<script src="<?= base_url(); ?>js/pages/report.Timeline.Table.js"></script>
 
 <script>
 

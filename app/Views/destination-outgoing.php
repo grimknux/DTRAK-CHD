@@ -284,8 +284,8 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/forms.Outgoing.js"></script>
-<script src="<?= base_url(); ?>public/js/pages/table.Functions.js"></script>
+<script src="<?= base_url(); ?>js/pages/forms.Outgoing.js"></script>
+<script src="<?= base_url(); ?>js/pages/table.Functions.js"></script>
 
 <script>
 var officeDestinations = <?= json_encode($officeDestinations, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP) ?>;

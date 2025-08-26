@@ -11,16 +11,16 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
 
-    <link rel="icon" href="<?php echo base_url(); ?>public/favicon/favicon.ico" type="image/gif">
+    <link rel="icon" href="<?php echo base_url(); ?>favicon/favicon.ico" type="image/gif">
 
     <!-- Bootstrap core CSS -->
-	<link href="<?= base_url(); ?>public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?= base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap DataTable Core CSS -->
-	<link href="<?= base_url(); ?>public/css/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="<?= base_url(); ?>css/jquery.dataTables.min.css" rel="stylesheet">
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/css/select2.min.css">
-	<link rel="stylesheet" href="<?= base_url('public/css/cropper/cropper.css'); ?>">
-	<link rel="stylesheet" href="<?= base_url('public/css/tag/tagify.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('css/cropper/cropper.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('css/tag/tagify.css'); ?>">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -106,7 +106,7 @@
 
     
 		<!-- Custom styles for this template -->
-	<link href="<?= base_url(); ?>public/css/style.css" rel="stylesheet">
+	<link href="<?= base_url(); ?>css/style.css" rel="stylesheet">
 
 	</head>
 	<body>
@@ -207,14 +207,14 @@
 </html>
 
     <!-- jQuery, Bootstrap, jQuery plugins and Custom JS code -->
-    <script src="<?= base_url(); ?>public/js/jquery-3.6.0.min.js"></script>
-    <script src="<?= base_url(); ?>public/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url(); ?>public/js/jquery.dataTables.min.js"></script>
-    <script src="<?= base_url(); ?>public/js/feather.min.js" crossorigin="anonymous"></script>
-	<script src="<?= base_url(); ?>public/js/font-awesome.js" crossorigin="anonymous"></script>
-	<script src="<?= base_url(); ?>public/js/style.js"></script>
+    <script src="<?= base_url(); ?>js/jquery-3.6.0.min.js"></script>
+    <script src="<?= base_url(); ?>js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url(); ?>js/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url(); ?>js/feather.min.js" crossorigin="anonymous"></script>
+	<script src="<?= base_url(); ?>js/font-awesome.js" crossorigin="anonymous"></script>
+	<script src="<?= base_url(); ?>js/style.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-beta.1/js/select2.min.js"></script>
-	<script src="<?= base_url('public/js/cropper/cropper.js'); ?>"></script>
-	<script src="<?= base_url('public/js/tag/tagify.min.js'); ?>"></script>
+	<script src="<?= base_url('js/cropper/cropper.js'); ?>"></script>
+	<script src="<?= base_url('js/tag/tagify.min.js'); ?>"></script>
 
     <?= $this->renderSection("script"); ?>

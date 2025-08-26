@@ -16,7 +16,7 @@
 
 <div id="login-container">
     <h1 class="h2 text-light text-center push-top-bottom animation-slideDown">
-        <i><img src="<?= base_url(); ?>public/img/icon57.png" width="35" height="35"></img></i> <strong>CHD I DTRAK System!</strong>
+        <i><img src="<?= base_url(); ?>img/icon57.png" width="35" height="35"></img></i> <strong>CHD I DTRAK System!</strong>
     </h1>
 
     <div class="block animation-fadeInQuickInv">

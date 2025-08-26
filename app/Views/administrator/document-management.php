@@ -98,8 +98,8 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/admin.DocMgmt.Table.js"></script>
-<script src="<?= base_url(); ?>public/js/pages/adminDocMgmt.Function.js"></script>
+<script src="<?= base_url(); ?>js/pages/admin.DocMgmt.Table.js"></script>
+<script src="<?= base_url(); ?>js/pages/adminDocMgmt.Function.js"></script>
 
 <script>
 

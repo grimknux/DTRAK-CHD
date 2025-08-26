@@ -8,7 +8,7 @@ use App\Models\DocumentTypeModel;
 
 class CustomRules
 {
-    public $DocumentDetailModel;
+    public $documentdetailmodel;
     public $actionmodel;
     public $usermodel;
     public $documenttypemodel;
@@ -80,6 +80,13 @@ class CustomRules
         $idToIgnore = $fields;
         // Return false if it exists (not unique)
         return !$this->documenttypemodel->document_type_exists($str, $idToIgnore);
+    }
+
+    public function actionrequireUnique(string $str, ?string $fields = null, array $data = []): bool
+    {
+        $idToIgnore = $fields;
+        // Return false if it exists (not unique)
+        return !$this->actionmodel->action_required_exists($str, $idToIgnore);
     }
 
 

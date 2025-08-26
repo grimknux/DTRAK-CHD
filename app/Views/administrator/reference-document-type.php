@@ -85,8 +85,8 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/ref.DocType.Function.js"></script>
-<script src="<?= base_url(); ?>public/js/pages/reference.DocType.Table.js"></script>
+<script src="<?= base_url(); ?>js/pages/ref.DocType.Function.js"></script>
+<script src="<?= base_url(); ?>js/pages/reference.DocType.Table.js"></script>
 
 <script>
 

@@ -174,8 +174,8 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/ref.ActionOfficer.Function.js"></script>
-<script src="<?= base_url(); ?>public/js/pages/reference.ActionOffice.Table.js"></script>
+<script src="<?= base_url(); ?>js/pages/ref.ActionOfficer.Function.js"></script>
+<script src="<?= base_url(); ?>js/pages/reference.ActionOffice.Table.js"></script>
 
 <script>
 

@@ -190,8 +190,8 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/forms.Functions.js"></script>
-<script src="<?= base_url(); ?>public/js/pages/table.Functions.js"></script>
+<script src="<?= base_url(); ?>js/pages/forms.Functions.js"></script>
+<script src="<?= base_url(); ?>js/pages/table.Functions.js"></script>
 
 <script>
 

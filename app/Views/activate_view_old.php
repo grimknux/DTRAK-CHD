@@ -3,12 +3,12 @@
 
 <?= $this->section("content"); ?>
 
-<img src="<?php echo base_url() ?>public/img/placeholders/layout/login2_full_bg.jpg" alt="Full Background" class="full-bg animation-pulseSlow">
+<img src="<?php echo base_url() ?>img/placeholders/layout/login2_full_bg.jpg" alt="Full Background" class="full-bg animation-pulseSlow">
 
 <div id="activation-container">
     <!-- Login Header 
     <h1 class="h2 text-light text-center push-top-bottom animation-slideDown">
-        <img src="<?= base_url();?>public/img/dohlogo.png" style="width: 30px; height: 30px;"> <strong></strong>
+        <img src="<?= base_url();?>img/dohlogo.png" style="width: 30px; height: 30px;"> <strong></strong>
     </h1>
     END Login Header -->
 

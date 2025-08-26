@@ -14,32 +14,32 @@
 
         <!-- Icons -->
         <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-        <link rel="shortcut icon" href="<?= base_url(); ?>public/img/favicon.png">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon57.png" sizes="57x57">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon72.png" sizes="72x72">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon76.png" sizes="76x76">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon114.png" sizes="114x114">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon120.png" sizes="120x120">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon144.png" sizes="144x144">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon152.png" sizes="152x152">
-        <link rel="apple-touch-icon" href="<?= base_url(); ?>public/img/icon180.png" sizes="180x180">
+        <link rel="shortcut icon" href="<?= base_url(); ?>img/favicon.png">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon57.png" sizes="57x57">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon72.png" sizes="72x72">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon76.png" sizes="76x76">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon114.png" sizes="114x114">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon120.png" sizes="120x120">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon144.png" sizes="144x144">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="<?= base_url(); ?>img/icon180.png" sizes="180x180">
         <!-- END Icons -->
 
         <!-- Stylesheets -->
         <!-- Bootstrap is included in its original form, unaltered -->
-        <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= base_url(); ?>css/appui/bootstrap.min.css">
 
         <!-- Related styles of various icon packs and plugins -->
-        <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/plugins.css">
+        <link rel="stylesheet" href="<?= base_url(); ?>css/appui/plugins.css">
 
         <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
-        <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/main.css">
-        <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="<?= base_url(); ?>css/appui/main.css">
+        <link rel="stylesheet" href="<?= base_url(); ?>css/appui/buttons.dataTables.min.css">
 
         <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
 
         <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
-        <link rel="stylesheet" href="<?= base_url(); ?>public/css/appui/themes.css">
+        <link rel="stylesheet" href="<?= base_url(); ?>css/appui/themes.css">
 
         <style>
             .modal-dialog{
@@ -172,7 +172,7 @@
         <!-- END Stylesheets -->
 
         <!-- Modernizr (browser feature detection library) -->
-        <script src="<?= base_url(); ?>public/js/appui/vendor/modernizr-3.3.1.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/vendor/modernizr-3.3.1.min.js"></script>
     </head>
 
     <body>
@@ -219,7 +219,7 @@
                             <!-- User Dropdown -->
                             <li class="dropdown">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="<?= base_url('public/img/placeholders/avatars/avatar9.jpg'); ?>" alt="avatar">
+                                    <img src="<?= base_url('img/placeholders/avatars/avatar9.jpg'); ?>" alt="avatar">
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li class="dropdown-header">
@@ -319,19 +319,19 @@
 
         
 
-        <script src="<?= base_url(); ?>public/js/appui/jquery3.1.min.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/app.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/vendor/bootstrap.min.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/plugins.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/pages/uiTables.js"></script>
-        <!--<script src="<.?= base_url(); ?>public/js/appui/pages/formsValidation.js"></script>-->
-        <script src="<?= base_url(); ?>public/js/appui/pages/formsComponents.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/pages/appSocial.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/pages/compGallery.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/dataTables.buttons.min.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/buttons.print.min.js"></script>
-        <script src="<?= base_url(); ?>public/js/appui/sweetalert2.all.min.js"></script>
-        <script src="<?= base_url(); ?>public/js/pages/handleValidationErrors.js"></script>
+        <script src="<?= base_url(); ?>js/appui/jquery3.1.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/app.js"></script>
+        <script src="<?= base_url(); ?>js/appui/vendor/bootstrap.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/plugins.js"></script>
+        <script src="<?= base_url(); ?>js/appui/pages/uiTables.js"></script>
+        <!--<script src="<.?= base_url(); ?>js/appui/pages/formsValidation.js"></script>-->
+        <script src="<?= base_url(); ?>js/appui/pages/formsComponents.js"></script>
+        <script src="<?= base_url(); ?>js/appui/pages/appSocial.js"></script>
+        <script src="<?= base_url(); ?>js/appui/pages/compGallery.js"></script>
+        <script src="<?= base_url(); ?>js/appui/dataTables.buttons.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/buttons.print.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/sweetalert2.all.min.js"></script>
+        <script src="<?= base_url(); ?>js/pages/handleValidationErrors.js"></script>
         <script>
             var base_url = "<?php echo base_url(); ?>";
             var csrfToken = $('meta[name="csrf-token"]').attr('content');

@@ -9,10 +9,10 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
 
-    <link rel="icon" href="<?php echo base_url(); ?>public/favicon/favicon.ico" type="image/gif">
+    <link rel="icon" href="<?php echo base_url(); ?>favicon/favicon.ico" type="image/gif">
 
     <!-- Bootstrap core CSS -->
-	<link href="<?= base_url(); ?>public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?= base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		body {
 			background-color: #66666f;
@@ -96,9 +96,9 @@
 </html>
 
     <!-- jQuery, Bootstrap, jQuery plugins and Custom JS code -->
-    <script src="<?= base_url(); ?>public/js/jquery-3.6.0.min.js"></script>
-    <script src="<?= base_url(); ?>public/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url(); ?>public/js/feather.min.js" crossorigin="anonymous"></script>
-	<script src="<?= base_url(); ?>public/js/font-awesome.js" crossorigin="anonymous"></script>
+    <script src="<?= base_url(); ?>js/jquery-3.6.0.min.js"></script>
+    <script src="<?= base_url(); ?>js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url(); ?>js/feather.min.js" crossorigin="anonymous"></script>
+	<script src="<?= base_url(); ?>js/font-awesome.js" crossorigin="anonymous"></script>
 
     <?= $this->renderSection("script"); ?>

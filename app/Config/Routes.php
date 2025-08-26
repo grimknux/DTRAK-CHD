@@ -137,6 +137,17 @@ $myroutes['admin/reference/action_officer/inactive'] = 'Administrator\ActionOffi
 $myroutes['admin/reference/action_officer/reactivate'] = 'Administrator\ActionOfficer::reactivate_action_officer';
 $myroutes['admin/reference/action_officer/reset_password'] = 'Administrator\ActionOfficer::reset_password_action_officer';
 
+//Action Required Routes
+$myroutes['admin/reference/action_required'] = 'Administrator\ActionRequired::index';
+$myroutes['admin/reference/action_required/table'] = 'Administrator\ActionRequired::view_action_required_table';
+
+$myroutes['admin/reference/action_required/get'] = 'Administrator\ActionRequired::get_action_required';
+$myroutes['admin/reference/action_required/add'] = 'Administrator\ActionRequired::add_action_required';
+$myroutes['admin/reference/action_required/delete'] = 'Administrator\ActionRequired::delete_action_required';
+$myroutes['admin/reference/action_required/update'] = 'Administrator\ActionRequired::update_action_required';
+$myroutes['admin/reference/action_required/inactive'] = 'Administrator\ActionRequired::inactive_action_required';
+$myroutes['admin/reference/action_required/reactivate'] = 'Administrator\ActionRequired::reactivate_document_type';
+
 //Document Type Routes
 $myroutes['admin/reference/document_type'] = 'Administrator\DocumentType::index';
 $myroutes['admin/reference/document_type/table'] = 'Administrator\DocumentType::view_document_type_table';

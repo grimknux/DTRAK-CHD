@@ -8,17 +8,17 @@
     }, 3000);
 </script>
 
-<img src="<?php echo base_url() ?>public/img/placeholders/layout/login2_full_bg.jpg" alt="Full Background" class="full-bg animation-pulseSlow">
+<img src="<?php echo base_url() ?>img/placeholders/layout/login2_full_bg.jpg" alt="Full Background" class="full-bg animation-pulseSlow">
 
 <div id="login-container">
     <!-- Login Header -->
     <h1 class="h2 text-light text-center push-top-bottom animation-slideDown">
-        <img src="<?= base_url();?>public/img/dohlogo.png" style="width: 30px; height: 30px;"> <strong><?= $page_heading; ?></strong>
+        <img src="<?= base_url();?>img/dohlogo.png" style="width: 30px; height: 30px;"> <strong><?= $page_heading; ?></strong>
     </h1>
     <!-- END Login Header -->
 
     <!-- Login Block -->
-    <div class="block animation-fadeInQuickInv" style="background-color:#eaf2eb; background-image: url('<?= base_url();?>public/img/dohlogo_opac_5.png');background-size: 378px 378px;">
+    <div class="block animation-fadeInQuickInv" style="background-color:#eaf2eb; background-image: url('<?= base_url();?>img/dohlogo_opac_5.png');background-size: 378px 378px;">
 
         <!-- Login Title  style="background-color:#a7d9a7"  f9fafc-->
         <div class="block-title" style="background-color:#f9fafc">

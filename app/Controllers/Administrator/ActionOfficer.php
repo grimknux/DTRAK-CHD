@@ -68,7 +68,7 @@ class ActionOfficer extends BaseController
         
         
         $navi_bread = "<li>Reference Table</li>
-        <li>Document Type</li>";
+        <li>Action Officer</li>";
         $data = [
             //'header' => 'Released and Processed (Tagged as "Done") Documents',
             'header' => '<i class="fa fa-gears"></i> Reference Table',

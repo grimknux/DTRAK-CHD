@@ -266,7 +266,7 @@
 
 <?= $this->section("script"); ?>
 
-<script src="<?= base_url(); ?>public/js/pages/admin.Destination.Function.js"></script>
+<script src="<?= base_url(); ?>js/pages/admin.Destination.Function.js"></script>
 
 <script>
 var officeDestinations = <?= json_encode($officeDestinations, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP) ?>;

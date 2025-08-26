@@ -66,7 +66,7 @@ class DocumentType extends BaseController
         
         
         $navi_bread = "<li>Reference Table</li>
-        <li>Action Officer</li>";
+        <li>Document Type</li>";
         $data = [
             //'header' => 'Released and Processed (Tagged as "Done") Documents',
             'header' => '<i class="fa fa-gears"></i> Reference Table',

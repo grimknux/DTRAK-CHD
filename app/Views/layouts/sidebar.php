@@ -1,7 +1,7 @@
 <div id="sidebar">
     <div id="sidebar-brand" class="themed-background">
         <a class="sidebar-title">
-            <img src="<?= base_url(); ?>public/img/dohlogo.png" style="width: 30px; height: 30px;"> <span class="sidebar-nav-mini-hide">CHD-I<strong>DTRAK</strong></span>
+            <img src="<?= base_url(); ?>img/dohlogo.png" style="width: 30px; height: 30px;"> <span class="sidebar-nav-mini-hide">CHD-I<strong>DTRAK</strong></span>
         </a>
     </div>
 
@@ -58,7 +58,12 @@
                             <?php endif; ?>
                             <?php if (in_array('2', $admin_menu)): ?>
                                 <li id="action-required">
-                                    <a href="action_required.php">Action Required</a>
+                                    <a href="<?= base_url('admin/reference/action_required') ?>" class="<?= ($navsubactive === 'ref_action_require') ? 'active' : '' ?>">Action Required</a>
+                                </li>
+                            <?php endif; ?>
+                            <?php if (in_array('7', $admin_menu)): ?>
+                                <li id="action-taken">
+                                    <a href="action_required.php">Action Taken</a>
                                 </li>
                             <?php endif; ?>
                             <?php if (in_array('3', $admin_menu)): ?>
