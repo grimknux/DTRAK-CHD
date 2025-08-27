@@ -83,8 +83,7 @@ class OutgoingDestination extends BaseController
 
         $getDocumentData = $this->documentregistrymodel->getDocumentData($routeno);
         $offices = $this->OfficeModel->getOfficeExceptCurrent($getDocumentData['officecode']);
-        $getActionRequired = $this->actionmodel->getActionRequired();
-        $getActReq = $getActionRequired['data'];
+        $getActionRequired = $this->actionmodel->get_action_required_active();
         $getOfficeDest = $this->documentdetailmodel->getOfficeDest($routeno);
         $destinationCodes = array_column($getOfficeDest, 'office_destination');
 
@@ -98,7 +97,7 @@ class OutgoingDestination extends BaseController
             'bread' => $navi_bread,
             'officeDestinations' => $offices,
             'officedest' => $destinationCodes,
-            'actionReq' => $getActReq,
+            'actionReq' => $getActionRequired,
             'checkdest' => $checkIfDestinationExists,
             'routeno' => $routeno,
             'entryby' => $this->customobj->convertEMP($getDocumentData['lastname'], $getDocumentData['firstname'], $getDocumentData['middlename'], $getDocumentData['orep']),

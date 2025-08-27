@@ -67,7 +67,7 @@ class IncomingFwdRet extends BaseController
                                 $receiveData = $this->IncomingModel->receiveData($docdetail,$status);
                                 $actiontaken = $this->actionmodel->getActionDone();
                                 $getOffice = $this->OfficeModel->getOfficeExceptCurrent($getOfficeCode);
-                                $getActionRequired = $this->actionmodel->getActionRequired()['data'];
+                                $getActionRequired = $this->actionmodel->get_action_required_active();
 
 
                                 if($receiveData){

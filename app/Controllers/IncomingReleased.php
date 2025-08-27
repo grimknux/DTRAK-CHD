@@ -249,14 +249,14 @@ class IncomingReleased extends BaseController
 
                                     $offices = $this->OfficeModel->getOfficeExceptCurrent($officecode);
                                     $userByOffice = $this->UserModel->getUsersByOffice($getDetailData['office_destination']);
-                                    $actionrequired = $this->actionmodel->getActionRequired();
+                                    $actionrequired = $this->actionmodel->get_action_required_active();
 
                                     $data = [
                                         'success' => true,
                                         'office' => $offices,
                                         'detaildata' => $getDetailData,
                                         'officeuser' => $userByOffice['data'],
-                                        'action_required' => $actionrequired['data'],
+                                        'action_required' => $actionrequired,
                                     ];
 
                                 }else{
@@ -491,14 +491,14 @@ class IncomingReleased extends BaseController
 
                                 $offices = $this->OfficeModel->getOfficeExceptCurrent($officecode);
                                 $userByOffice = $this->UserModel->getUsersByOffice($getDetailData['office_destination']);
-                                $actionrequired = $this->actionmodel->getActionRequired();
+                                $actionrequired = $this->actionmodel->get_action_required_active();
 
                                 $data = [
                                     'success' => true,
                                     'office' => $offices,
                                     'detaildata' => $getDetailData,
                                     'officeuser' => $userByOffice['data'],
-                                    'action_required' => $actionrequired['data'],
+                                    'action_required' => $actionrequired,
                                 ];
 
                             }else{

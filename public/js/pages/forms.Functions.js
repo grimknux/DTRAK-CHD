@@ -105,7 +105,7 @@ const receiveApp = {
             data: { id: docdetail },
             dataType: 'json',
             beforeSend: function(xhr) {
-
+                
                 xhr.setRequestHeader('X-CSRF-Token', csrfToken);
                 $("#overlay").show();
 

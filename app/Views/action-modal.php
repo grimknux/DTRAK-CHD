@@ -1,6 +1,6 @@
 <!-- MODALS -->
 <!-- ACTION BUTTON -->
-<div id="action-modal" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div id="action-modal" class="modal" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

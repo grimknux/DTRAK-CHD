@@ -39,7 +39,6 @@ class ActionModel extends Model
         
         try {
 
-
         $result = $this->orderBy('reqaction_desc ASC')->findAll();
 
         return [
@@ -155,12 +154,32 @@ class ActionModel extends Model
         }
     }
 
+    public function get_action_required_active(){
+
+       try {
+
+            $result = $this->where('act_rstatus', 'Active')->where('deleted_at IS NULL', null, false)->orderBy('reqaction_desc', 'ASC')->findAll();
+
+            if (!empty($result)) {
+                return $result;
+            } else {
+                log_message('error', 'Result Query Returned 0 Rows');
+                return false;
+            }
+
+        } catch (\Exception $e) {
+            log_message('error', 'Error in get_action_required(): ' . $e->getMessage());
+            return false;
+        }
+
+    }
+
 
     public function get_action_required(){
 
        try {
 
-            $result = $this->where('deleted_at IS NULL', null, false)->orderBy('reqaction_desc', 'ASC')->findAll();
+            $result = $this->where('deleted_at IS NULL', null, false)->where('deleted_at IS NULL', null, false)->orderBy('reqaction_desc', 'ASC')->findAll();
 
             if (!empty($result)) {
                 return $result;

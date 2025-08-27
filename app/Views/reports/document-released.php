@@ -104,7 +104,7 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/report.Released.Table.js"></script>
+<script src="<?= base_url(); ?>js/pages/report.Released.Table.js"></script>
 
 <script>
 

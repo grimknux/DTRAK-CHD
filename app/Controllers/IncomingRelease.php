@@ -222,7 +222,7 @@ class IncomingRelease extends BaseController
                                 $receiveData = $this->IncomingModel->receiveData($docdetail,$status);
                                 $actiontaken = $this->actionmodel->getActionDone();
                                 $getOffice = $this->OfficeModel->getOfficeExceptCurrent($getOfficeCode);
-                                $getActionRequired = $this->actionmodel->getActionRequired()['data'];
+                                $getActionRequired = $this->actionmodel->get_action_required_active();
 
 
                                 if($receiveData){
@@ -651,7 +651,7 @@ class IncomingRelease extends BaseController
                         $getOfficeCode = $this->IncomingModel->getOfficeCode(session()->get('logged_user'));
 
                         $getOffice = $this->OfficeModel->getOfficeExceptCurrent($getOfficeCode);
-                        $getActionRequired = $this->actionmodel->getActionRequired()['data'];
+                        $getActionRequired = $this->actionmodel->get_action_required_active();
                    
                         if($getOffice && $getActionRequired){
                             $data = [

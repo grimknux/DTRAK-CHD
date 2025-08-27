@@ -103,7 +103,7 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>public/js/pages/report.Action.Table.js"></script>
+<script src="<?= base_url(); ?>js/pages/report.Action.Table.js"></script>
 
 <script>
 
