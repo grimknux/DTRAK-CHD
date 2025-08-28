@@ -140,13 +140,22 @@ $myroutes['admin/reference/action_officer/reset_password'] = 'Administrator\Acti
 //Action Required Routes
 $myroutes['admin/reference/action_required'] = 'Administrator\ActionRequired::index';
 $myroutes['admin/reference/action_required/table'] = 'Administrator\ActionRequired::view_action_required_table';
-
 $myroutes['admin/reference/action_required/get'] = 'Administrator\ActionRequired::get_action_required';
 $myroutes['admin/reference/action_required/add'] = 'Administrator\ActionRequired::add_action_required';
 $myroutes['admin/reference/action_required/delete'] = 'Administrator\ActionRequired::delete_action_required';
 $myroutes['admin/reference/action_required/update'] = 'Administrator\ActionRequired::update_action_required';
 $myroutes['admin/reference/action_required/inactive'] = 'Administrator\ActionRequired::inactive_action_required';
 $myroutes['admin/reference/action_required/reactivate'] = 'Administrator\ActionRequired::reactivate_document_type';
+
+//Action Taken Routes
+$myroutes['admin/reference/action_taken'] = 'Administrator\ActionTaken::index';
+$myroutes['admin/reference/action_taken/table'] = 'Administrator\ActionTaken::view_action_taken_table';
+$myroutes['admin/reference/action_taken/get'] = 'Administrator\ActionTaken::get_action_taken';
+$myroutes['admin/reference/action_taken/add'] = 'Administrator\ActionTaken::add_action_taken';
+$myroutes['admin/reference/action_taken/delete'] = 'Administrator\ActionTaken::delete_action_taken';
+$myroutes['admin/reference/action_taken/update'] = 'Administrator\ActionTaken::update_action_taken';
+$myroutes['admin/reference/action_taken/inactive'] = 'Administrator\ActionTaken::inactive_action_taken';
+$myroutes['admin/reference/action_taken/reactivate'] = 'Administrator\ActionTaken::reactivate_document_type';
 
 //Document Type Routes
 $myroutes['admin/reference/document_type'] = 'Administrator\DocumentType::index';

@@ -3,6 +3,7 @@
 namespace App\Validations;
 use App\Models\DocumentDetailModel;
 use App\Models\ActionModel;
+use App\Models\ActionTakenModel;
 use App\Models\UserModel;
 use App\Models\DocumentTypeModel;
 
@@ -10,6 +11,7 @@ class CustomRules
 {
     public $documentdetailmodel;
     public $actionmodel;
+    public $actiontakenmodel;
     public $usermodel;
     public $documenttypemodel;
 
@@ -19,6 +21,7 @@ class CustomRules
 
         $this->documentdetailmodel = new DocumentDetailModel();
         $this->actionmodel = new ActionModel();
+        $this->actiontakenmodel = new ActionTakenModel();
         $this->usermodel = new UserModel();
         $this->documenttypemodel = new DocumentTypeModel();
     }
@@ -87,6 +90,13 @@ class CustomRules
         $idToIgnore = $fields;
         // Return false if it exists (not unique)
         return !$this->actionmodel->action_required_exists($str, $idToIgnore);
+    }
+
+    public function actiontakenUnique(string $str, ?string $fields = null, array $data = []): bool
+    {
+        $idToIgnore = $fields;
+        // Return false if it exists (not unique)
+        return !$this->actiontakenmodel->action_taken_exists($str, $idToIgnore);
     }
 
 

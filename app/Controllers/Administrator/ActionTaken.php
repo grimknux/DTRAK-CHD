@@ -13,7 +13,7 @@ use App\Models\AdminMenuModel;
 use App\Models\AuditTrailModel;
 
 
-class ActionRequired extends BaseController
+class ActionTaken extends BaseController
 {
 
     public $validation;
@@ -63,11 +63,10 @@ class ActionRequired extends BaseController
             return redirect()->to(base_url('/'));
         }
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
         
-        $get_action_taken_active = $this->actiontakenmodel->get_action_taken_active();
 
         $navi_bread = "<li>Reference Table</li>
         <li>Action Required</li>";
@@ -75,18 +74,17 @@ class ActionRequired extends BaseController
             //'header' => 'Released and Processed (Tagged as "Done") Documents',
             'header' => '<i class="fa fa-gears"></i> Reference Table',
             'navactive' => 'reference',
-            'navsubactive' => 'ref_action_require',
+            'navsubactive' => 'ref_action_taken',
             'bread' => $navi_bread,
-            'action_taken' => $get_action_taken_active,
 
             'admin' => $admin,
             'admin_menu' => $admin_menu,
         ];
 
-        return view('administrator/reference-action-required', $data);
+        return view('administrator/reference-action-taken', $data);
     }
 
-    public function view_action_required_table(){
+    public function view_action_taken_table(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url());
@@ -101,7 +99,7 @@ class ActionRequired extends BaseController
             return redirect()->to(base_url('/'));
         }
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -113,15 +111,15 @@ class ActionRequired extends BaseController
 
                 try {
                     $data = [];
-                    $get_action_required = $this->actionmodel->getActionRequire();
+                    $get_action_taken = $this->actiontakenmodel->get_action_taken_all();
                     $cnt = "";
 
-                    if($get_action_required){
+                    if($get_action_taken){
                         
-                        foreach ($get_action_required as $actioreq) {
+                        foreach ($get_action_taken as $actiontaken) {
                             $cnt ++;
 
-                            if($actioreq['act_rstatus'] == 'Active'){
+                            if($actiontaken['act_tstatus'] == 'Active'){
                                 $btn = '<div class="btn-group">
                                         <a href="javascript:void(0)" data-toggle="dropdown" class="btn btn-success dropdown-toggle btn-xs">Action <span class="caret"></span></a>
                                         <ul class="dropdown-menu dropdown-menu-right text-left">
@@ -129,19 +127,19 @@ class ActionRequired extends BaseController
                                                 <i class="fa fa-user pull-right"></i> <strong>Action</strong>
                                             </li>
                                             <li>
-                                                <a href="javascript:void(0)" class="edit_action_required list-group-item-action list-group-item-info" title="Edit!">
+                                                <a href="javascript:void(0)" class="edit_action_taken list-group-item-action list-group-item-info" title="Edit!">
                                                     <i class="fa fa-pencil-square-o pull-right"></i>
                                                     Edit
                                                 </a>
                                             </li>
                                             <li>
-                                                 <a href="javascript:void(0)" class="inactive_action_required list-group-item-action list-group-item-warning" title="Tag as Inactive!">
+                                                 <a href="javascript:void(0)" class="inactive_action_taken list-group-item-action list-group-item-warning" title="Tag as Inactive!">
                                                     <i class="fa fa-minus-circle pull-right"></i>
                                                     Deactivate
                                                 </a>
                                             </li>
                                             <li>
-                                                 <a href="javascript:void(0)" class="delete_action_required list-group-item-action list-group-item-danger" title="Delete!">
+                                                 <a href="javascript:void(0)" class="delete_action_taken list-group-item-action list-group-item-danger" title="Delete!">
                                                     <i class="fa fa-trash pull-right"></i>
                                                     Delete
                                                  </a>
@@ -151,19 +149,18 @@ class ActionRequired extends BaseController
                                     
                                     ';
                             }else{
-                                if (!empty($actioreq['deleted_at'])) {
+                                if (!empty($actiontaken['deleted_at'])) {
                                     $btn = 'Deleted!';
                                 }else{
-                                    $btn = 'Inactive <br> <a href="javascript:void(0)" class="reactivate_action_required" title="Reactivate Document Type!">Reactivate?</a>';
+                                    $btn = 'Inactive <br> <a href="javascript:void(0)" class="reactivate_action_taken" title="Reactivate Document Type!">Reactivate?</a>';
                                 }
                                 
                             }
                             
                             $data[] = [
                                 'cnt' => $cnt,
-                                'reqaction_code' => $actioreq['reqaction_code'],
-                                'reqaction_desc' => $actioreq['reqaction_desc'],
-                                'action_desc' => $actioreq['action_desc'],
+                                'action_code' => $actiontaken['action_code'],
+                                'action_desc' => $actiontaken['action_desc'],
                                 'btn' => $btn,
                             ];
 
@@ -199,7 +196,7 @@ class ActionRequired extends BaseController
 
     }
 
-    public function add_action_required(){
+    public function add_action_taken(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));
@@ -211,7 +208,7 @@ class ActionRequired extends BaseController
 
         $admin_menu = explode(',', session()->get('admin_menu'));
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -223,7 +220,7 @@ class ActionRequired extends BaseController
 
                 if (!empty($csrfToken) && $this->customobj->validateCSRFToken($csrfToken)) {
 
-                    if(session()->get('user_level') == "-1" && in_array('3', $admin_menu)){
+                    if(session()->get('user_level') == "-1" && in_array('7', $admin_menu)){
 
                         try {
 
@@ -231,17 +228,11 @@ class ActionRequired extends BaseController
                             $getuser = $this->usermodel->getUser($logged_user);
                             
                             $rules = [
-                                'action_required' => [
-                                    'rules' => 'required|actionrequireUnique',
-                                    'errors' => [
-                                        'required' => 'Please enter Action Required.',
-                                        'actionrequireUnique' => 'Action Required already exists!',
-                                    ],
-                                ],
                                 'action_taken' => [
-                                    'rules' => 'required',
+                                    'rules' => 'required|actiontakenUnique',
                                     'errors' => [
                                         'required' => 'Please select Action to be Taken.',
+                                        'actiontakenUnique' => 'Action Taken already exists!',
                                     ],
                                 ],
 
@@ -249,20 +240,19 @@ class ActionRequired extends BaseController
                             
                             if($this->validate($rules))
                             {
-                                $reqaction_code = $this->actionmodel->generate_action_required_code();
+                                $action_code = $this->actiontakenmodel->generate_action_taken_code();
 
                                 $data = [
-                                    'reqaction_code' => $reqaction_code,
-                                    'reqaction_desc' => $this->request->getPost('action_required'),
-                                    'reqaction_done' => $this->request->getPost('action_taken'),
+                                    'action_code' => $action_code,
+                                    'action_desc' => $this->request->getPost('action_taken'),
                                 ];
 
-                                $insert = $this->actionmodel->insert_action_required($data);
+                                $insert = $this->actiontakenmodel->insert_action_taken($data);
 
                                 if($insert['success']){
                                     $data = [
                                         'success' => true,
-                                        'message' => 'Successfully added Action Required'
+                                        'message' => 'Successfully added Action Taken'
                                     ];
                                 }else{
                                      $data = [
@@ -277,7 +267,6 @@ class ActionRequired extends BaseController
                                     'success' => false,
                                     'formnotvalid' => true,
                                     'data' => [
-                                        'action_required' => $this->validation->getError('action_required'),
                                         'action_taken' => $this->validation->getError('action_taken'),
                                     ],
                                 ];
@@ -332,7 +321,7 @@ class ActionRequired extends BaseController
 
         $admin_menu = explode(',', session()->get('admin_menu'));
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -454,7 +443,7 @@ class ActionRequired extends BaseController
 
         $admin_menu = explode(',', session()->get('admin_menu'));
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -466,7 +455,7 @@ class ActionRequired extends BaseController
 
                 if (!empty($csrfToken) && $this->customobj->validateCSRFToken($csrfToken)) {
 
-                    if(session()->get('user_level') == "-1" && in_array('3', $admin_menu)){
+                    if(session()->get('user_level') == "-1" && in_array('7', $admin_menu)){
 
                         try {
 
@@ -550,7 +539,7 @@ class ActionRequired extends BaseController
 
         $admin_menu = explode(',', session()->get('admin_menu'));
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -562,7 +551,7 @@ class ActionRequired extends BaseController
 
                 if (!empty($csrfToken) && $this->customobj->validateCSRFToken($csrfToken)) {
 
-                    if(session()->get('user_level') == "-1" && in_array('3', $admin_menu)){
+                    if(session()->get('user_level') == "-1" && in_array('7', $admin_menu)){
 
                         try {
 
@@ -646,7 +635,7 @@ class ActionRequired extends BaseController
 
         $admin_menu = explode(',', session()->get('admin_menu'));
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -658,7 +647,7 @@ class ActionRequired extends BaseController
 
                 if (!empty($csrfToken) && $this->customobj->validateCSRFToken($csrfToken)) {
 
-                    if(session()->get('user_level') == "-1" && in_array('3', $admin_menu)){
+                    if(session()->get('user_level') == "-1" && in_array('7', $admin_menu)){
 
                         try {
 
@@ -742,7 +731,7 @@ class ActionRequired extends BaseController
 
         $admin_menu = explode(',', session()->get('admin_menu'));
 
-        if(!in_array('2', $admin_menu)){
+        if(!in_array('7', $admin_menu)){
             return redirect()->to(base_url('/'));
         }
 
@@ -754,7 +743,7 @@ class ActionRequired extends BaseController
 
                 if (!empty($csrfToken) && $this->customobj->validateCSRFToken($csrfToken)) {
 
-                    if(session()->get('user_level') == "-1" && in_array('3', $admin_menu)){
+                    if(session()->get('user_level') == "-1" && in_array('7', $admin_menu)){
 
                         try {
 

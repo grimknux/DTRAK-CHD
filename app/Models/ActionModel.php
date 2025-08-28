@@ -57,9 +57,10 @@ class ActionModel extends Model
     public function getActionRequire()
     {
         try {
-            $builder = $this->db->table('action_required ar'); // 👈 replace with your actual table name
-            $builder->select('ar.*, at.action_desc');       // 👈 select fields (example)
-            $builder->join('action_taken at', 'at.action_code = ar.reqaction_done', 'left'); // LEFT JOIN
+            $builder = $this->db->table('action_required ar');
+            $builder->select('ar.*, at.action_desc');
+            $builder->where('ar.deleted_at IS NULL', null, false);
+            $builder->join('action_taken at', 'at.action_code = ar.reqaction_done', 'left');
             $builder->orderBy('ar.reqaction_desc', 'ASC');
 
             $result = $builder->get()->getResultArray();

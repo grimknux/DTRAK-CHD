@@ -63,7 +63,7 @@
                             <?php endif; ?>
                             <?php if (in_array('7', $admin_menu)): ?>
                                 <li id="action-taken">
-                                    <a href="action_required.php">Action Taken</a>
+                                    <a href="<?= base_url('admin/reference/action_taken') ?>" class="<?= ($navsubactive === 'ref_action_taken') ? 'active' : '' ?>">Action Taken</a>
                                 </li>
                             <?php endif; ?>
                             <?php if (in_array('3', $admin_menu)): ?>
