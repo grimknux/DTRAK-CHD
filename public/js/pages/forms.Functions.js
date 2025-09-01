@@ -62,6 +62,8 @@ const receiveApp = {
 
         $('#release-table tbody').on('click', '.done-rel', this.handleModalClickTag);
 
+        $('#tagdoneForm').on('submit', this.submitTagDoneForm.bind(this));
+
         //FORWARD EVENTS
         $('#action-table tbody').on('click', '.fwd-modal', this.handleModalClickFwd);
 
@@ -989,6 +991,160 @@ const receiveApp = {
 
     },
 
+    
+    handleModalClickTag: function() {
+
+        var docdetail = $(this).data('docdetail');
+        var modal = $('#tagdone-modal');
+    
+        $.ajax({
+            url: base_url + '/tagData',
+            type: 'POST',
+            data: { id: docdetail },
+            dataType: 'json',
+            beforeSend: function(xhr) {
+
+                xhr.setRequestHeader('X-CSRF-Token', csrfToken);
+                $("#overlay").show();
+
+            },
+            success: function(data) {
+
+                if (data.success) {
+
+                    $('#tagdoneForm')[0].reset();
+                    modal.find('#tag_routeno').html(data.routeno);
+                    modal.find('#tag_controlno').html(data.controlno);
+                    modal.find('#tag_subject').html(data.subject);
+                    modal.find('#tag_doctype').html(data.doctype);
+                    modal.find('#tag_detailno').val(data.detailno);
+                    modal.modal('show');
+
+                } else {
+                    //alert(data.message);
+                    Swal.fire({
+                        icon: "error",
+                        title: "Error!",
+                        text: data.message,
+                    });
+                    if(data.reload){
+                        $('#release-table').DataTable().ajax.reload(null, false);
+                       
+                    }
+                }
+
+            },
+            error: function(xhr, status, error) {
+                if (xhr.responseJSON && xhr.responseJSON.error) {
+                    alert("Error Code " + xhr.status + ": " + error + "\n" +
+                        "Message: " + xhr.responseJSON.error);
+                } else {
+                    alert('An unknown error occurred.');
+                }
+            },
+            complete: function() {
+            
+                $("#overlay").hide();
+            }
+        });
+    },
+
+
+    submitTagDoneForm: function(event) {
+    
+        event.preventDefault();
+
+        var form = $('#tagdoneForm')[0];
+        var formData = new FormData(form);
+
+        receiveApp.clearFormValidation();
+
+        Swal.fire({
+            title: "Are you sure you want to tag this Document as done?",
+            icon: "info",
+            showDenyButton: true,
+            confirmButtonText: "Confirm",
+            denyButtonText: "Cancel"
+
+        }).then((result) => {
+
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: base_url + '/tagDocumentDone',
+                    type: 'POST',
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    dataType: 'json',
+                    beforeSend: function(xhr) {
+                        $("#overlay").show();
+                    },
+                    success: function(response) {
+
+                        try {
+                            if (response.success) {
+                                
+                                Swal.fire({
+                                    position: "top-end",
+                                    icon: "success",
+                                    title: response.message,
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                });
+
+                                $('#tagdone-modal').modal('hide');
+                                $('#tagdoneForm')[0].reset();
+                                $('#release-table').DataTable().ajax.reload(null, false); 
+                                
+                                receiveApp.clearFormValidation();
+
+                            } else {
+                                if(response.formnotvalid){
+                                    handleValidationErrors(response.data);
+                                    
+                                }else{
+                                    //alert(response.message);
+                                    Swal.fire({
+                                        icon: "error",
+                                        title: "Error!",
+                                        text: response.message,
+                                    });
+                                    if(response.reload){
+                                        $('#release-table').DataTable().ajax.reload(null, false);
+                                        $('#tagdoneForm')[0].reset();
+                                        $('#tagdone-modal').modal('hide');
+                                    }
+                                }
+
+                            }
+                        } catch (error) {
+                            console.error("Error processing response:", error);
+                        }
+                    },
+                    error: function(xhr, errorType, thrownError) {
+                        if (xhr.status === 403 || xhr.status === 405) {
+                            alert(xhr.responseText);
+                            console.log("Server error: " + xhr.responseText);
+                        } else {
+                            var errorMessage = xhr.responseJSON && xhr.responseJSON.error ? xhr.responseJSON.error : xhr.statusText;
+                            //alert("Server error: " + errorMessage);
+                            console.log("Server error: " + xhr.responseText);
+                        }
+                
+                    },
+                    complete: function() {
+                    
+                        $("#overlay").hide();
+                    }
+                });
+
+            } else if (result.isDenied) {
+                console.log("User cancelled deletion.");
+            }
+        });
+
+    },
+
 
     handleBulkRelClick: function() {
 
@@ -1593,62 +1749,6 @@ const receiveApp = {
     },
 
 
-    handleModalClickTag: function() {
-
-        var docdetail = $(this).data('docdetail');
-        var modal = $('#tagdone-modal');
-    
-        $.ajax({
-            url: base_url + '/tagData',
-            type: 'POST',
-            data: { id: docdetail },
-            dataType: 'json',
-            beforeSend: function(xhr) {
-
-                xhr.setRequestHeader('X-CSRF-Token', csrfToken);
-                $("#overlay").show();
-
-            },
-            success: function(data) {
-
-                if (data.success) {
-
-                    $('#tagdoneForm')[0].reset();
-                    modal.find('#tag_routeno').html(data.routeno);
-                    modal.find('#tag_controlno').html(data.controlno);
-                    modal.find('#tag_subject').html(data.subject);
-                    modal.find('#tag_doctype').html(data.doctype);
-                    modal.find('#tag_detailno').val(data.detailno);
-                    modal.modal('show');
-
-                } else {
-                    //alert(data.message);
-                    Swal.fire({
-                        icon: "error",
-                        title: "Error!",
-                        text: data.message,
-                    });
-                    if(data.reload){
-                        $('#release-table').DataTable().ajax.reload(null, false);
-                       
-                    }
-                }
-
-            },
-            error: function(xhr, status, error) {
-                if (xhr.responseJSON && xhr.responseJSON.error) {
-                    alert("Error Code " + xhr.status + ": " + error + "\n" +
-                        "Message: " + xhr.responseJSON.error);
-                } else {
-                    alert('An unknown error occurred.');
-                }
-            },
-            complete: function() {
-            
-                $("#overlay").hide();
-            }
-        });
-    },
 
 
     /*selectActionOfficerRel: function(event) {

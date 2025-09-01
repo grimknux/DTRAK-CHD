@@ -1138,7 +1138,7 @@ class IncomingRelease extends BaseController
                     try {
 
                         $logged_user = $this->session->get('logged_user');
-                        $doc_detailno = $this->request->getPost('detailno');
+                        $doc_detailno = $this->request->getPost('tag_detailno');
                         $remarksdone = $this->request->getPost('tag_remarks');
                         $getuser = $this->UserModel->getUser($logged_user,$doc_detailno,"incoming");
 
@@ -1146,7 +1146,7 @@ class IncomingRelease extends BaseController
                             
                             $office = $this->UserModel->getUserOffice($logged_user);
                             $officecode = array_column($office, 'officecode');
-                            $status = "R";
+                            $status = "T";
 
                             if($this->documentdetailmodel->checkDocIfValid($officecode,$doc_detailno)){
 
@@ -1160,15 +1160,10 @@ class IncomingRelease extends BaseController
                                         
                                     ];
 
-                                    if($filedes){
-                                        $data['remarks2'] = $this->request->getPost('relremarks');
-                                        $data['status'] = 'I';
-                                    }
-
                                     $updateStatus = $this->documentdetailmodel->updateStatus($doc_detailno, $data);
 
                                     if($updateStatus['success']){
-                                        $data = ['success' => true, 'message' => 'Action Done!'];
+                                        $data = ['success' => true, 'message' => 'Document Tag as Done!'];
                                     }else{
                                         $data = ['success' => false, 'message' => $updateStatus['message']];
                                     }

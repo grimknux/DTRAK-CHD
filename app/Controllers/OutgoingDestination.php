@@ -463,7 +463,7 @@ class OutgoingDestination extends BaseController
                                         'entry_by' => $this->customobj->convertEMP($getuser['lastname'], $getuser['firstname'], $getuser['middlename'], $getuser['office_rep']),
                                         'emp_entry' => $logged_user,
                                         'no_page' => $getDocumentData['no_page'],
-                                        'remarks' => 'remarks',
+                                        'remarks' => null,
                                         'date_log' => date('Y-m-d'),
                                         'time_log' => date('H:i:s'),
                                         'modified_by' => $logged_user,

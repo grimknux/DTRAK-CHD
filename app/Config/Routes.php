@@ -89,6 +89,7 @@ $myroutes['getBulkReleaseData'] = 'IncomingRelease::releaseBulkData';
 $myroutes['disseminateData'] = 'IncomingRelease::getDisseminateData';
 $myroutes['addDissemination'] = 'IncomingRelease::addDocumentDissemination';
 $myroutes['tagData'] = 'IncomingRelease::getTagData';
+$myroutes['tagDocumentDone'] = 'IncomingRelease::tagdoneDocument';
 
     //Released Routes
     $myroutes['miscellaneous/released'] = 'IncomingReleased::index';
