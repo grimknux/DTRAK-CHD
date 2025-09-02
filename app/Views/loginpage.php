@@ -6,13 +6,6 @@
 <div id="overlay">
     <div class="loader"></div>
 </div>
-<script>
-    setTimeout(function() {
-        $('.error-message').html("");
-        $('.form-error').html("");
-        $('.error-box').hide();
-    }, 3000);
-</script>
 
 <div id="login-container">
     <h1 class="h2 text-light text-center push-top-bottom animation-slideDown">
@@ -64,6 +57,12 @@
 
 <?= $this->section("script"); ?>
 <script>
+
+    setTimeout(function() {
+        $('.error-message').html("");
+        $('.form-error').html("");
+        $('.error-box').hide();
+    }, 3000);
 
     $(document).ready(function() {
         $('#form_data').on('submit', function() {

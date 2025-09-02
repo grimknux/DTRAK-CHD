@@ -76,14 +76,12 @@
 
         
 
-        <script src="<?= base_url(); ?>js/appui/jquery3.1.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/jquery-3.7.1.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/vendor/bootstrap.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/plugins.js"></script>
         <script src="<?= base_url(); ?>js/appui/app.js"></script>
         <script src="<?= base_url(); ?>js/appui/pages/uiTables.js"></script>
-        <!--<script src="<.?= base_url(); ?>js/appui/pages/formsValidation.js"></script>-->
         <script src="<?= base_url(); ?>js/appui/pages/formsComponents.js"></script>
-        <script src="<?= base_url(); ?>js/appui/pages/uiUsers.js"></script>
         <script src="<?= base_url(); ?>js/appui/pages/appSocial.js"></script>
         <script src="<?= base_url(); ?>js/appui/pages/compGallery.js"></script>
         <script src="<?= base_url(); ?>js/appui/dataTables.buttons.min.js"></script>

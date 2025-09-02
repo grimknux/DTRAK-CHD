@@ -36,7 +36,6 @@
     <link rel="stylesheet" href="<?= base_url(); ?>css/appui/themes.css">
 </head>
 <body>
-    <!--<img src="</?= base_url(); ?>images/layout/mg.jpg" alt="Full Background" class="full-bg full-bg-bottom animation-pulseSlow">-->
         <!-- END Full Background -->
 
         <!-- Error Container -->

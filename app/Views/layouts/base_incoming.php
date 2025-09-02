@@ -41,7 +41,7 @@
         <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
         <link rel="stylesheet" href="<?= base_url(); ?>css/appui/themes.css">
 
-        <style>
+        <style <?= csp_style_nonce() ?>>
             .modal-dialog{
                 overflow-y: initial !important
             }
@@ -319,12 +319,11 @@
 
         
 
-        <script src="<?= base_url(); ?>js/appui/jquery3.1.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/jquery-3.7.1.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/app.js"></script>
         <script src="<?= base_url(); ?>js/appui/vendor/bootstrap.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/plugins.js"></script>
         <script src="<?= base_url(); ?>js/appui/pages/uiTables.js"></script>
-        <!--<script src="<.?= base_url(); ?>js/appui/pages/formsValidation.js"></script>-->
         <script src="<?= base_url(); ?>js/appui/pages/formsComponents.js"></script>
         <script src="<?= base_url(); ?>js/appui/pages/appSocial.js"></script>
         <script src="<?= base_url(); ?>js/appui/pages/compGallery.js"></script>
@@ -332,7 +331,7 @@
         <script src="<?= base_url(); ?>js/appui/buttons.print.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/sweetalert2.all.min.js"></script>
         <script src="<?= base_url(); ?>js/pages/handleValidationErrors.js"></script>
-        <script>
+        <script <?= csp_script_nonce() ?>>
             var base_url = "<?php echo base_url(); ?>";
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
 

@@ -316,7 +316,7 @@
 
         
 
-        <script src="<?= base_url(); ?>js/appui/jquery3.1.min.js"></script>
+        <script src="<?= base_url(); ?>js/appui/jquery-3.7.1.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/app.js"></script>
         <script src="<?= base_url(); ?>js/appui/vendor/bootstrap.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/plugins.js"></script>

@@ -23,6 +23,7 @@ class Filters extends BaseConfig
         'secureheaders' => SecureHeaders::class,
         'xframe' => \App\Middleware\XFrameOptionsMiddleware::class,
         'cors' => \App\Filters\CORS::class,
+        'csp'      => \App\Filters\CSP::class,
     ];
 
     /**
@@ -37,10 +38,12 @@ class Filters extends BaseConfig
             //'cors',
         ],
         'after' => [
-            'toolbar',
+            //'toolbar',
             // 'honeypot',
             // 'secureheaders',
+            'csp',
         ],
+        
     ];
 
     /**

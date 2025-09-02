@@ -178,57 +178,13 @@ $myroutes['admin/document_management/(:any)/destination'] = 'Administrator\Docum
 $myroutes['admin/document_management/destination/table'] = 'Administrator\DocumentDestination::controlDestinationData';
 $myroutes['admin/document_management/destination/delete'] = 'Administrator\DocumentDestination::deleteDestination';
 $myroutes['admin/document_management/destination/undone'] = 'Administrator\DocumentDestination::undoneDocument';
-    //$myroutes['admin/document_management/destination/getdata'] = 'Administrator\DocumentDestination::getDestinationData';
-    //$myroutes['admin/document_management/destination/change'] = 'Administrator\DocumentDestination::changeDestination';
-//$myroutes['admin/document_management/delete'] = 'Administrator\DocumentManagement::delete_route_no';
-//$myroutes['admin/report/table/timeline'] = 'Administrator\DocumentTimeline::reportTimeline';
 
 //Administrative Report 
 $myroutes['admin/report/document_timeline'] = 'Administrator\Report\DocumentTimeline::index';
 $myroutes['admin/report/table/timeline'] = 'Administrator\Report\DocumentTimeline::reportTimeline';
 
 
-
-/*$myroutes['generate-PDF/(:alphanum)'] = 'PdfController::generate_pdf/$1';
-$myroutes['generate-bulk/(:segment)'] = 'PdfController::bulkprint_pdf/$1';
-$myroutes['generate-bulk-emp/(:segment)'] = 'PdfController::bulkprint_pdf_emp/$1';
-$myroutes['check-bulk'] = 'PdfController::checkbulk';
-$myroutes['check-bulk-emp'] = 'PdfController::checkbulkemp';
-$myroutes['bulk-print'] = 'BulkPrint::index';
-$myroutes['bulk-upload'] = 'BulkUpload::index';
-$myroutes['webex-meeting'] = 'Webex::index';
-$myroutes['add-webex-schedule'] = 'Webex::addwebex';
-$myroutes['createMeeting'] = 'Webex::createMeeting';
-$myroutes['call-back'] = 'Webex::callback';
-$myroutes['upload-csv'] = 'BulkUpload::uploadCSV';
-$myroutes['login-page'] = 'Login::index';
-$routes->post('get-employee', 'Home::getemployee');
-$routes->post('get-data', 'Home::getdata');
-$routes->post('get-section', 'Home::getsection');
-$routes->post('get-division', 'Home::getdivision');
-$routes->post('submit-data', 'Home::submitData');
-$myroutes['auth-image'] = 'Home::authenticate';
-$myroutes['process-image'] = 'Home::imageProcess';
-$myroutes['logoutnow'] = 'Login::logout';
-$myroutes['register-form'] = 'Register::index';
-$myroutes['activate-user/(:alphanum)'] = 'Register::activate/$1';*/
-
-//$routes->post('process-image', 'Home::imageProcess');
-//$routes->get('idprint/call-back', 'Webex::callback');
-//$myroutes['home-page'] = 'Home::index',;
-//$myroutes['office-page'] = 'Home::office';
-//$myroutes['library-page/(:alpha)/(:num)'] = 'Library::viewlibrary/$1/$2';
-//$myroutes['user-page'] = 'Users::displayuser';
-//$myroutes['email-send'] = 'TestMail::index';
-//$myroutes['helper-page'] = 'TestHelpers::index';
-//$myroutes['user-form'] = 'Users::userform';
-//$routes->get('user-form', 'Users::userform');
-//$routes->post('submit-form', 'Users::submitform');
-//$myroutes['submit-form'] = 'Users::submitform';
-//$myroutes['contact-form'] = 'Contacts::index';
-//$myroutes['login-info'] = 'Home::loginActivity';
-//$routes->get('home-page', 'Home::index', ['filter' => 'xframe']);
-
+$routes->get('sitemap.xml', 'SitemapController::index');
 
 $routes->map($myroutes);
 
