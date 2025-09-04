@@ -40,6 +40,7 @@ $myroutes = [];
 
 $myroutes['/'] = 'Login::index';
 $myroutes['logout'] = 'Login::logout';
+$myroutes['login/changepassword'] = 'Login::change_password';
 
 //Outgoing Routes
 $myroutes['docview/outgoing'] = 'OutgoingDocument::index';
@@ -146,7 +147,7 @@ $myroutes['admin/reference/action_required/add'] = 'Administrator\ActionRequired
 $myroutes['admin/reference/action_required/delete'] = 'Administrator\ActionRequired::delete_action_required';
 $myroutes['admin/reference/action_required/update'] = 'Administrator\ActionRequired::update_action_required';
 $myroutes['admin/reference/action_required/inactive'] = 'Administrator\ActionRequired::inactive_action_required';
-$myroutes['admin/reference/action_required/reactivate'] = 'Administrator\ActionRequired::reactivate_document_type';
+$myroutes['admin/reference/action_required/reactivate'] = 'Administrator\ActionRequired::reactivate_action_required';
 
 //Action Taken Routes
 $myroutes['admin/reference/action_taken'] = 'Administrator\ActionTaken::index';
@@ -156,7 +157,7 @@ $myroutes['admin/reference/action_taken/add'] = 'Administrator\ActionTaken::add_
 $myroutes['admin/reference/action_taken/delete'] = 'Administrator\ActionTaken::delete_action_taken';
 $myroutes['admin/reference/action_taken/update'] = 'Administrator\ActionTaken::update_action_taken';
 $myroutes['admin/reference/action_taken/inactive'] = 'Administrator\ActionTaken::inactive_action_taken';
-$myroutes['admin/reference/action_taken/reactivate'] = 'Administrator\ActionTaken::reactivate_document_type';
+$myroutes['admin/reference/action_taken/reactivate'] = 'Administrator\ActionTaken::reactivate_action_taken';
 
 //Document Type Routes
 $myroutes['admin/reference/document_type'] = 'Administrator\DocumentType::index';

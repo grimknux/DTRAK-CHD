@@ -4,30 +4,23 @@
  *  Description: Custom javascript code used in Tables page
  */
 
-var selectedIdsRcv = [];
-var selectedIdsAct = [];
-
-var UiTables = function() {
+var UiTables = function () {
 
     return {
-        init: function(base_url,csrf_token) {
-            //var receiveTable, outgoingTable;
+        init: function (base_url, csrf_token) {
             App.datatables();
-           		
 
-            //START RECEIVE TABLE
-			
             var receiveTable = $("#report-receive-table").dataTable(
                 {
                     serverSide: true,
                     processing: true,
                     language: {
-                        processing: '<i class="fa fa-spinner fa-spin"></i> Loading data...'
+                        processing: '<i class="fa fa-spinner fa-spin"></i> Loading data...',
                     },
                     ajax: {
-                
+
                         url: base_url + '/report/table/received',
-                        data: function(d) {
+                        data: function (d) {
                             // You can modify the data object here if needed
                             d.datefromFilter = $('#filter_datefrom').val() || '';
                             d.datetoFilter = $('#filter_dateto').val() || '';
@@ -53,10 +46,10 @@ var UiTables = function() {
                             }
                         },
                         type: "post",
-                        beforeSend: function(xhr) {
+                        beforeSend: function (xhr) {
                             xhr.setRequestHeader('X-CSRF-Token', csrf_token);
                         },
-                        error: function(xhr, status, error) {
+                        error: function (xhr, status, error) {
                             if (xhr.responseJSON && xhr.responseJSON.error) {
                                 alert("Error Code " + xhr.status + ": " + error + "\n" +
                                     "Message: " + xhr.responseJSON.error);
@@ -64,7 +57,7 @@ var UiTables = function() {
                                 alert('An unknown error occurred.');
                             }
                         }
-                    }, 
+                    },
                     "className": "tbody-sm",
                     columns: [
                         { data: "cnt" },
@@ -77,27 +70,26 @@ var UiTables = function() {
                         { data: "rcv_by" },
                     ],
 
-                    drawCallback: function(settings) {
+                    drawCallback: function (settings) {
                         var totalRecords = settings.json.recordsFiltered;
                         var pageLength = settings._iDisplayLength;
-                        
+
                         var pageCount = Math.ceil(totalRecords / pageLength);
-                
+
                         var currentPage = Math.ceil(settings._iDisplayStart / pageLength);
-                
+
                         if (pageCount <= 1) {
                             $('.dataTables_paginate').hide();
                         } else {
-                            $('.dataTables_paginate').show(); 
+                            $('.dataTables_paginate').show();
                         }
-                
-                        // Optional: You can add any custom logic or actions after each redraw
-                        console.log("Current Page: " + currentPage + ", Total Pages: " + pageCount);
-                    }, 
+
+                        //console.log("Current Page: " + currentPage + ", Total Pages: " + pageCount);
+                    },
 
                     columnDefs: [
-                        { 
-                            "targets": [0,1,2,3,6,7],
+                        {
+                            "targets": [0, 1, 2, 3, 6, 7],
                             "className": "text-center",
                             "orderable": false
                         }
@@ -105,50 +97,50 @@ var UiTables = function() {
                     //ordering: true,
                     pageLength: 20,
                     lengthMenu: [[10, 20, 100, 1000, -1], ['10 rows', '20 rows', '100 rows', '1000 rows', 'Show all']],
-                    
-                    
+
+
                 }
-			);
+            );
 
             /* Add placeholder attribute to the search input */
             $('.dataTables_filter input').attr('placeholder', 'Search');
 
             /* Select/Deselect all checkboxes in tables */
-            $('thead input:checkbox').click(function() {
-                var checkedStatus   = $(this).prop('checked');
-                var table           = $(this).closest('table');
+            $('thead input:checkbox').click(function () {
+                var checkedStatus = $(this).prop('checked');
+                var table = $(this).closest('table');
 
-                $('tbody input:checkbox', table).each(function() {
+                $('tbody input:checkbox', table).each(function () {
                     $(this).prop('checked', checkedStatus);
                 });
             });
 
             /* Table Styles Switcher */
-            var genTable        = $('#general-table');
-            var styleBorders    = $('#style-borders');
+            var genTable = $('#general-table');
+            var styleBorders = $('#style-borders');
 
-            $('#style-default').on('click', function(){
+            $('#style-default').on('click', function () {
                 styleBorders.find('.btn').removeClass('active');
                 $(this).addClass('active');
 
                 genTable.removeClass('table-bordered').removeClass('table-borderless');
             });
 
-            $('#style-bordered').on('click', function(){
+            $('#style-bordered').on('click', function () {
                 styleBorders.find('.btn').removeClass('active');
                 $(this).addClass('active');
 
                 genTable.removeClass('table-borderless').addClass('table-bordered');
             });
 
-            $('#style-borderless').on('click', function(){
+            $('#style-borderless').on('click', function () {
                 styleBorders.find('.btn').removeClass('active');
                 $(this).addClass('active');
 
                 genTable.removeClass('table-bordered').addClass('table-borderless');
             });
 
-            $('#style-striped').on('click', function() {
+            $('#style-striped').on('click', function () {
                 $(this).toggleClass('active');
 
                 if ($(this).hasClass('active')) {
@@ -158,7 +150,7 @@ var UiTables = function() {
                 }
             });
 
-            $('#style-condensed').on('click', function() {
+            $('#style-condensed').on('click', function () {
                 $(this).toggleClass('active');
 
                 if ($(this).hasClass('active')) {
@@ -168,7 +160,7 @@ var UiTables = function() {
                 }
             });
 
-            $('#style-hover').on('click', function() {
+            $('#style-hover').on('click', function () {
                 $(this).toggleClass('active');
 
                 if ($(this).hasClass('active')) {
@@ -179,16 +171,16 @@ var UiTables = function() {
             });
 
             this.bindEvents(receiveTable);
-            
+
         },
 
-        bindEvents: function(receiveTable) {
+        bindEvents: function (receiveTable) {
             $('#receive_form_report').on('submit', this.filterReportTable.bind(this, receiveTable));
             $(document)
-                .on('click', '#cancelSearch', this.cancelSearchBtn.bind(this,receiveTable));
+                .on('click', '#cancelSearch', this.cancelSearchBtn.bind(this, receiveTable));
         },
 
-        filterReportTable: function(tbl,event) {
+        filterReportTable: function (tbl, event) {
             event.preventDefault();
             tbl.api().ajax.reload();
             //$('#filter_datefrom').val("");
@@ -198,17 +190,17 @@ var UiTables = function() {
             $('#resetFilters').hide();
         },
 
-        cancelSearchBtn: function(tbl,event) {
+        cancelSearchBtn: function (tbl, event) {
             event.preventDefault();
             $('#filter_datefrom').val("");
             $('#filter_dateto').val("");
 
             tbl.api().ajax.reload();
 
-            
+
             $('#cancelSearch').hide();
             $('#resetFilters').show();
-            
+
         },
 
     };

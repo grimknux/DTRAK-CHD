@@ -172,8 +172,8 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>js/pages/forms.Functions.js"></script>
-<script src="<?= base_url(); ?>js/pages/table.Functions.js"></script>
+<script src="<?= base_url(); ?>js/pages/incoming.Released.Function.js"></script>
+<script src="<?= base_url(); ?>js/pages/incoming.Released.Table.js"></script>
 
 <script>
 

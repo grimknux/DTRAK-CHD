@@ -634,7 +634,7 @@ class ActionRequired extends BaseController
         }
     }
 
-    public function reactivate_document_type(){
+    public function reactivate_action_required(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));

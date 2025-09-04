@@ -145,7 +145,7 @@ class ActionModel extends Model
             if ($result !== null) {
                 return $result;
             } else {
-                log_message('error', 'getActionByRequire: No active action found for code: ' . $actionrequire);
+                log_message('error', 'getActionByRequire: No active action found for code: ' . $reqaction_code);
                 return false;
             }
 

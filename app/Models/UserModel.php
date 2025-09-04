@@ -469,6 +469,17 @@ class UserModel extends Model
 
     }
 
+    public function confirmUserPassword($oldPassword, $id)
+    {
+        $result = $this->where('empcode', $id)->first();
+        if ($result && password_verify($oldPassword, trim($result['password']))) {
+            return true;
+        }
+
+        return false;
+    }
+
+
     private function checkIfValidUserIncoming($id,$docdetail){
 
         $builder = $this->db->table('action_office ao');

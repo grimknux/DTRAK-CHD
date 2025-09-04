@@ -6,23 +6,17 @@ const receiveApp = {
     },
 
     bindEvents: function () {
-        //ACTION EVENTS
         $('#action-table tbody').on('click', '.act-modal', this.handleModalClickAct);
         $('#actionForm').on('submit', this.submitAction.bind(this));
         $('#submitBulkAction').on('click', this.handleBulkActClick);
         $('#action-table tbody').on('click', '.insta-act', this.handleInstaActClick);
-
-        //FORWARD EVENTS
         $('#action-table tbody').on('click', '.fwd-modal', this.handleModalClickFwd);
         $('#fwd_destination').on('change', this.selectActionOfficerFwd.bind(this));
         $('#forwardForm').on('submit', this.submitForward.bind(this));
-
-        //RETURN EVENTS
         $('#action-table tbody').on('click', '.ret-modal', this.handleModalClickRet);
         $('#returnForm').on('submit', this.submitReturn.bind(this));
     },
 
-    //ACTION FUNCTIOns
     handleModalClickAct: function () {
         var docdetail = $(this).data('docdetail');
         var modal = $('#action-modal');
@@ -83,7 +77,6 @@ const receiveApp = {
         modal.find('#emp').html(data.actionby);
         modal.find('#dateact').val(data.daterec);
         modal.find('#timeact').val(data.timerec);
-
         let selectActionTaken = modal.find('#act_taken');
         receiveApp.populateActionTaken(selectActionTaken, data.actiontaken, data.actiondone);
         selectActionTaken.trigger("change.select2");
@@ -280,10 +273,10 @@ const receiveApp = {
         });
     },
 
-    //FOWARD FUNCTIONS
     handleModalClickFwd: function () {
         var docdetail = $(this).data('docdetail');
         var modal = $('#forward-modal');
+        receiveApp.clearFormValidation();
         $.ajax({
             url: base_url + '/forwardData',
             type: 'POST',
@@ -333,15 +326,12 @@ const receiveApp = {
         modal.find('#fwd_emp').html(data.forwardby);
         modal.find('#datefwd').val(data.daterec);
         modal.find('#timefwd').val(data.timerec);
-
         let selectFwdDestination = modal.find('#fwd_destination');
         let selectFwdActRequire = modal.find('#fwd_actionrequire');
         let selectFwdEmployee = modal.find('#fwd_destemp').empty();
         selectFwdEmployee.append('<option value="">Please select Destination Employee</option>');
-
         receiveApp.populateForwardDest(selectFwdDestination, data.officelist);
         receiveApp.populateForwardActionReq(selectFwdActRequire, data.actionrequirelist);
-
         selectFwdDestination.trigger("change.select2");
         selectFwdEmployee.trigger("change.select2");
     },
@@ -435,7 +425,6 @@ const receiveApp = {
         });
     },
 
-    //RETURN FUNCTIONS
     handleModalClickRet: function () {
         var docdetail = $(this).data('docdetail');
         var modal = $('#return-modal');
@@ -493,9 +482,7 @@ const receiveApp = {
         modal.find('#ret_emp').html(data.forwardby);
         modal.find('#dateret').val(data.daterec);
         modal.find('#timeret').val(data.timerec);
-
         receiveApp.selectActionOfficerRet(data.officecode);
-
         let selectFwdActRequire = modal.find('#ret_actionrequire');
         receiveApp.populateReturnActionReq(selectFwdActRequire, data.actionrequirelist);
         selectFwdActRequire.trigger("change.select2");
@@ -508,7 +495,7 @@ const receiveApp = {
             selectElement.append(option);
         });
     },
-
+    
     selectActionOfficerRet: function (officedestination) {
         var officedest = officedestination;
         var selectElement = $('#ret_destemp').empty();
@@ -580,7 +567,6 @@ const receiveApp = {
         });
     },
 
-    //GLOBAL METHODS
     selectActionOfficer: function (selectElement, officedestination) {
         $.ajax({
             url: base_url + '/populateActOffByOffice',

@@ -158,7 +158,7 @@
 <?= view('release-modal') ?>
 <?= $this->endSection(); ?>
 <?= $this->section("script"); ?>
-<script src="<?= base_url(); ?>js/pages/forms.Functions.js"></script>
+<script src="<?= base_url(); ?>js/pages/incoming.Release.Function.js"></script>
 <script src="<?= base_url(); ?>js/pages/incoming.Release.Table.js"></script>
 <script>
     setTimeout(function() {

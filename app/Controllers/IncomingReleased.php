@@ -17,7 +17,7 @@ class IncomingReleased extends BaseController
     public $IncomingModel;
     public $UserModel;
     public $OfficeModel;
-    public $DocumentDetailModel;
+    public $documentdetailmodel;
     public $documentregistrymodel;
     public $actionmodel;
 
@@ -149,13 +149,19 @@ class IncomingReleased extends BaseController
                                     $timestamp = $row['reldate'] . " " . $row['reltime'];
                                     $datelog = date('F d, Y', strtotime($row['reldate'])) . "<br>" . date('h:i:s a', strtotime($row['reltime']));
                                 }
+                                $doctype = "N/A";
+                                if (!empty($row['ddoctype'])) {
+                                    $doctype = str_replace(',', ', ', $row['ddoctype']);
+                                }else{
+                                    $doctype = $row['odoctype'];
+                                }
                                 
                                 $data[] = [
                                     'controlno' => $row['dcon'],
                                     'subject' => "<strong>".htmlspecialchars($row['subject'])."</strong>",
                                     'remarks' => $row['drRem'],
-                                    'attachment' => $attachment,
-                                    'doctype' => str_replace(",", ", ", $row['ddoctype']),
+                                    //'attachment' => $attachment,
+                                    'doctype' => $doctype,
                                     'destination' => $destination . "<br>" . $actionby,
                                     'destinationcode' => $row['pop_officecode'],
                                     'datelog' => $datelog,
@@ -165,7 +171,7 @@ class IncomingReleased extends BaseController
                                     'docdetailp' => $row['ddpdetail'],
                                     'actiondone' => $actionreq,
                                     'actionrequire' => $actionreq,
-                                    'listaction' => json_encode($getActionDone),
+                                    //'listaction' => json_encode($getActionDone),
                                     'btnaction' => $btn,
                                     
                                 ];

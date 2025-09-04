@@ -99,7 +99,10 @@ class CustomRules
         return !$this->actiontakenmodel->action_taken_exists($str, $idToIgnore);
     }
 
-
-    
+    public function confirmOldPassword(string $str, ?string $fields = null, array $data = []): bool
+    {
+        $id = session()->get('logged_user');
+        return $this->usermodel->confirmUserPassword($str, $id);
+    }
 
 }

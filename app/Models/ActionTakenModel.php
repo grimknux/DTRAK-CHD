@@ -100,6 +100,96 @@ class ActionTakenModel extends Model
 
     }
 
+    public function update_action_taken($id,$data)
+    {
+
+        $oldData = $this->find($id);
+
+        try{
+
+            $this->db->transStart();
+
+            if(!$this->update($id,$data)){
+                throw new \Exception("An error occurred during the updating of Action Taken.");
+            }
+
+            $comparedData = $this->audittrailmodel->compareUpdateData((array) $oldData, $data);
+            $this->audittrailmodel->insertAuditTrailForUpdate($id, $this->table, $comparedData, session()->get('logged_user'));
+
+            $this->db->transComplete();
+
+            if ($this->db->transStatus() === false) {
+                throw new \Exception("Transaction failed while updating Action Taken.");
+            }
+
+            return [
+                'success' => true,
+                'message' => 'Successfully Updated Action Taken.'
+            ];
+
+        } catch (\Exception $e) {
+            $this->db->transRollback();
+            log_message('error', "Error updating Action Taken :{$e->getMessage()}");
+            
+            return [
+                'success' => false,
+                'message' => $e->getMessage() // Return the exception message
+            ];
+
+        }
+
+    }
+
+    public function delete_action_taken($id,$data){
+
+        $oldData = $this->find($id);
+        try{
+
+            $this->db->transStart();
+            
+            $message = "Successfully Action Taken.";
+            if(!$this->update($id,$data)){
+                throw new \Exception("An error occurred during the updating of Action Taken.");
+            }
+
+            if(!$this->isActTakeInUse($id)){
+                if(!$this->delete($id)){
+                    throw new \Exception("An error occurred during the deleting of Action Taken.");
+                }
+
+                $this->audittrailmodel->insertAuditTrailSoftDelete($id, 'action_code', 'DELETE');
+
+            }else{
+                $message = "Action Taken already used in transactions. Deactivated Action Taken.";
+            }
+
+            $comparedData = $this->audittrailmodel->compareUpdateData((array) $oldData, $data);
+            $this->audittrailmodel->insertAuditTrailForUpdate($id, $this->table, $comparedData, session()->get('logged_user'));
+            
+            $this->db->transComplete();
+
+            if ($this->db->transStatus() === false) {
+                throw new \Exception("Transaction failed while deleting Action Taken.");
+            }
+
+            return [
+                'success' => true,
+                'message' => $message
+            ];
+
+        } catch (\Exception $e) {
+            $this->db->transRollback();
+            log_message('error', "Error deleting Action Taken: {$e->getMessage()}");
+            
+            return [
+                'success' => false,
+                'message' => $e->getMessage() // Return the exception message
+            ];
+
+        }
+
+    }
+
     public function action_taken_exists(string $taken_desc, ?string $excludeId = null): bool
     {
         $query = $this->where('action_desc', $taken_desc)
@@ -112,12 +202,27 @@ class ActionTakenModel extends Model
         return $query->countAllResults() > 0;
     }
 
-    public function getActionRequireReturn(){
+    public function get_action_taken($action_code, $status = "Active")
+    {
+        try {
+            $builder = $this->db->table('action_taken'); // 👈 replace with your actual table name
+            $builder->select('*');
+            $builder->where('action_code', $action_code);
+            $builder->where('act_tstatus', $status);
 
-        return $this->whereIn('reqaction_code', ['00025', '00070', '00075'])
-                    ->orderBy('reqaction_code ASC')
-                    ->findAll();
+            $result = $builder->get()->getRowArray();
 
+            if ($result !== null) {
+                return $result;
+            } else {
+                log_message('error', 'get_action_taken: No active action found for code: ' . $action_code);
+                return false;
+            }
+
+        } catch (\Exception $e) {
+            log_message('error', 'get_action_taken Exception: ' . $e->getMessage());
+            return false;
+        }
     }
 
 
@@ -147,6 +252,16 @@ class ActionTakenModel extends Model
         }
 
         return $newSequence; // e.g. 00001
+    }
+
+    private function isActTakeInUse(string $id): bool
+    {
+
+        $builder = $this->db->table('docdetails');
+        $builder->where('action_code', $id);
+        $result = $builder->countAllResults();
+
+        return ($result > 0 || $result > 0);
     }
 
 }

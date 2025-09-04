@@ -25,7 +25,7 @@
             <div class="row ">
                 <!-- Simple Stats Widgets -->
                 <div class="col-sm-3 add-btn">
-                    <a href="#" class="widget outgo-modal" data-toggle='modal'>
+                    <a href="javascript:void(0)" class="widget outgo-modal" data-toggle='modal' onclick="return false;">
                         <div class="widget-content widget-content-mini text-right clearfix widget-light">
                             <div class="widget-icon pull-left themed-background-info">
                                 <i class="fa fa-plus text-light-op"></i>
@@ -62,8 +62,6 @@
         </div>
     </div>
 </div>
-
-
 
 <div id="outgoing-modal" class="modal" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -337,7 +335,6 @@
     </div>
 </div>
 
-
 <div id="outgoing-modal-attachment" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -388,7 +385,7 @@
     var baseUrl = '<?= base_url(); ?>';
 </script>
 
-<script src="<?= base_url(); ?>js/pages/forms.Outgoing.js"></script>
+<script src="<?= base_url(); ?>js/pages/outgoing.Document.Function.js"></script>
 <script src="<?= base_url(); ?>js/pages/table.Functions.js"></script>
 
 <script>

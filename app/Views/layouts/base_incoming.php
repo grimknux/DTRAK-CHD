@@ -214,38 +214,9 @@
                         <!-- END Left Header Navigation -->
 
                         <!-- Right Header Navigation -->
-                        <ul class="nav navbar-nav-custom pull-right">
-
-                            <!-- User Dropdown -->
-                            <li class="dropdown">
-                                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="<?= base_url('img/placeholders/avatars/avatar9.jpg'); ?>" alt="avatar">
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-right">
-                                    <li class="dropdown-header">
-                                        Welcome!
-                                    </li>
-                                    <li>
-                                        <a href="changepw.php" title="Change Password" data-placement="left">
-                                            <i class="fa fa-inbox fa-fw pull-right"></i>
-                                            Change Password
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="changelogs.php" title="Change Password" data-placement="left">
-                                            <i class="fa fa-inbox fa-fw pull-right"></i>
-                                            Changelogs
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= base_url('logout'); ?>" id="btnlogout" method="post" data-toggle="tooltip" title="Change Password" onclick="cpass()" data-placement="left" title='Logout'>
-                                            <i class="fa fa-power-off fa-fw pull-right"></i>
-                                            Log out
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <?= view('layouts/user_navi') ?>
+                        <!-- END Right Header Navigation -->
+                         
                     </header>
                     <!-- END NAVIGATION BAR SECTION -->
                     
@@ -331,9 +302,13 @@
         <script src="<?= base_url(); ?>js/appui/buttons.print.min.js"></script>
         <script src="<?= base_url(); ?>js/appui/sweetalert2.all.min.js"></script>
         <script src="<?= base_url(); ?>js/pages/handleValidationErrors.js"></script>
+        <script src="<?= base_url(); ?>js/pages/login.Changepassword.js"></script>
         <script <?= csp_script_nonce() ?>>
             var base_url = "<?php echo base_url(); ?>";
             var csrfToken = $('meta[name="csrf-token"]').attr('content');
+            $(document).ready(function(){   
+                changePassword.init();
+            });
 
         </script>
 

@@ -890,12 +890,10 @@ class OutgoingDestination extends BaseController
                         $checkOfficeIfValid = $this->documentregistrymodel->checkOfficeIfValid($officecode,$getDetailData['routeno']);
                         
                         $getuser = $this->UserModel->getUser($logged_user);
-                        $verifyPassword = $this->customobj->verifyPassword($password,$getuser['data']['userpass']);
-                        
 
                         if($checkOfficeIfValid){
 
-                            if($verifyPassword){
+                            if(password_verify($password, trim($getuser['data']['password']))){
 
                                 $deleteDestination = $this->documentdetailmodel->deleteThisDestination($id,$logged_user);
 

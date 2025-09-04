@@ -1,46 +1,68 @@
 
 const refActTaken = {
-    init: function() {
+    init: function () {
         this.bindEvents();
     },
 
-    bindEvents: function() {
-        $(document).on('submit', '#action_taken_form', this.handleSubmitForm.bind(this));
+    bindEvents: function () {
+        $(document).on(
+            "submit",
+            "#action_taken_form",
+            this.handleSubmitForm.bind(this)
+        );
 
-        $(document).on('click', '#action_taken_table tbody .edit_action_taken', this.editActTaken.bind(this));
-        $(document).on('click', '#action_taken_table tbody .delete_action_taken', this.confirmDelete.bind(this));
-        $(document).on('click', '#action_taken_table tbody .inactive_action_taken', this.confirmInactive.bind(this));
-        $(document).on('click', '#action_taken_table tbody .reactivate_action_taken', this.confirmReactivate.bind(this));
-        $(document).on('click', '.cancel_btn_action', this.cancelEdit.bind(this));
-        $(document).on('click', '.reset_btn_action', this.clearForm.bind(this));
-
+        $(document).on(
+            "click",
+            "#action_taken_table tbody .edit_action_taken",
+            this.editActTaken.bind(this)
+        );
+        $(document).on(
+            "click",
+            "#action_taken_table tbody .delete_action_taken",
+            this.confirmDelete.bind(this)
+        );
+        $(document).on(
+            "click",
+            "#action_taken_table tbody .inactive_action_taken",
+            this.confirmInactive.bind(this)
+        );
+        $(document).on(
+            "click",
+            "#action_taken_table tbody .reactivate_action_taken",
+            this.confirmReactivate.bind(this)
+        );
+        $(document).on("click", ".cancel_btn_action", this.cancelEdit.bind(this));
+        $(document).on("click", ".reset_btn_action", this.clearForm.bind(this));
     },
 
-    ajaxRequest: function(options) {
+    ajaxRequest: function (options) {
         var defaultOptions = {
-            url: '',
-            type: 'POST',
+            url: "",
+            type: "POST",
             data: {},
-            dataType: 'json',
+            dataType: "json",
             processData: false,
             contentType: false,
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader('X-CSRF-Token', csrfToken);
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("X-CSRF-Token", csrfToken);
                 $("#overlay").show();
             },
-            success: function(response) {},
-            error: function(xhr, errorType, thrownError) {
+            success: function (response) { },
+            error: function (xhr, errorType, thrownError) {
                 if (xhr.status === 403 || xhr.status === 405) {
                     alert(xhr.responseText);
                     console.log("Server error: " + xhr.responseText);
                 } else {
-                    var errorMessage = xhr.responseJSON && xhr.responseJSON.error ? xhr.responseJSON.error : xhr.statusText;
+                    var errorMessage =
+                        xhr.responseJSON && xhr.responseJSON.error
+                            ? xhr.responseJSON.error
+                            : xhr.statusText;
                     console.log("Server error: " + xhr.responseText);
                 }
             },
-            complete: function() {
+            complete: function () {
                 $("#overlay").hide();
-            }
+            },
         };
 
         // Extend default options with custom options
@@ -50,22 +72,24 @@ const refActTaken = {
         $.ajax(defaultOptions);
     },
 
-    handleSubmitForm: function(event) {
+    handleSubmitForm: function (event) {
         event.preventDefault();
         var formData = new FormData(event.target);
 
         var form = $(event.target); // or $('#document_type_form')
-        var mode = $('#action_taken_form').attr('data-mode');
-        var action_code =  $('#action_taken_form').attr('data-id');
-        formData.append('action_code', action_code);
-        let url = mode === 'edit' ? '/admin/reference/action_taken/update' : '/admin/reference/action_taken/add';
-        
+        var mode = $("#action_taken_form").attr("data-mode");
+        var action_code = $("#action_taken_form").attr("data-id");
+        formData.append("action_code", action_code);
+        let url =
+            mode === "edit"
+                ? "/admin/reference/action_taken/update"
+                : "/admin/reference/action_taken/add";
 
         refActTaken.ajaxRequest({
             url: base_url + url,
-            type: 'POST',
+            type: "POST",
             data: formData,
-            success: function(response) {
+            success: function (response) {
                 try {
                     if (response.success) {
                         Swal.fire({
@@ -73,29 +97,25 @@ const refActTaken = {
                             icon: "success",
                             title: response.message,
                             showConfirmButton: false,
-                            timer: 2500
+                            timer: 2500,
                         });
-                        
-                        if(mode == 'edit'){
+
+                        if (mode == "edit") {
                             refActTaken.cancelEdit();
-                        }else{
+                        } else {
                             refActTaken.clearForm();
                         }
-                        $('#action_taken_table').DataTable().ajax.reload(null, false);
-
+                        $("#action_taken_table").DataTable().ajax.reload(null, false);
                     } else {
-
-                        if(response.formnotvalid){
+                        if (response.formnotvalid) {
                             handleValidationErrors(response.data);
-                        }else{
+                        } else {
                             Swal.fire({
-                            icon: "error",
-                            title: "Error!",
-                            text: response.message,
-                        });
+                                icon: "error",
+                                title: "Error!",
+                                text: response.message,
+                            });
                         }
-                        
-                       
                     }
                 } catch (error) {
                     console.error("Error processing response:", error);
@@ -104,39 +124,41 @@ const refActTaken = {
         });
     },
 
-    editActTaken: function(event) {
-        
+    editActTaken: function (event) {
         const target = $(event.currentTarget);
-        var reqaction_code = target.closest('tr').attr('reqaction_code');
-        $('#action_taken_form').attr('data-mode', 'edit').attr('data-id', reqaction_code);
-        $('#submit_btn_action').html('<i class="gi gi-disk_save"></i> Update').removeClass('btn-primary').addClass('btn-success');
-        $('#cancel_btn_action').html('<i class="fa fa-user-times"></i> Cancel edit').removeClass('reset_btn_action').addClass('cancel_btn_action');
+        var action_code = target.closest("tr").attr("action_code");
+        $("#action_taken_form")
+            .attr("data-mode", "edit")
+            .attr("data-id", action_code);
+        $("#submit_btn_action")
+            .html('<i class="gi gi-disk_save"></i> Update')
+            .removeClass("btn-primary")
+            .addClass("btn-success");
+        $("#cancel_btn_action")
+            .html('<i class="fa fa-user-times"></i> Cancel edit')
+            .removeClass("reset_btn_action")
+            .addClass("cancel_btn_action");
 
         var formData = new FormData();
-        formData.append('reqaction_code', reqaction_code);
+        formData.append("action_code", action_code);
         refActTaken.ajaxRequest({
-            url: base_url + '/admin/reference/action_taken/get',
-            type: 'POST',
+            url: base_url + "/admin/reference/action_taken/get",
+            type: "POST",
             data: formData,
-            success: function(response) {
+            success: function (response) {
                 try {
                     if (response.success) {
-
                         var data = response.data;
-                        
-                        $("#action_taken").val(data.reqaction_desc);
-                        $("#action_taken").val(data.reqaction_done).trigger("change.select2");
+
+                        $("#action_taken").val(data.action_desc);
 
                         refActTaken.clearValidation();
-
                     } else {
-
                         Swal.fire({
                             icon: "error",
                             title: "Error!",
                             text: response.message,
                         });
-                       
                     }
                 } catch (error) {
                     console.error("Error processing response:", error);
@@ -145,41 +167,35 @@ const refActTaken = {
         });
     },
 
-    confirmDelete: function(event){
-
+    confirmDelete: function (event) {
         const target = $(event.currentTarget);
-        var reqaction_code = target.closest('tr').attr('reqaction_code');
-        var reqaction_desc = target.closest('tr').attr('reqaction_desc');
+        var action_code = target.closest("tr").attr("action_code");
+        var action_desc = target.closest("tr").attr("action_desc");
 
         Swal.fire({
-            title: "Are you sure you want to delete " + reqaction_desc + "?",
+            title: "Are you sure you want to delete " + action_desc + "?",
             icon: "warning",
             showDenyButton: true,
             confirmButtonText: "Confirm",
-            denyButtonText: "Cancel"
-
+            denyButtonText: "Cancel",
         }).then((result) => {
-
             if (result.isConfirmed) {
-                refActTaken.deleteActionRequired(reqaction_code);
+                refActTaken.deleteActionTaken(action_code);
             } else if (result.isDenied) {
                 console.log("User cancelled deletion.");
             }
-
         });
-        
     },
 
-    deleteActionRequired: function(reqaction_code) {
-        
+    deleteActionTaken: function (action_code) {
         var formData = new FormData();
-        formData.append('reqaction_code', reqaction_code);
+        formData.append("action_code", action_code);
 
         refActTaken.ajaxRequest({
-            url: base_url + '/admin/reference/action_taken/delete',
-            type: 'POST',
+            url: base_url + "/admin/reference/action_taken/delete",
+            type: "POST",
             data: formData,
-            success: function(response) {
+            success: function (response) {
                 try {
                     if (response.success) {
                         Swal.fire({
@@ -187,64 +203,54 @@ const refActTaken = {
                             icon: "success",
                             title: response.message,
                             showConfirmButton: false,
-                            timer: 2500
+                            timer: 2500,
                         });
 
                         refActTaken.cancelEdit();
-                        $('#action_taken_table').DataTable().ajax.reload(null, false);
-
+                        $("#action_taken_table").DataTable().ajax.reload(null, false);
                     } else {
-
                         Swal.fire({
                             icon: "error",
                             title: "Error!",
                             text: response.message,
                         });
-                        
                     }
                 } catch (error) {
                     console.error("Error processing response:", error);
                 }
             },
         });
-
     },
 
-    confirmInactive: function(event){
-
+    confirmInactive: function (event) {
         const target = $(event.currentTarget);
-        var reqaction_code = target.closest('tr').attr('reqaction_code');
-        var reqaction_desc = target.closest('tr').attr('reqaction_desc');
+        var action_code = target.closest("tr").attr("action_code");
+        var action_desc = target.closest("tr").attr("action_desc");
 
         Swal.fire({
-            title: "Are you sure you want to Deactivate " + reqaction_desc + "?",
+            title: "Are you sure you want to Deactivate " + action_desc + "?",
             icon: "warning",
             showDenyButton: true,
             confirmButtonText: "Confirm",
-            denyButtonText: "Cancel"
-
+            denyButtonText: "Cancel",
         }).then((result) => {
-
             if (result.isConfirmed) {
-                refActTaken.inactiveActionRequired(reqaction_code);
+                refActTaken.inactiveActionTaken(action_code);
             } else if (result.isDenied) {
                 console.log("User cancelled inactive.");
             }
-
         });
-        
     },
 
-    inactiveActionRequired: function(reqaction_code) {
-        
+    inactiveActionTaken: function (action_code) {
         var formData = new FormData();
-        formData.append('reqaction_code', reqaction_code);
+        formData.append("action_code", action_code);
 
         refActTaken.ajaxRequest({
-            url: base_url + '/admin/reference/action_taken/inactive',
-            type: 'POST',
+            url: base_url + "/admin/reference/action_taken/inactive",
+            type: "POST",
             data: formData,
-            success: function(response) {
+            success: function (response) {
                 try {
                     if (response.success) {
                         Swal.fire({
@@ -252,64 +258,54 @@ const refActTaken = {
                             icon: "success",
                             title: response.message,
                             showConfirmButton: false,
-                            timer: 2500
+                            timer: 2500,
                         });
 
                         refActTaken.cancelEdit();
-                        $('#action_taken_table').DataTable().ajax.reload(null, false);
-
+                        $("#action_taken_table").DataTable().ajax.reload(null, false);
                     } else {
-
                         Swal.fire({
                             icon: "error",
                             title: "Error!",
                             text: response.message,
                         });
-                        
                     }
                 } catch (error) {
                     console.error("Error processing response:", error);
                 }
             },
         });
-
     },
 
-    confirmReactivate: function(event) {
-        
+    confirmReactivate: function (event) {
         const target = $(event.currentTarget);
-        var reqaction_code = target.closest('tr').attr('reqaction_code');
-        var reqaction_desc = target.closest('tr').attr('reqaction_desc');
+        var action_code = target.closest("tr").attr("action_code");
+        var action_desc = target.closest("tr").attr("action_desc");
 
         Swal.fire({
-            title: "Are you sure you want to Reactivate " + reqaction_desc + "?",
+            title: "Are you sure you want to Reactivate " + action_desc + "?",
             icon: "warning",
             showDenyButton: true,
             confirmButtonText: "Confirm",
-            denyButtonText: "Cancel"
-
+            denyButtonText: "Cancel",
         }).then((result) => {
-
             if (result.isConfirmed) {
-                refActTaken.reactivateActionRequired(reqaction_code);
+                refActTaken.reactivateActionTaken(action_code);
             } else if (result.isDenied) {
                 console.log("User cancelled inactive.");
             }
-
         });
-
     },
 
-    reactivateActionRequired: function(reqaction_code) {
-        
+    reactivateActionTaken: function (action_code) {
         var formData = new FormData();
-        formData.append('reqaction_code', reqaction_code);
+        formData.append("action_code", action_code);
 
         refActTaken.ajaxRequest({
-            url: base_url + '/admin/reference/action_taken/reactivate',
-            type: 'POST',
+            url: base_url + "/admin/reference/action_taken/reactivate",
+            type: "POST",
             data: formData,
-            success: function(response) {
+            success: function (response) {
                 try {
                     if (response.success) {
                         Swal.fire({
@@ -317,54 +313,54 @@ const refActTaken = {
                             icon: "success",
                             title: response.message,
                             showConfirmButton: false,
-                            timer: 2500
+                            timer: 2500,
                         });
 
                         refActTaken.cancelEdit();
-                        $('#action_taken_table').DataTable().ajax.reload(null, false);
-
+                        $("#action_taken_table").DataTable().ajax.reload(null, false);
                     } else {
-
                         Swal.fire({
                             icon: "error",
                             title: "Error!",
                             text: response.message,
                         });
-                        
                     }
                 } catch (error) {
                     console.error("Error processing response:", error);
                 }
             },
         });
+    },
 
-    },    
-
-    cancelEdit: function(event){
-        $('#action_taken_form').removeAttr('data-mode').removeAttr('data-id');
-        $('#submit_btn_action').html('<i class="fa fa-user-plus"></i> Create').removeClass('btn-success').addClass('btn-primary');
-        $('#cancel_btn_action').html('<i class="fa fa-refresh"></i> Reset').removeClass('cancel_btn_action').addClass('reset_btn_action');
+    cancelEdit: function (event) {
+        $("#action_taken_form").removeAttr("data-mode").removeAttr("data-id");
+        $("#submit_btn_action")
+            .html('<i class="fa fa-user-plus"></i> Create')
+            .removeClass("btn-success")
+            .addClass("btn-primary");
+        $("#cancel_btn_action")
+            .html('<i class="fa fa-refresh"></i> Reset')
+            .removeClass("cancel_btn_action")
+            .addClass("reset_btn_action");
 
         refActTaken.clearForm();
     },
 
-    clearForm: function(event){
-
-        $('#action_taken_form')[0].reset();
-        $("#action_taken").val('');
+    clearForm: function (event) {
+        $("#action_taken_form")[0].reset();
+        $("#action_taken").val("");
         $("#action_taken").trigger("change.select2");
 
         refActTaken.clearValidation();
-
     },
 
-    clearValidation: function(event){
-        
-        $(".action_taken").removeClass('has-success has-error').removeClass('has-error');
-        $(".action_taken").removeClass('has-success has-error').removeClass('has-error');
-        $(".help-block").html('');
-    }
-
-
-
+    clearValidation: function (event) {
+        $(".action_taken")
+            .removeClass("has-success has-error")
+            .removeClass("has-error");
+        $(".action_taken")
+            .removeClass("has-success has-error")
+            .removeClass("has-error");
+        $(".help-block").html("");
+    },
 };

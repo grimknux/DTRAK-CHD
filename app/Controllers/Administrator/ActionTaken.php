@@ -309,7 +309,7 @@ class ActionTaken extends BaseController
         }
     }
 
-    public function update_action_required(){
+    public function update_action_taken(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));
@@ -341,20 +341,14 @@ class ActionTaken extends BaseController
 
                             $logged_user = $this->session->get('logged_user');
                             $getuser = $this->usermodel->getUser($logged_user);
-                            $reqaction_code = $this->request->getPost('reqaction_code');
+                            $action_code = $this->request->getPost('action_code');
                             
                             $rules = [
-                                'action_required' => [
-                                    'rules' => 'required|actionrequireUnique['.$reqaction_code.']',
-                                    'errors' => [
-                                        'required' => 'Please enter Action Required.',
-                                        'actionrequireUnique' => 'Action Required already exists!',
-                                    ],
-                                ],
                                 'action_taken' => [
-                                    'rules' => 'required',
+                                    'rules' => 'required|actiontakenUnique['.$action_code.']',
                                     'errors' => [
-                                        'required' => 'Please select Action to be Taken.',
+                                        'required' => 'Please enter Action to be Taken.',
+                                        'actiontakenUnique' => 'Action Taken already exists!',
                                     ],
                                 ],
 
@@ -364,11 +358,10 @@ class ActionTaken extends BaseController
                             {
 
                                 $data = [
-                                    'reqaction_desc' => $this->request->getPost('action_required'),
-                                    'reqaction_done' => $this->request->getPost('action_taken'),
+                                    'action_desc' => $this->request->getPost('action_taken'),
                                 ];
 
-                                $update = $this->actionmodel->update_action_required($reqaction_code,$data);
+                                $update = $this->actiontakenmodel->update_action_taken($action_code,$data);
 
                                 if($update['success']){
                                     $data = [
@@ -388,7 +381,6 @@ class ActionTaken extends BaseController
                                     'success' => false,
                                     'formnotvalid' => true,
                                     'data' => [
-                                        'action_required' => $this->validation->getError('action_required'),
                                         'action_taken' => $this->validation->getError('action_taken'),
                                     ],
                                 ];
@@ -431,7 +423,7 @@ class ActionTaken extends BaseController
         }
     }
 
-    public function delete_action_required(){
+    public function delete_action_taken(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));
@@ -462,16 +454,16 @@ class ActionTaken extends BaseController
                             $logged_user = $this->session->get('logged_user');
                             $getuser = $this->usermodel->getUser($logged_user);
                             
-                            $reqaction_code = $this->request->getPost('reqaction_code');
-                            $get_action_required = $this->actionmodel->getActionByRequire($reqaction_code);
+                            $action_code = $this->request->getPost('action_code');
+                            $get_action_taken = $this->actiontakenmodel->get_action_taken($action_code);
 
-                            if($get_action_required){
+                            if($get_action_taken){
 
                                 $data = [
-                                    'act_rstatus' => 'Inactive',
+                                    'act_tstatus' => 'Inactive',
                                 ];
 
-                                $delete = $this->actionmodel->delete_action_required($reqaction_code,$data);
+                                $delete = $this->actiontakenmodel->delete_action_taken($action_code,$data);
 
                                 if($delete['success']){
 
@@ -527,7 +519,7 @@ class ActionTaken extends BaseController
         }
     }
 
-    public function inactive_action_required(){
+    public function inactive_action_taken(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));
@@ -558,16 +550,16 @@ class ActionTaken extends BaseController
                             $logged_user = $this->session->get('logged_user');
                             $getuser = $this->usermodel->getUser($logged_user);
                             
-                            $reqaction_code = $this->request->getPost('reqaction_code');
-                            $get_action_required = $this->actionmodel->getActionByRequire($reqaction_code);
+                            $action_code = $this->request->getPost('action_code');
+                            $get_action_taken = $this->actiontakenmodel->get_action_taken($action_code);
 
-                            if($get_action_required){
+                            if($get_action_taken){
 
                                 $data = [
-                                    'act_rstatus' => 'Inactive',
+                                    'act_tstatus' => 'Inactive',
                                 ];
 
-                                $inactive = $this->actionmodel->update_action_required($reqaction_code,$data);
+                                $inactive = $this->actiontakenmodel->update_action_taken($action_code,$data);
 
                                 if($inactive['success']){
 
@@ -582,7 +574,7 @@ class ActionTaken extends BaseController
                             }else{
                                 $data = [
                                     'success' => false,
-                                    'message' => 'Error deactivating Action Required. ',
+                                    'message' => 'Error deactivating Action Taken. ',
                                 ];
                             }
 
@@ -623,7 +615,7 @@ class ActionTaken extends BaseController
         }
     }
 
-    public function reactivate_document_type(){
+    public function reactivate_action_taken(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));
@@ -654,16 +646,16 @@ class ActionTaken extends BaseController
                             $logged_user = $this->session->get('logged_user');
                             $getuser = $this->usermodel->getUser($logged_user);
                             
-                            $reqaction_code = $this->request->getPost('reqaction_code');
-                            $get_action_required = $this->actionmodel->getActionByRequire($reqaction_code, $status = "Inactive");
+                            $action_code = $this->request->getPost('action_code');
+                            $get_action_taken = $this->actiontakenmodel->get_action_taken($action_code, $status = "Inactive");
 
-                            if($get_action_required){
+                            if($get_action_taken){
 
                                 $data = [
-                                    'act_rstatus' => 'Active',
+                                    'act_tstatus' => 'Active',
                                 ];
 
-                                $reactivate = $this->actionmodel->update_action_required($reqaction_code,$data);
+                                $reactivate = $this->actiontakenmodel->update_action_taken($action_code,$data);
 
                                 if($reactivate['success']){
 
@@ -678,7 +670,7 @@ class ActionTaken extends BaseController
                             }else{
                                 $data = [
                                     'success' => false,
-                                    'message' => 'Error reactivating Document Type. ',
+                                    'message' => 'Error reactivating Action Taken. ',
                                 ];
                             }
 
@@ -719,7 +711,7 @@ class ActionTaken extends BaseController
         }
     }
 
-    public function get_action_required(){
+    public function get_action_taken(){
 
         if(!session()->has('logged_user')){
             return redirect()->to(base_url('/'));
@@ -750,24 +742,23 @@ class ActionTaken extends BaseController
                             $logged_user = $this->session->get('logged_user');
                             $getuser = $this->usermodel->getUser($logged_user);
                             
-                            $reqaction_code = $this->request->getPost('reqaction_code');
-                            $get_action_required = $this->actionmodel->getActionByRequire($reqaction_code);
+                            $action_code = $this->request->getPost('action_code');
+                            $get_action_taken = $this->actiontakenmodel->get_action_taken($action_code);
 
-                            if($get_action_required){
+                            if($get_action_taken){
 
                                 $data = [
                                     'success' => true,
                                     'data' => [
-                                        'reqaction_code' => $get_action_required['reqaction_code'],
-                                        'reqaction_desc' => $get_action_required['reqaction_desc'],
-                                        'reqaction_done' => $get_action_required['reqaction_done'],
+                                        'action_code' => $get_action_taken['action_code'],
+                                        'action_desc' => $get_action_taken['action_desc'],
                                     ],
                                     
                                 ]; 
                             }else{
                                 $data = [
                                     'success' => false,
-                                    'message' => 'Error fetching Action Required Details.'
+                                    'message' => 'Error fetching Action Taken Details.'
                                 ];
                             }
 

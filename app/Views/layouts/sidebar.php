@@ -1,3 +1,57 @@
+<!-- Alternative Sidebar -->
+<div id="sidebar-alt" tabindex="-1" aria-hidden="true">
+    <!-- Toggle Alternative Sidebar Button (visible only in static layout) -->
+    <a href="javascript:void(0)" id="sidebar-alt-close" onclick="App.sidebar('toggle-sidebar-alt');"><i class="fa fa-times"></i></a>
+
+    <!-- Wrapper for scrolling functionality -->
+    <div id="sidebar-scroll-alt">
+        <!-- Sidebar Content -->
+        <div class="sidebar-content">
+            <!-- Profile -->
+             
+            <div class="sidebar-section">
+                
+                <h2 class="text-light">Profile</h2>
+                <form id="form_change_pass" method="post" class="form-control-borderless">
+                    <?= csrf_field() ?>
+                    <div class="form-group">
+                        <label for="side-profile-name">Name</label>
+                        <input type="text" id="side-profile-name" name="side-profile-name" class="form-control" value="<?= session()->get('user_fullname') ?>" disabled>
+                    </div>
+                    <hr>
+                    <h4>Change Password</h4>
+                    <div class="error-box" style="display: none;">
+                        <h5><b class="error-message"></b></h5>
+                    </div>
+                    <div class="form-group prof_old_password">
+                        <label for="prof_old_password">Old Password</label>
+                        <input type="password" id="prof_old_password" name="prof_old_password" class="form-control">
+                        <span class="help-block prof_old_passwordMessage"></span>
+                    </div>
+                    <div class="form-group prof_new_password">
+                        <label for="prof_new_password">New Password</label>
+                        <input type="password" id="prof_new_password" name="prof_new_password" class="form-control">
+                        <span class="help-block prof_new_passwordMessage"></span>
+                    </div>
+                    <div class="form-group prof_new_password_confirm">
+                        <label for="prof_new_password_confirm">Confirm New Password</label>
+                        <input type="password" id="prof_new_password_confirm" name="prof_new_password_confirm" class="form-control">
+                        <span class="help-block prof_new_password_confirmMessage">test</span>
+                    </div>
+                    <div class="form-group remove-margin">
+                        <button type="submit" class="btn btn-effect-ripple btn-primary">Save</button>
+                        <button type="button" class="btn btn-effect-ripple btn-danger" id="btnCloseSidebar">Close</button>
+                    </div>
+                </form>
+            </div>
+            <!-- END Profile -->
+        </div>
+        <!-- END Sidebar Content -->
+    </div>
+    <!-- END Wrapper for scrolling functionality -->
+</div>
+<!-- END Alternative Sidebar -->
+
 <div id="sidebar">
     <div id="sidebar-brand" class="themed-background">
         <a class="sidebar-title">
